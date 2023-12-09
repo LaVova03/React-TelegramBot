@@ -1,8 +1,9 @@
 html,
 body {
+    width: 100%;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    min-width: 100hv;
 }
 
 .start__page__wrap {

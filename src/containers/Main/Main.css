@@ -8,6 +8,8 @@
   .Main {
     text-align: center;
     max-width: max-content;
+    margin: 0;
+    padding: 0;
   }
 
   html,
