@@ -440,7 +440,7 @@ li {
         top: -170px;
         left: 0px;
         height: 450px;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .start__page__body {
