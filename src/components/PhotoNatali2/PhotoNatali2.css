@@ -181,7 +181,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 
     .page2__div__map:nth-of-type(2n) {
         margin-bottom: 18px;

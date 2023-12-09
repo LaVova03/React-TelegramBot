@@ -57,7 +57,7 @@
     margin: 0px 20px 0 263px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .page8__main__wrap {
         background-image: url(../../assets/page8/adapt/gold.png);
         width: 375px;

@@ -4,7 +4,7 @@
   width: 100hv;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .Main {
     text-align: center;
     max-width: max-content;
@@ -15,7 +15,7 @@
     width: fit-content;
   }
 
-  #root{
+  #root {
     width: max-content;
   }
 }

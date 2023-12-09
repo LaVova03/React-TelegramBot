@@ -103,7 +103,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .page6__main__wrap {
         position: relative;
         background: #111010;

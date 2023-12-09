@@ -89,7 +89,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .page4__main__wrap {
         background: #111010;
         width: 353px;

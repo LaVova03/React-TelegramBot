@@ -364,7 +364,7 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:767px) {
     .page9__wrap {
         position: relative;
         background-image: url(../../assets/page9/adapt/fon.png);
