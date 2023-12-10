@@ -159,8 +159,17 @@
     margin-top: 170px;
 }
 
+.page7__img__disc,
+.page7__img__disc1,
+.page7__img__disc2,
+.page7__img__disc3,
+.page7__img__disc4,
+.page7__img__disc5,
+.page7__img__disc6,
+.page7__img__disc7,
+.page7__img__disc8,
+.page7__img__disc9,
 .page7__br__adapt,
-.page7__disk,
 .page7__lable__year2,
 .page7__br__adapt {
     display: none;
@@ -245,7 +254,7 @@
         top: 128px;
         transform: rotate(0deg);
         width: 0.26px;
-        height: 575.96px;
+        height: 36em;
         background: var(--sun, #FFE49A);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -311,7 +320,7 @@
         position: absolute;
         display: flex;
         margin-left: -1px;
-        top: 366px;
+        top: 29.3em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -332,7 +341,7 @@
         position: absolute;
         display: flex;
         margin-left: -1px;
-        top: 545px;
+        top: 43.6em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -353,7 +362,7 @@
         position: absolute;
         display: flex;
         margin-left: 2px;
-        top: 695px;
+        top: 55.7em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -461,9 +470,10 @@
     }
 
     .page7__img__disc {
-        position: absolute;
-        left: 102px;
-        top: 127px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -474,9 +484,10 @@
     }
 
     .page7__img__disc1 {
-        position: absolute;
-        left: 102px;
-        top: 170px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -487,9 +498,10 @@
     }
 
     .page7__img__disc2 {
-        position: absolute;
-        left: 102px;
-        top: 245px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -500,9 +512,10 @@
     }
 
     .page7__img__disc3 {
-        position: absolute;
-        left: 102px;
-        top: 294px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -513,9 +526,10 @@
     }
 
     .page7__img__disc4 {
-        position: absolute;
-        left: 102px;
-        top: 372px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -526,9 +540,10 @@
     }
 
     .page7__img__disc5 {
-        position: absolute;
-        left: 102px;
-        top: 463px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -539,9 +554,10 @@
     }
 
     .page7__img__disc6 {
-        position: absolute;
-        left: 102px;
-        top: 507px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -552,9 +568,10 @@
     }
 
     .page7__img__disc7 {
-        position: absolute;
-        left: 102px;
-        top: 551px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -565,9 +582,10 @@
     }
 
     .page7__img__disc8 {
-        position: absolute;
-        left: 102px;
-        top: 611px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
@@ -578,9 +596,10 @@
     }
 
     .page7__img__disc9 {
-        position: absolute;
-        left: 102px;
-        top: 702px;
+        display: block;
+        position: relative;
+        left: -13px;
+        top: 0.8em;
         background-color: #C5C4C4;
         border-radius: 100px;
         width: 4px;
