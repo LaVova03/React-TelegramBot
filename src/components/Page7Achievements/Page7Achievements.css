@@ -635,5 +635,14 @@
         margin-top: 8px;
         width: 65vw;
     }
+}
 
+@media screen and (max-width: 375px) {
+    .page7__vertical__line {
+        height: 37em;
+    }
+
+    .page7__disk__2019 {
+        top: 56.7em;
+    }
 }
