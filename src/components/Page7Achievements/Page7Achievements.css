@@ -637,7 +637,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .page7__vertical__line {
         height: 37em;
     }
