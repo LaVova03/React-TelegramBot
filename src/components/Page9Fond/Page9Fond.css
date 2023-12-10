@@ -368,9 +368,9 @@
     .page9__wrap {
         position: relative;
         background-image: url(../../assets/page9/adapt/fon.png);
-        background: black;
+        background-color: black;
         width: 100vw;
-        max-height: 410vw;
+        max-height: 82em;
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: 106%;
@@ -706,5 +706,17 @@
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .page9__wrap {
+        max-height: 380vw;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .page9__wrap {
+        max-height: 380vw;
     }
 }
