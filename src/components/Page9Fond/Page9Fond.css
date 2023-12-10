@@ -368,6 +368,7 @@
     .page9__wrap {
         position: relative;
         background-image: url(../../assets/page9/adapt/fon.png);
+        background: black;
         width: 100vw;
         max-height: 410vw;
         flex-shrink: 0;
@@ -660,7 +661,7 @@
     .page9__final__div {
         display: block;
         width: 100vw;
-        height: 75vw;
+        height: 40vw;
         justify-content: space-between;
         color: var(--white, #FFF);
         font-family: Montserrat;
