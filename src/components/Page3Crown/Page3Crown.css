@@ -45,10 +45,16 @@
         background-image: url(../../assets/page3/adapt/chessman.png);
         justify-content: center;
         background-repeat: no-repeat;
-        width: 375px;
+        width: 100vw;
         height: 175.521px;
         flex-shrink: 0;
         align-items: center;
+    }
+
+    .shrift__point {
+        position: relative;
+        top: -4px;
+        left: -6px;
     }
 
     .page3__text {
@@ -64,7 +70,7 @@
     .page3__border__adapt {
         position: absolute;
         display: block;
-        width: 334.115px;
+        width: 90%;
         height: 138.021px;
         flex-shrink: 0;
         border: 0.26px solid #E7C9A3;

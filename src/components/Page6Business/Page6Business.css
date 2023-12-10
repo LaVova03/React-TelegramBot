@@ -109,13 +109,13 @@
         background: #111010;
         height: 633px;
         padding-top: 41px;
-        width: 375px;
+        width: 100vw;
         margin-top: -1px;
     }
 
     .page6__card {
         position: relative;
-        width: 333.333px;
+        width: 90%;
         height: 234.896px;
         flex-shrink: 0;
         border: 1px solid #E7C9A3;
@@ -133,7 +133,7 @@
     }
 
     .page6__head {
-        width: 209px;
+        width: 50vw;
         position: relative;
         left: 130px;
         color: var(--white, #FFF);
@@ -156,9 +156,9 @@
         font-style: normal;
         font-weight: 500;
         line-height: 125.2%;
-        margin-right: 20px;
+        margin-right: 0;
         padding: 0;
-        width: 191px;
+        width: 52vw;
         text-align: left;
         margin-top: 28px;
     }
@@ -188,7 +188,7 @@
     }
 
     .page6__text__ul {
-        width: 296px;
+        width: 80vw;
         color: var(--lite-grey, #C5C4C4);
         font-family: Montserrat;
         font-size: 14px;

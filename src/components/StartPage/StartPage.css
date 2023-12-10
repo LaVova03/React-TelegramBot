@@ -280,7 +280,7 @@ li {
         flex-shrink: 0;
         text-align: center;
         padding: 0;
-        width: 375px;
+        width: 100vw;
     }
 
     .start__page__head ul {
@@ -322,7 +322,7 @@ li {
     #body-first-li {
         margin-top: 130px;
         color: var(--white, #FFF);
-        width: 331.574px;
+        width: max-content;
         font-family: Poiret One;
         font-size: 48px;
         font-style: normal;
@@ -347,7 +347,7 @@ li {
 
     #body-third-li {
         display: flex;
-        width: 331.574px;
+        width: max-content;
         height: 80.6px;
         flex-direction: column;
         justify-content: center;
@@ -429,8 +429,9 @@ li {
         margin-left: 0px;
         z-index: 102;
         position: absolute;
-        width: 335px;
-        padding-left: 20px;
+        width: -webkit-fill-available;
+        padding-left: 2em;
+        padding-right: 2em;
         text-align: center;
         height: min-content;
     }
@@ -457,12 +458,13 @@ li {
         position: absolute;
         display: block;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 22.94%, #000 100%, rgba(0, 0, 0, 0.00) 100%);
-        width: 375px;
+        width: 100vw;
         height: 380px;
     }
 
     .start-head-right {
-        margin-left: 55%;
+        position: absolute;
+        right: 0;
     }
 
     .start__burger__button {
@@ -490,7 +492,7 @@ li {
         align-items: flex-start;
         gap: 16px;
         top: 0px;
-        left: 75px;
+        right: 0;
     }
 
     .start__burger__close {
@@ -541,11 +543,10 @@ li {
         position: relative;
         top: -2em;
         width: max-content;
-        height: 490px;
+        height: 130vw;
         flex-shrink: 0;
         right: -1px;
-        width: -moz-fit-content;
-        width: max-content;
+        width: 100vw;
     }
 
     .shrift__є {

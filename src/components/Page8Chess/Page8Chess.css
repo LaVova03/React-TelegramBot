@@ -60,7 +60,7 @@
 @media screen and (max-width: 767px) {
     .page8__main__wrap {
         background-image: url(../../assets/page8/adapt/gold.png);
-        width: 375px;
+        width: 100vw;
         height: 128.052px;
         flex-shrink: 0;
         margin: -1px 0 0 0;
@@ -85,7 +85,7 @@
 
     .page8__card {
         position: relative;
-        margin-left: 195px;
+        margin-left: 53vw;
         width: 156.619px;
         height: 94.584px;
         flex-shrink: 0;
