@@ -20,7 +20,7 @@
 
 .page2__float__photo {
     color: white;
-    margin: 347px 0px 0 611px;
+    margin: 347px 0px 0 610px;
 }
 
 .page2__experience__flex {
@@ -48,7 +48,7 @@
 .page2__card__border {
     position: absolute;
     top: 305px;
-    left: 38%;
+    left: 50%;
     transform: translateX(-50%);
     width: 1280px;
     height: 691px;
@@ -115,7 +115,7 @@
     text-transform: uppercase;
     clear: left;
     text-align: left;
-    margin-left: 265px;
+    margin-left: 50px;
     margin-bottom: 104px;
 }
 

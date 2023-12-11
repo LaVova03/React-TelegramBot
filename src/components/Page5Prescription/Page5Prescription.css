@@ -7,19 +7,21 @@
 }
 
 .page5__head__text {
-    position: absolute;
-    top: 310px;
-    margin: 0px 360px;
+    position: relative;
+    top: -220px;
+    margin: 0px auto;
     text-align: center;
     font-family: Poiret One;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 80vw;
 }
 
 .page5__head__flex {
     display: flex;
+    margin-left: 20px;
 }
 
 .page5__text__white {
