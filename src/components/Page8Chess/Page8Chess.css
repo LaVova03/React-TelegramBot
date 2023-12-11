@@ -58,12 +58,16 @@
 }
 
 .page8__є {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
     font-family: Liana;
     display: inline-block;
     position: relative;
     top: -44px;
     left: 114px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
 @media screen and (max-width: 767px) {
@@ -77,11 +81,19 @@
     }
 
     .page8__є {
-        transform: rotate(180deg);
-        font-family: Liana;
+        transform: rotate(0deg);
         display: inline-block;
         position: relative;
-        top: -8.5px;
+        font-style: italic;
+        padding-bottom: -26px;
+        font-family: 'Poiret One';
+        font-size: 6px;
+        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        top: -12.5px;
         left: 35px;
     }
 

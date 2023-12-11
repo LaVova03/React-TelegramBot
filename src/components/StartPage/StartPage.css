@@ -257,11 +257,18 @@ li {
 }
 
 .shrift__є {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
     display: inline-block;
     position: relative;
-    top: 17px;
+    font-style: italic;
+    font-family: 'Poiret One';
+    font-size: 33px;
+    top: 2px;
     left: -5px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
 .natali-logo__adapt,
@@ -550,11 +557,20 @@ li {
     }
 
     .shrift__є {
-        transform: rotate(180deg);
+        transform: rotate(0deg);
         display: inline-block;
         position: relative;
-        top: 10px;
+        top: 2px;
         left: -3px;
+        font-style: italic;
+        padding-bottom: -26px;
+        font-family: 'Poiret One';
+        font-size: medium;
+        -webkit-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
     }
 
 }
