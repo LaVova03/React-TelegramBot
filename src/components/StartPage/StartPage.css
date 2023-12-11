@@ -311,7 +311,7 @@ li {
         margin: 6px 0;
     }
 
-    .start__body__button:active,
+    .start__body__button:hover,
     .natali-logo,
     .start-link-profile1,
     .start-link-profile2,
@@ -389,7 +389,7 @@ li {
         margin: 0 auto;
     }
 
-    .start__body__button:hover {
+    /* .start__body__button:hover {
         display: flex;
         width: 246px;
         height: 69px;
@@ -411,7 +411,7 @@ li {
         line-height: normal;
         cursor: pointer;
         margin: 0 auto;
-    }
+    } */
 
     .start__body__button:active {
         color: var(--white, #FFF);
@@ -554,7 +554,7 @@ li {
         transform: rotate(180deg);
         display: inline-block;
         position: relative;
-        top: 18px;
+        top: 15px;
         left: -3px;
     }
 

@@ -577,6 +577,7 @@
         margin-right: 0px;
     }
 
+    .page9__form__button:hover,
     .page9__final__side,
     .page9__lable {
         display: none;
@@ -621,7 +622,7 @@
         margin: 0 auto 29px;
     }
 
-    .page9__form__button:hover {
+    /* .page9__form__button:hover {
         display: flex;
         width: 246px;
         height: 75.019px;
@@ -644,7 +645,7 @@
         line-height: normal;
         cursor: pointer;
         margin: 0 auto 29px;
-    }
+    } */
 
     .page9__form__button:active {
         color: var(--white, #FFF);
