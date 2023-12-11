@@ -18,7 +18,7 @@
     font-weight: 400;
     line-height: normal;
     text-align: left;
-    margin-left: -20px;
+    margin-left: 175px;
 }
 
 .page7__head__span {
@@ -61,7 +61,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: -20px;
+    margin-left: 190px;
 }
 
 .page7__li__textright {
@@ -110,7 +110,7 @@
     top: 445px;
     transform: rotate(0deg);
     width: 1px;
-    height: 1277px;
+    height: 1300px;
     background: var(--sun, #FFE49A);
     -webkit-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -121,26 +121,26 @@
 
 .page7__disk__2023 {
     position: absolute;
-    margin-left: 386px;
+    margin-left: 624px;
     top: 413px;
 }
 
 .page7__disk__2022 {
     position: absolute;
-    margin-left: -21px;
-    top: 940px;
+    margin-left: -45px;
+    top: 957px;
 }
 
 .page7__disk__2020 {
     position: absolute;
-    margin-left: 378px;
-    top: 1358px;
+    margin-left: 616px;
+    top: 1375px;
 }
 
 .page7__disk__2019 {
     position: absolute;
-    margin-left: -21px;
-    top: 1685px;
+    margin-left: -45px;
+    top: 1700px;
 }
 
 #page7__li5,

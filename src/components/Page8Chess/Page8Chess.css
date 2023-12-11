@@ -62,10 +62,10 @@
     font-family: Liana;
     display: inline-block;
     position: relative;
-    top: -2em;
-    left: 5.9em;
-    font-size: 27px;
     font-style: italic;
+    font-size: 22px;
+    top: -52px;
+    left: 116px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -95,7 +95,7 @@
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
-        top: -13px;
+        top: -12.5px;
         left: 35px;
     }
 
