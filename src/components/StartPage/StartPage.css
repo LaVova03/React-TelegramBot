@@ -553,7 +553,7 @@ li {
         transform: rotate(180deg);
         display: inline-block;
         position: relative;
-        top: 18px;
+        top: 10px;
         left: -3px;
     }
 
