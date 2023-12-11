@@ -577,7 +577,7 @@
         margin-right: 0px;
     }
 
-    .page9__form__button:hover,
+    .page9__form__button:active,
     .page9__final__side,
     .page9__lable {
         display: none;
