@@ -166,12 +166,11 @@ li {
 }
 
 .natali-logo {
-    width: 776px;
     height: 844px;
-    flex-shrink: 0;
     position: absolute;
+    right: 0;
     top: -212px;
-    right: -26vw;
+    width: 776px;
 }
 
 #body-second-li {
@@ -253,7 +252,7 @@ li {
 
 .start-body-right {
     position: relative;
-    width: 33em;
+    width: 52vw;
 }
 
 .shrift__є {
