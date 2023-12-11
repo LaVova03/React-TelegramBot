@@ -311,6 +311,7 @@ li {
         margin: 6px 0;
     }
 
+    .start__body__button:active,
     .natali-logo,
     .start-link-profile1,
     .start-link-profile2,
@@ -553,7 +554,7 @@ li {
         transform: rotate(180deg);
         display: inline-block;
         position: relative;
-        top: 8px;
+        top: 18px;
         left: -3px;
     }
 
