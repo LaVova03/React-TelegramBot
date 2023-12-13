@@ -6,13 +6,14 @@
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -2px;
 }
 
 .page9__card {
     position: relative;
     top: 262px;
     margin: 0 auto;
-    width: 1280px;
+    width: 90%;
     height: 750px;
     flex-shrink: 0;
     border: 1px solid #E7C9A3;
