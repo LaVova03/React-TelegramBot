@@ -1,6 +1,6 @@
 .page9__wrap {
     position: relative;
-    background-image: url(../../assets/page9/monochrome2.png);
+    background-image: url(../../assets/page9/monochrome.png);
     height: 2410px;
     flex-shrink: 0;
     justify-content: center;
@@ -79,7 +79,7 @@
     line-height: normal;
     text-transform: uppercase;
     text-align: left;
-    margin-left: 260px;
+    margin-left: 0;
     margin-top: 405px;
 }
 
@@ -90,7 +90,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
-    margin-left: 260px;
+    margin-left: 0;
     margin-top: 60px;
     width: 496px;
     text-align: left;
@@ -99,6 +99,7 @@
 .page9__head__wrap {
     float: left;
     height: 900px;
+    margin: 0 0 0 8vw;
 }
 
 .page9__form {
