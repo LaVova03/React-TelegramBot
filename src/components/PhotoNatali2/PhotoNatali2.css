@@ -108,7 +108,7 @@
 }
 
 .page2__principles {
-    width: 100vw;
+    width: 45vw;
     color: var(--lite-gold, #D2B281);
     font-family: Poiret One;
     font-size: 72px;
@@ -117,10 +117,10 @@
     line-height: normal;
     text-transform: uppercase;
     clear: left;
-    text-align: left;
+    text-align: right;
     margin-left: 0;
     margin-bottom: 104px;
-    padding-left: 8.5vw;
+    padding-left: 0px;
 }
 
 .page2__principles__grid {
