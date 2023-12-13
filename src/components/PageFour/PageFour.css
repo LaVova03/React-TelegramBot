@@ -29,13 +29,13 @@
 }
 
 .page4__grid__line {
-    width: 270%;
+    width: 87vw;
     height: 1px;
     background: #565656;
 }
 
 .page4__services__grid li:nth-of-type(2n) {
-    width: 23.5em;
+    width: 37vw;
     color: var(--lite-grey, #C5C4C4);
     font-family: Montserrat;
     font-size: 24px;
