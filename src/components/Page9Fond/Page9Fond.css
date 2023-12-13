@@ -381,6 +381,10 @@
         margin-top: -1px;
     }
 
+    .page9__form__card {
+        display: block;
+    }
+
     .page9__card {
         margin: 0 auto;
         width: 84vw;

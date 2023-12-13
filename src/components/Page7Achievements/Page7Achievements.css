@@ -107,7 +107,7 @@
 
 .page7__vertical__line {
     position: absolute;
-    left: 49.6vw;
+    left: 49.7vw;
     top: 445px;
     transform: rotate(0deg);
     width: 1px;
@@ -248,6 +248,10 @@
         display: block;
     }
 
+    .page7__li__ul {
+        margin-left: -25px;
+    }
+
     .page7__head__span {
         display: contents;
         color: var(--sun_gold, #FFD89D);
@@ -308,7 +312,7 @@
     .page7__disk__2023 {
         position: absolute;
         display: flex;
-        margin-left: 0;
+        margin-left: -15px;
         top: 121px;
         display: flex;
         width: 39.583px;
@@ -329,8 +333,8 @@
     .page7__disk__2022 {
         position: absolute;
         display: flex;
-        margin-left: -1px;
-        top: 29.3em;
+        margin-left: -16px;
+        top: 28.3em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -350,7 +354,7 @@
     .page7__disk__2020 {
         position: absolute;
         display: flex;
-        margin-left: -1px;
+        margin-left: -16px;
         top: 43.6em;
         display: flex;
         width: 39.583px;
@@ -371,7 +375,7 @@
     .page7__disk__2019 {
         position: absolute;
         display: flex;
-        margin-left: 2px;
+        margin-left: -13px;
         top: 55.7em;
         display: flex;
         width: 39.583px;
@@ -411,7 +415,7 @@
     }
 
     .page7__main__wrap li {
-        margin-left: 20px;
+        margin-left: 35px;
         margin-top: 2px;
     }
 
@@ -424,7 +428,7 @@
     }
 
     #page7__li6 {
-        margin-left: 95px;
+        margin-left: 85px;
         margin-top: 8px;
     }
 
@@ -649,19 +653,19 @@
 
 @media screen and (max-width: 550px) {
     .page7__vertical__line {
-        height: 37em;
+        height: 36em;
     }
 
     .page7__disk__2019 {
-        top: 56.6em;
+        top: 55.8em;
     }
 
     .page7__disk__2020 {
-        top: 44.4em;
+        top: 43.6em;
     }
 
     .page7__disk__2022 {
-        top: 30.1em;
+        top: 29.3em;
     }
 
 }

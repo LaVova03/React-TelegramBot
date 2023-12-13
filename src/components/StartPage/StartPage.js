@@ -27,7 +27,7 @@ const StartPage = () => {
     };
 
     const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5250 : 11430;
+        const scrollHeight = isMobile ? 5350 : 10900;
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'

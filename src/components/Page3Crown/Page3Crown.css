@@ -61,8 +61,15 @@
     }
 
     .page3__text {
+        display: flex;
         color: var(--white, #FFF);
-        text-align: center;
+        justify-content: center;
+        font-family: Liana;
+        font-size: 16.667px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;        text-align: center;
         font-family: Liana;
         font-size: 16.667px;
         font-style: normal;
@@ -72,7 +79,7 @@
 
     .page3__border__adapt {
         position: absolute;
-        display: block;
+        display: flex;
         width: 90%;
         height: 138.021px;
         flex-shrink: 0;
