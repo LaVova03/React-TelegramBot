@@ -91,6 +91,7 @@
 .page7__text__ul,
 .page7__li__year {
     margin-bottom: 150px;
+    padding: 0;
 }
 
 #page7__li5__adapt {
@@ -120,28 +121,36 @@
 }
 
 .page7__disk__2023 {
-    position: absolute;
-    margin-left: 474px;
-    top: 413px;
+    margin-left: 0;
+    position: relative;
+    top: -79px;
+    width: 47vw;
+    text-align: right;
 }
 
 .page7__disk__2022 {
-    margin-left: -45px;
-    position: absolute;
-    top: 945px;
+    width: 20vw;
+    text-align: left;
+    margin-left: -91px;
+    position: relative;
+    top: -97px;
 }
 
 .page7__disk__2020 {
-    margin-left: 466px;
-    position: absolute;
-    top: 1362px;
+    position: relative;
+    top: -83px;
+    margin: 0 auto;
+    text-align: right;
+    width: 47vw;
 
 }
 
 .page7__disk__2019 {
-    position: absolute;
-    margin-left: -44px;
-    top: 1690px;
+    margin-left: -90px;
+    position: relative;
+    top: -174px;
+    text-align: left;
+    width: 20vw;
 }
 
 #page7__li5,
