@@ -62,7 +62,7 @@
     justify-content: center;
     flex-shrink: 0;
     color: #312F2F;
-    font-family: Montserrat;
+    font-family: Montserrat Bold;
     font-size: 220px;
     font-style: normal;
     font-weight: 700;
@@ -133,6 +133,7 @@
         line-height: normal;
         text-transform: uppercase;
         margin-top: -10px;
+        font-family: Montserrat Bold;
     }
 
     .page4__grid__div2 {
@@ -149,7 +150,7 @@
         line-height: 100%;
         text-transform: uppercase;
         text-align: left;
-        margin-left: 54px;
+        margin-left: 55px;
         margin-top: 7px;
     }
 

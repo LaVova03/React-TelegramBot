@@ -255,7 +255,8 @@
     flex-shrink: 0;
     background: var(--lite-grey, #C5C4C4);
     margin-bottom: 63px;
-    text-align: center;
+    text-align: left;
+    padding-top: 10px;
 }
 
 .page9__form__card {
