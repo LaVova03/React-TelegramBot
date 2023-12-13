@@ -171,7 +171,7 @@ li {
     flex-shrink: 0;
     position: absolute;
     top: -212px;
-    right: -31.2em;
+    right: 0;
 }
 
 #body-second-li {
@@ -253,7 +253,7 @@ li {
 
 .start-body-right {
     position: relative;
-    width: 33em;
+    width: 47em;
 }
 
 .shrift__є {

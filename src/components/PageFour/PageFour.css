@@ -1,7 +1,7 @@
 .page4__main__wrap {
     background: #111010;
-    height: 1645px;
-    padding: 136px 83px 0;
+    height: 110em;
+    padding: 8.5em 5.18em 0;
 }
 
 .page4__head__services {
@@ -14,7 +14,7 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 56.03px;
-    margin-left: 220px;
+    margin-left: 5%;
 }
 
 .page4__services__grid {

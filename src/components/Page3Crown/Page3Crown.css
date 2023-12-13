@@ -10,6 +10,7 @@
 
 .page3__text {
     color: var(--white, #FFF);
+    width: 100%;
     text-align: center;
     font-family: Liana;
     font-size: 64px;
@@ -19,8 +20,10 @@
 }
 
 .page3__border__adapt {
-    position: absolute;
-    display: block;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
     width: 1283px;
     height: 655px;
     flex-shrink: 0;
