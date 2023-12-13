@@ -21,17 +21,18 @@
 
 .page9__card__head {
     position: relative;
-    color: var(--white, #FFF);
+    color: var(--white,#fff);
+    float: left;
     font-family: Poiret One;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 32em;
-    text-align: left;
-    float: left;
+    margin-left: 50px;
     margin-top: 56px;
-    margin-left: 60px;
+    position: relative;
+    text-align: left;
+    width: 16em;
 }
 
 .page9__card__photo {
