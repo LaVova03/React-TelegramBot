@@ -112,7 +112,7 @@ const Page9Fond = () => {
                 </div>
                 <div className='page9__form'>
                     <form onSubmit={handleSubmit}>
-                        <div className='page9__form__flex'>
+                        <div className='page9__form__card'>
                             <div>
                                 <input
                                     className={emptyFields.name ? 'page9__input1__red' : 'page9__input1'}

@@ -99,7 +99,7 @@
 .page9__head__wrap {
     float: left;
     height: 900px;
-    margin: 0 0 0 8vw;
+    margin: 0;
 }
 
 .page9__form {
@@ -169,7 +169,8 @@
 
 .page9__form__flex {
     display: flex;
-    width: 753px;
+    width: 100vw;
+    justify-content: center;
 }
 
 .page9__lable {
@@ -257,7 +258,7 @@
     text-align: center;
 }
 
-.page9__form__flex {
+.page9__form__card {
     display: flex;
 }
 

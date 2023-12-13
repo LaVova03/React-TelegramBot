@@ -107,7 +107,7 @@
 
 .page7__vertical__line {
     position: absolute;
-    left: 50%;
+    left: 49.5vw;
     top: 445px;
     transform: rotate(0deg);
     width: 1px;
