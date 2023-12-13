@@ -373,7 +373,7 @@
         background-image: url(../../assets/page9/adapt/fon.png);
         background-color: black;
         width: 100vw;
-        max-height: 82em;
+        max-height: 106em;
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: 106%;
@@ -716,7 +716,22 @@
     }
 }
 
-@media screen and (max-width:375px) {
+
+
+@media screen and (max-width:415px) {
+    .page9__wrap {
+        max-height: 405vw;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .page9__wrap {
+        max-height: 410vw;
+    }
+}
+
+
+@media screen and (max-width:376px) {
     .page9__wrap {
         max-height: 380vw;
     }
@@ -724,6 +739,6 @@
 
 @media screen and (max-width:360px) {
     .page9__wrap {
-        max-height: 380vw;
+        max-height: 415vw;
     }
 }
