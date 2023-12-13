@@ -107,7 +107,7 @@
 
 .page7__vertical__line {
     position: absolute;
-    left: 49.5vw;
+    left: 49.6vw;
     top: 445px;
     transform: rotate(0deg);
     width: 1px;
@@ -124,7 +124,7 @@
     margin-left: 0;
     position: relative;
     top: -79px;
-    width: 47.3vw;
+    width: 47.5vw;
     text-align: right;
 }
 
@@ -141,12 +141,12 @@
     top: -83px;
     margin: 0 auto;
     text-align: right;
-    width: 47.3vw;
+    width: 47.5vw;
 
 }
 
 .page7__disk__2019 {
-    margin-left: -92px;
+    margin-left: -6vw;
     position: relative;
     top: -174px;
     text-align: left;
