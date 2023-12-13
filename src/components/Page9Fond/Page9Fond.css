@@ -202,7 +202,7 @@
     margin-right: 24px;
     background: var(--lite-grey, #C5C4C4);
     margin-bottom: 63px;
-    border: 1px solid red;
+    border: 2px solid red;
     text-align: center;
 }
 
@@ -223,7 +223,7 @@
     flex-shrink: 0;
     background: var(--lite-grey, #C5C4C4);
     margin-bottom: 63px;
-    border: 1px solid red;
+    border: 2px solid red;
     text-align: center;
 }
 
@@ -244,7 +244,7 @@
     flex-shrink: 0;
     background: var(--lite-grey, #C5C4C4);
     margin-bottom: 63px;
-    border: 1px solid red;
+    border: 2px solid red;
     text-align: center;
 }
 
@@ -562,7 +562,7 @@
         margin-bottom: 35px;
         font-size: 10px;
         margin: 0 auto 35px;
-        border: 1px solid red;
+        border: 2px solid red;
     }
 
     .page9__head__wrap {
