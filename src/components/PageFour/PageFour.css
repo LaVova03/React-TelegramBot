@@ -1,6 +1,6 @@
 .page4__main__wrap {
     background: #111010;
-    height: 110em;
+    height: 93em;
     padding: 8.5em 5.18em 0;
 }
 
@@ -14,7 +14,7 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 56.03px;
-    margin-left: 5%;
+    margin-left: 0;
 }
 
 .page4__services__grid {
@@ -29,13 +29,13 @@
 }
 
 .page4__grid__line {
-    width: 1090px;
+    width: 270%;
     height: 1px;
     background: #565656;
 }
 
 .page4__services__grid li:nth-of-type(2n) {
-    width: 405px;
+    width: 23.5em;
     color: var(--lite-grey, #C5C4C4);
     font-family: Montserrat;
     font-size: 24px;

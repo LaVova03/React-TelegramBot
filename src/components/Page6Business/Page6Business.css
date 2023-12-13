@@ -2,12 +2,12 @@
     position: relative;
     background: #111010;
     height: 905px;
-    padding-top: 156px;
+    padding-top: 100px;
 }
 
 .page6__card {
     position: relative;
-    width: 1280px;
+    width: 90%;
     height: 902px;
     flex-shrink: 0;
     border: 1px solid #E7C9A3;

@@ -1,10 +1,10 @@
 .page2__natali__wrap {
     position: relative;
-    background-image: url(../../assets/page2/chess_2.png);
+    background-image: url(../../assets/page2/chess_22.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 2265px;
-    padding: 1.25em 1.25em 0 0;
+    height: 148em;
+    padding: 1.25em 0 0 0;
 }
 
 .page2__photo__natali {
@@ -117,7 +117,7 @@
     text-transform: uppercase;
     clear: left;
     text-align: left;
-    margin-left: 1.7em;
+    margin-left: 130px;
     margin-bottom: 104px;
 }
 
@@ -143,6 +143,7 @@
     justify-content: left;
     margin-left: 150px;
     margin-top: 0;
+    padding: 0;
 }
 
 .page2__grid__li {
