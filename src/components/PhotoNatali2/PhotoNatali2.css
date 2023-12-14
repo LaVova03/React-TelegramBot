@@ -20,9 +20,9 @@
 
 .page2__float__photo {
     position: absolute;
-    width: 48%;
+    width: 49%;
     color: white;
-    margin: -365px 0px 0 640px;
+    margin: -365px 0px 0 45vw;
     z-index: 3;
 }
 
@@ -45,7 +45,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 65px;
-    width: 730px;
+    width: 97%;
 }
 
 .page2__card__border {
@@ -105,7 +105,7 @@
 }
 
 .page2__experience__flex li:nth-of-type(2) {
-    margin: 0 85px;
+    margin: 0 5vw;
 }
 
 .page2__principles {
@@ -184,6 +184,55 @@
 .page2__br__adapt,
 .page2__main_adapt {
     display: none;
+}
+
+@media screen and (max-width: 1298px) {
+    .page2__profile__wrap {
+        margin-top: -1em;
+    }
+
+    .page2__principles {
+        display: flex;
+        white-space: nowrap;
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .page2__profile__wrap {
+        position: relative;
+        width: 100%;
+    }
+
+    .page2__profile__head li:nth-of-type(2n+1) {
+        color: var(--white, #FFF);
+        font-family: Liana;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 65px;
+        width: 100%;
+    }
+
+    .page2__float__photo {
+        position: absolute;
+        width: 74%;
+        color: white;
+        margin: -365px 0px 0 20vw;
+        z-index: 3;
+    }
+
+    .page2__experience__flex li:nth-of-type(2) {
+        margin: 0px 7vw;
+    }
+
+    .page2__profile__wrap {
+        margin-top: -1em;
+    }
+
+    .page2__photo__natali {
+        width: 50vw;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -332,12 +381,12 @@
     }
 
     .page2__border__adapt {
-        width: 88%;
+        width: 89%;
         height: 497px;
         flex-shrink: 0;
         border: 0.26px solid #E7C9A3;
         position: relative;
-        left: 20px;
+        left: 5vw;
         top: 15px;
         z-index: 999;
     }

@@ -9,7 +9,7 @@ const StartPage = () => {
     const [menu, showMenu] = useState(false);
 
     const scrollToAboutMe = () => {
-        const scrollHeight = isMobile ? 830 : 1200;
+        const scrollHeight = isMobile ? 800 : 1200;
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
