@@ -196,6 +196,18 @@
         white-space: nowrap;
         margin-left: 5vw;
     }
+
+    .page2__principles__grid {
+        display: block;
+    }
+
+    .page2__principles__grid ul {
+        margin-bottom: 0;
+    }
+
+    .page2__natali__wrap {
+        height: 153em;
+    }
 }
 
 @media screen and (max-width: 1050px) {
