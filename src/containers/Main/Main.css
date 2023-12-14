@@ -1,12 +1,11 @@
 .Main {
   text-align: center;
-  width: 100vw;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
   .Main {
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
 }
