@@ -1,23 +1,11 @@
 .Main {
   text-align: center;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 @media screen and (max-width: 767px) {
   .Main {
-    text-align: center;
-    max-width: max-content;
     margin: 0;
     padding: 0;
-  }
-
-  html,
-  body {
-    width: fit-content;
-  }
-
-  #root {
-    width: max-content;
   }
 }
