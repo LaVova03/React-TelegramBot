@@ -1,7 +1,7 @@
 .Main {
   text-align: center;
-  min-width: 100%;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 767px) {

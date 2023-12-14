@@ -5,9 +5,10 @@ html {
 }
 
 body {
-    overflow-x: hidden;
+    width: 100vw;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .start__page__wrap {
@@ -104,6 +105,8 @@ li {
 }
 
 .start-body-left {
+    position: relative;
+    z-index: 1;
     margin: 0;
 }
 
@@ -154,7 +157,7 @@ li {
     display: flex;
     margin-top: 187px;
     height: 633px;
-    width: min-content;
+    width: 98vw;
 }
 
 #body-first-li {
@@ -280,6 +283,10 @@ li {
     .start-body-right {
         position: absolute;
         z-index: 0;
+    }
+
+    .natali-logo {
+        height: 854px;
     }
 
     .start-body-left {
