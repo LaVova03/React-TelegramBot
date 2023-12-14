@@ -7,13 +7,14 @@
 }
 
 .page5__head__text {
+    white-space: nowrap;
     position: relative;
     width: 100vw;
-    top: -225px;
+    top: -19vw;
     margin: 0px auto;
     text-align: center;
     font-family: Poiret One;
-    font-size: 48px;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -31,7 +32,7 @@
 .page5__text__yellow {
     color: var(--sun, #FFE49A);
     font-family: Poiret One;
-    font-size: 48px;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -40,7 +41,7 @@
 .page5__text__bottom {
     color: var(--white, #DEDBDB);
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
