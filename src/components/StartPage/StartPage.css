@@ -313,11 +313,6 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-    html {
-        margin: 0;
-        padding: 0;
-        overflow: auto;
-    }
 
     .start__page__wrap {
         background-image: url(../../assets/page1/adapt/chess.png);
