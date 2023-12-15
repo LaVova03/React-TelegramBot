@@ -159,7 +159,7 @@ const Page9Fond = () => {
                                 <input
                                     className={emptyFields.name ? 'page9__input1__red' : 'page9__input1'}
                                     type="text"
-                                    maxlength="15"
+                                    maxLength="15"
                                     name='name'
                                     placeholder='  ім’я'
                                     value={data.name}
@@ -169,7 +169,7 @@ const Page9Fond = () => {
                                 <input
                                     className={emptyFields.name ? 'page9__input1__adaptRed' : 'page9__input1__adapt'}
                                     type="text"
-                                    maxlength="15"
+                                    maxLength="15"
                                     name='name'
                                     placeholder='  ім’я'
                                     value={data.name}
@@ -178,13 +178,13 @@ const Page9Fond = () => {
                                 />
                             </div>
                             <div>
-                                <textarea className='page9__textarea__adapt' maxlength="100" cols="30" rows="10" placeholder=' повідомлення' name='message' value={data.message} onChange={handleChange}></textarea>
+                                <textarea className='page9__textarea__adapt' maxLength="400" cols="30" rows="10" placeholder=' повідомлення' name='message' value={data.message} onChange={handleChange}></textarea>
                             </div>
                             <div>
                                 <input
                                     className={emptyFields.phone ? 'page9__input2__red' : 'page9__input2'}
                                     type="text"
-                                    maxlength="20"
+                                    maxLength="20"
                                     name='phone'
                                     placeholder='  телефон'
                                     value={data.phone}
@@ -194,7 +194,7 @@ const Page9Fond = () => {
                                 <input
                                     className={emptyFields.phone ? 'page9__input2__adaptRed' : 'page9__input2__adapt'}
                                     type="text"
-                                    maxlength="20"
+                                    maxLength="20"
                                     name='phone'
                                     placeholder='  телефон'
                                     value={data.phone}
@@ -206,7 +206,7 @@ const Page9Fond = () => {
                         <input
                             className={emptyFields.email ? 'page9__input3__red' : 'page9__input3'}
                             type="text"
-                            maxlength="30"
+                            maxLength="30"
                             name='email'
                             placeholder='  електронна адреса'
                             value={data.email}
@@ -216,14 +216,14 @@ const Page9Fond = () => {
                         <input
                             className={emptyFields.email ? 'page9__input3__adaptRed' : 'page9__input3__adapt'}
                             type="text"
-                            maxlength="30"
+                            maxLength="30"
                             name='email'
                             placeholder='  електронна адреса'
                             value={data.email}
                             onChange={handleChange}
                             onBlur={handleBlur}
                         />
-                        <textarea className='page9__textarea' cols="30" rows="10" placeholder=' Повідомлення' name='message' value={data.message} onChange={handleChange} ></textarea>
+                        <textarea className='page9__textarea' maxLength="400" cols="30" rows="10" placeholder=' Повідомлення' name='message' value={data.message} onChange={handleChange} ></textarea>
                         {modal ? <DoneModal /> : null}
                         <button type='submit' className='page9__form__button'>Консультація</button>
                     </form>
