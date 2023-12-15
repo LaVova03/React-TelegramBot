@@ -77,14 +77,14 @@ const Page9Fond = () => {
 
     const scrollToAboutMe = () => {
         window.scrollTo({
-            top: 1200,
+            top: 1250,
             behavior: 'smooth'
         });
     };
 
     const scrollToOffers = () => {
         window.scrollTo({
-            top: 4150,
+            top: 4050,
             behavior: 'smooth'
         });
     };
