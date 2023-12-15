@@ -51,7 +51,7 @@
     line-height: 125.2%;
     margin-right: 20px;
     padding: 0;
-    width: 1425px;
+    width: 100vw;
     text-align: left;
     margin-top: 47px;
 }
@@ -74,12 +74,12 @@
 
 .page6__text__ul {
     text-align: left;
-    width: 1350px;
+    width: 95vw;
     position: relative;
     left: 30px;
     color: var(--lite-grey, #C5C4C4);
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
@@ -103,6 +103,23 @@
     display: none;
 }
 
+@media screen and (max-width: 1150px) {
+
+    .page6__wrap__card {
+        position: absolute;
+        left: 20px;
+        top: 240px;
+    }
+
+    .page6__fuckup {
+        width: 85vw;
+    }
+
+    .page6__text__ul li {
+        width: 80vw;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .page6__main__wrap {
         position: relative;
@@ -119,7 +136,7 @@
         height: 234.896px;
         flex-shrink: 0;
         border: 1px solid #E7C9A3;
-        margin: 0 20px;
+        margin: 0 auto;
     }
 
     .page6__card__photo {
@@ -138,7 +155,7 @@
         left: 130px;
         color: var(--white, #FFF);
         font-family: Poiret One;
-        font-size: 22px;
+        font-size: 5vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -152,7 +169,7 @@
         left: 130px;
         color: var(--lite-grey, #C5C4C4);
         font-family: Montserrat;
-        font-size: 14px;
+        font-size: 3vw;
         font-style: normal;
         font-weight: 500;
         line-height: 125.2%;

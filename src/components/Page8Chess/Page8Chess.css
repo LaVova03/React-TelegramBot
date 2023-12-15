@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
+    margin-top: -1px;
 }
 
 .page8__card {
@@ -72,6 +73,17 @@
     -o-transform: rotate(0deg);
 }
 
+@media screen and (max-width: 1200px) {
+    .page8__card {
+        border: 1px solid #fff;
+        flex-shrink: 0;
+        height: 22em;
+        margin: 0 auto;
+        position: relative;
+        width: 35em;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .page8__main__wrap {
         background-image: url(../../assets/page8/adapt/gold.png);
@@ -96,7 +108,7 @@
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         top: -12.5px;
-        left: 35px;
+        left: -10px;
     }
 
     .page8__card__text {

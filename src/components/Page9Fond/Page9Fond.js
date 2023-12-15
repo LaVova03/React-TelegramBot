@@ -1,9 +1,12 @@
 import './Page9Fond.css';
 import Photo from '../../assets/page9/natali.png';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import SetTelegram from '../SetTelegram/SetTelegram';
+import DoneModal from './../DoneModal/DoneModal';
 
 const Page9Fond = () => {
+
+    const [modal, setModal] = useState(false);
 
     const [data, setData] = useState({
         name: '',
@@ -17,6 +20,14 @@ const Page9Fond = () => {
         phone: false,
         email: false,
     });
+
+    useEffect(() => {
+        if (modal) {
+            setTimeout(() => {
+                setModal(false)
+            },5000)
+        }
+    }, [modal])
 
     const handleBlur = (e) => {
         const { name, value } = e.target;
@@ -53,6 +64,8 @@ const Page9Fond = () => {
                 email: '',
                 message: '',
             });
+
+            setModal(true)
 
             setEmptyFields({
                 name: false,
@@ -176,6 +189,7 @@ const Page9Fond = () => {
                             onBlur={handleBlur}
                         />
                         <textarea className='page9__textarea' cols="30" rows="10" placeholder=' Повідомлення' name='message' value={data.message} onChange={handleChange} ></textarea>
+                        {modal ? <DoneModal /> : null}
                         <button type='submit' className='page9__form__button'>Консультація</button>
                     </form>
                 </div>

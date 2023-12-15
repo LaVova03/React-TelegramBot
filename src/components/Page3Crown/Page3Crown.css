@@ -6,6 +6,7 @@
     background-size: cover;
     height: 700px;
     align-items: center;
+    margin-top: -1px;
 }
 
 .page3__text {
