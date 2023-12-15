@@ -137,7 +137,8 @@
 
 @media screen and (max-width: 1050px) {
     .page4__main__wrap {
-        height: 120em;
+        width: 100vw;
+        padding: 62px 0 0 0px;
     }
 }
 

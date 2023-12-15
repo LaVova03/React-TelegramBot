@@ -436,7 +436,7 @@
         background-image: url(../../assets/page9/adapt/fon.png);
         background-color: black;
         width: 100vw;
-        max-height: 83em;
+        height: 109em;
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: 106%;
@@ -787,25 +787,25 @@
 
 @media screen and (max-width:415px) {
     .page9__wrap {
-        height: 1340px;
+        height: 417vw;
     }
 }
 
 @media screen and (max-width:390px) {
     .page9__wrap {
-        max-height: 410vw;
+        height: 425vw;
     }
 }
 
 
 @media screen and (max-width:376px) {
     .page9__wrap {
-        max-height: 380vw;
+        height: 395vw;
     }
 }
 
 @media screen and (max-width:360px) {
     .page9__wrap {
-        max-height: 415vw;
+        height: 430vw;
     }
 }
