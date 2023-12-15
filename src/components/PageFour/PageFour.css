@@ -112,7 +112,7 @@
     .page4__main__wrap {
         background: #111010;
         width: 100vw;
-        height: 154em;
+        height: 120em;
         padding: 62px 0 0 50px;
         margin-top: -1px;
     }
@@ -132,6 +132,36 @@
 
     .page4__head__services {
         margin-left: 6vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .page4__main__wrap {
+        height: 120em;
+    }
+}
+
+@media screen and (max-width: 966px) {
+    .page4__main__wrap {
+        height: 127em;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .page4__main__wrap {
+        height: 130em;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .page4__main__wrap {
+        height: 140em;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .page4__main__wrap {
+        height: 155em;
     }
 }
 

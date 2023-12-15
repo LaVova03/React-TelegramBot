@@ -25,7 +25,7 @@ const Page9Fond = () => {
         if (modal) {
             setTimeout(() => {
                 setModal(false)
-            },5000)
+            }, 5000)
         }
     }, [modal])
 
@@ -38,42 +38,71 @@ const Page9Fond = () => {
     };
 
     const handleChange = (e) => {
-        setData({
-            ...data,
-            [e.target.name]: e.target.value
-        });
-    };
+
+        const value = e.target.value;
+        const regexName = /^[a-zA-Zа-яА-ЯєЄїЇіІ]*$/;
+        const regexPhone = /^[+0-9()\s]+$/;
+
+        if (e.target.name === 'name') {
+            if (regexName.test(value)) {
+                setData({
+                    ...data,
+                    [e.target.name]: e.target.value
+                });
+            }
+        } else if (e.target.name === 'phone') {
+            if (regexPhone.test(value) || value === '') {
+                setData({
+                    ...data,
+                    [e.target.name]: e.target.value
+                });
+            }
+        } else if (e.target.name === 'email') {
+            setData({
+                ...data,
+                [e.target.name]: e.target.value
+            });
+        } else if (e.target.name === 'message') {
+            setData({
+                ...data,
+                [e.target.name]: e.target.value
+            });
+        }
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (data.name && data.phone && data.email) {
-            SetTelegram(data)
+
+        const regexEmail = /@/;
+        if (regexEmail.test(data.email)) {
+            if (data.name && data.phone && data.email) {
+                SetTelegram(data)
+                const emptyFieldsObj = {
+                    name: data.name.trim() === '',
+                    phone: data.phone.trim() === '',
+                    email: data.email.trim() === '',
+                };
+                setEmptyFields(emptyFieldsObj);
+
+                if (data.name && data.phone && data.email) {
+                    setData({
+                        name: '',
+                        phone: '',
+                        email: '',
+                        message: '',
+                    });
+
+                    setModal(true)
+
+                    setEmptyFields({
+                        name: false,
+                        phone: false,
+                        email: false,
+                    });
+                }
+            };
         }
-
-        const emptyFieldsObj = {
-            name: data.name.trim() === '',
-            phone: data.phone.trim() === '',
-            email: data.email.trim() === '',
-        };
-        setEmptyFields(emptyFieldsObj);
-
-        if (data.name && data.phone && data.email) {
-            setData({
-                name: '',
-                phone: '',
-                email: '',
-                message: '',
-            });
-
-            setModal(true)
-
-            setEmptyFields({
-                name: false,
-                phone: false,
-                email: false,
-            });
-        }
-    };
+    }
 
     const scrollToAboutMe = () => {
         window.scrollTo({
@@ -130,6 +159,7 @@ const Page9Fond = () => {
                                 <input
                                     className={emptyFields.name ? 'page9__input1__red' : 'page9__input1'}
                                     type="text"
+                                    maxlength="15"
                                     name='name'
                                     placeholder='  ім’я'
                                     value={data.name}
@@ -139,6 +169,7 @@ const Page9Fond = () => {
                                 <input
                                     className={emptyFields.name ? 'page9__input1__adaptRed' : 'page9__input1__adapt'}
                                     type="text"
+                                    maxlength="15"
                                     name='name'
                                     placeholder='  ім’я'
                                     value={data.name}
@@ -147,12 +178,13 @@ const Page9Fond = () => {
                                 />
                             </div>
                             <div>
-                                <textarea className='page9__textarea__adapt' cols="30" rows="10" placeholder=' повідомлення' name='message' value={data.message} onChange={handleChange}></textarea>
+                                <textarea className='page9__textarea__adapt' maxlength="100" cols="30" rows="10" placeholder=' повідомлення' name='message' value={data.message} onChange={handleChange}></textarea>
                             </div>
                             <div>
                                 <input
                                     className={emptyFields.phone ? 'page9__input2__red' : 'page9__input2'}
                                     type="text"
+                                    maxlength="20"
                                     name='phone'
                                     placeholder='  телефон'
                                     value={data.phone}
@@ -162,6 +194,7 @@ const Page9Fond = () => {
                                 <input
                                     className={emptyFields.phone ? 'page9__input2__adaptRed' : 'page9__input2__adapt'}
                                     type="text"
+                                    maxlength="20"
                                     name='phone'
                                     placeholder='  телефон'
                                     value={data.phone}
@@ -173,6 +206,7 @@ const Page9Fond = () => {
                         <input
                             className={emptyFields.email ? 'page9__input3__red' : 'page9__input3'}
                             type="text"
+                            maxlength="30"
                             name='email'
                             placeholder='  електронна адреса'
                             value={data.email}
@@ -182,6 +216,7 @@ const Page9Fond = () => {
                         <input
                             className={emptyFields.email ? 'page9__input3__adaptRed' : 'page9__input3__adapt'}
                             type="text"
+                            maxlength="30"
                             name='email'
                             placeholder='  електронна адреса'
                             value={data.email}

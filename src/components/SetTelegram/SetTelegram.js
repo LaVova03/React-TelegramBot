@@ -8,7 +8,7 @@ const SetTelegram = async (data) => {
         const response = await axios.post(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
             chat_id: chatId,
             text: `
-                New Client:
+                    New Client:
                     Name: ${data.name}
                     Phone: ${data.phone}
                     Email: ${data.email}

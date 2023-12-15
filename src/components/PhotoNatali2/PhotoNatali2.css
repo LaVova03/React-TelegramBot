@@ -109,7 +109,8 @@
 }
 
 .page2__principles {
-    width: 44vw;
+    position: relative;
+    width: 45vw;
     color: var(--lite-gold, #D2B281);
     font-family: Poiret One;
     font-size: 72px;
@@ -121,7 +122,7 @@
     text-align: right;
     margin-left: 0;
     margin-bottom: 104px;
-    padding-left: 0px;
+    left: 2vw;
 }
 
 .page2__principles__grid {
@@ -186,6 +187,35 @@
     display: none;
 }
 
+
+
+@media screen and (max-width: 1300px) {
+    .page2__principles {
+        left: 7vw;
+    }
+
+    .page2__principles__grid ul:nth-of-type(2n+1) {
+        display: flex;
+        position: relative;
+        justify-content: left;
+        margin-right: 0;
+        margin-top: 0;
+        left: 0px;
+    }
+
+    .page2__principles__grid ul:nth-of-type(2n) {
+        display: flex;
+        justify-content: left;
+        margin-left: 40px;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .page2__grid__li {
+        width: 80vw;
+    }
+}
+
 @media screen and (max-width: 1298px) {
     .page2__profile__wrap {
         margin-top: -1em;
@@ -194,7 +224,7 @@
     .page2__principles {
         display: flex;
         white-space: nowrap;
-        margin-left: 5vw;
+        margin-left: 2vw;
     }
 
     .page2__principles__grid {
@@ -207,6 +237,12 @@
 
     .page2__natali__wrap {
         height: 153em;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .page2__principles {
+        left: 2vw;
     }
 }
 
@@ -406,6 +442,7 @@
     .page2__principles {
         position: relative;
         top: -745px;
+        left: 1vw;
         display: flex;
         width: 260.156px;
         height: 23.958px;

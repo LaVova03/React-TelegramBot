@@ -212,12 +212,6 @@
 
 @media screen and (max-width: 1302px) {
     .page7__vertical__line {
-        height: 83rem;
-    }
-}
-
-@media screen and (max-width: 1302px) {
-    .page7__vertical__line {
         height: 82rem;
     }
 }
@@ -313,7 +307,7 @@
 
     .page7__vertical__line {
         position: absolute;
-        left: 78px;
+        left: 108px;
         top: 128px;
         transform: rotate(0deg);
         width: 0.26px;
@@ -451,7 +445,7 @@
         margin-bottom: 0;
         height: 625px;
         width: max-content;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .page7__li__year {
@@ -712,6 +706,10 @@
         height: 625px;
         width: max-content;
         margin-left: 20px;
+    }
+
+    .page7__vertical__line {
+        left: 78px;
     }
 
     .page7__head {

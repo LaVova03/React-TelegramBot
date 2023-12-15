@@ -106,6 +106,8 @@
 }
 
 .page9__form {
+    display: flex;
+    justify-content: center;
     color: white;
     margin-top: 640px;
     width: 750px;
@@ -188,10 +190,10 @@
 
 .page9__input1 {
     font-size: 18px;
-    width: 20vw;
+    width: 20.5vw;
     height: 52px;
     flex-shrink: 0;
-    margin-right: 24px;
+    margin-right: 1vw;
     background: var(--lite-grey, #C5C4C4);
     margin-bottom: 63px;
     text-align: center;
@@ -378,6 +380,52 @@
 
     .page9__head__wrap {
         margin-left: 57px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .page9__form__flex {
+        display: block;
+        width: max-content;
+    }
+
+    .page9__form {
+        color: white;
+        margin-top: 38px;
+        width: 100vw;
+    }
+
+    .page9__head__wrap {
+        float: none;
+        height: max-content;
+        margin: 0 auto;
+        width: 96vw;
+    }
+
+    .page9__form__card {
+        display: block;
+    }
+
+    .page9__textarea {
+        position: relative;
+        left: 0;
+        width: 90vw;
+        margin: 0 auto;
+        margin-bottom: 63px;
+    }
+
+    .page9__input3,
+    .page9__input2,
+    .page9__input1 {
+        width: 90vw;
+    }
+
+    .page9__final__div {
+        margin: 136px 0 0 0;
+    }
+
+    .page9__wrap {
+        height: 2445px;
     }
 }
 
