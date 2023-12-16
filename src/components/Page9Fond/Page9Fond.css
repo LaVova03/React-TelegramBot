@@ -314,7 +314,7 @@
 }
 
 .page9__final__div {
-    height: 164px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     color: var(--white, #FFF);
@@ -425,7 +425,7 @@
     }
 
     .page9__wrap {
-        height: 2445px;
+        height: auto;
     }
 }
 
@@ -436,7 +436,7 @@
         background-image: url(../../assets/page9/adapt/fon.png);
         background-color: black;
         width: 100vw;
-        height: 109em;
+        height: auto;
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: 106%;
@@ -735,7 +735,7 @@
     .page9__final__div {
         display: block;
         width: 100vw;
-        height: 40vw;
+        height: auto;
         justify-content: space-between;
         color: var(--white, #FFF);
         font-family: Montserrat;
@@ -783,29 +783,26 @@
     }
 }
 
-
-
-@media screen and (max-width:415px) {
-    .page9__wrap {
-        height: 417vw;
+@media screen and (max-width:430px) {
+    .page9__final__div {
+        height: auto;
     }
 }
 
-@media screen and (max-width:390px) {
-    .page9__wrap {
-        height: 425vw;
+@media screen and (max-width:414px) {
+    .page9__final__div {
+        height: auto;
     }
 }
 
-
-@media screen and (max-width:376px) {
-    .page9__wrap {
-        height: 395vw;
+@media screen and (max-width:375px) {
+    .page9__final__div {
+        height: auto;
     }
 }
 
 @media screen and (max-width:360px) {
-    .page9__wrap {
-        height: 430vw;
+    .page9__final__div {
+        height: auto;
     }
 }

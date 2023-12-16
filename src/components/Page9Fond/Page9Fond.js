@@ -29,15 +29,14 @@ const Page9Fond = () => {
         }
     }, [modal])
 
-    const handleBlur = (e) => {
-        const { name, value } = e.target;
+    const handleChange = (e) => {
+
         setEmptyFields({
             ...emptyFields,
-            [name]: value.trim() === ''
-        });
-    };
-
-    const handleChange = (e) => {
+            name: false,
+            phone: false,
+            email: false,
+        })
 
         const value = e.target.value;
         const regexName = /^[a-zA-Zа-яА-ЯєЄїЇіІ]*$/;
@@ -101,12 +100,32 @@ const Page9Fond = () => {
                     });
                 }
             };
+        } else if (!data.name || !data.phone || !data.email) {
+            for (let key in data) {
+                if (!data[key]) {
+                    for (let j in emptyFields) {
+                        if (j === key) {
+                            setEmptyFields(prevState => {
+                                return {
+                                    ...prevState,
+                                    [key]: true,
+                                };
+                            });
+                        }
+                    }
+                }
+            }
+        } else {
+            setEmptyFields({
+                ...emptyFields,
+                email: true,
+            });
         }
     }
 
     const scrollToAboutMe = () => {
         window.scrollTo({
-            top: 1250,
+            top: 1150,
             behavior: 'smooth'
         });
     };
@@ -164,7 +183,6 @@ const Page9Fond = () => {
                                     placeholder='  ім’я'
                                     value={data.name}
                                     onChange={handleChange}
-                                    onBlur={handleBlur}
                                 />
                                 <input
                                     className={emptyFields.name ? 'page9__input1__adaptRed' : 'page9__input1__adapt'}
@@ -174,7 +192,6 @@ const Page9Fond = () => {
                                     placeholder='  ім’я'
                                     value={data.name}
                                     onChange={handleChange}
-                                    onBlur={handleBlur}
                                 />
                             </div>
                             <div>
@@ -189,7 +206,6 @@ const Page9Fond = () => {
                                     placeholder='  телефон'
                                     value={data.phone}
                                     onChange={handleChange}
-                                    onBlur={handleBlur}
                                 />
                                 <input
                                     className={emptyFields.phone ? 'page9__input2__adaptRed' : 'page9__input2__adapt'}
@@ -199,7 +215,6 @@ const Page9Fond = () => {
                                     placeholder='  телефон'
                                     value={data.phone}
                                     onChange={handleChange}
-                                    onBlur={handleBlur}
                                 />
                             </div>
                         </div>
@@ -211,7 +226,6 @@ const Page9Fond = () => {
                             placeholder='  електронна адреса'
                             value={data.email}
                             onChange={handleChange}
-                            onBlur={handleBlur}
                         />
                         <input
                             className={emptyFields.email ? 'page9__input3__adaptRed' : 'page9__input3__adapt'}
@@ -221,7 +235,6 @@ const Page9Fond = () => {
                             placeholder='  електронна адреса'
                             value={data.email}
                             onChange={handleChange}
-                            onBlur={handleBlur}
                         />
                         <textarea className='page9__textarea' maxLength="400" cols="30" rows="10" placeholder=' Повідомлення' name='message' value={data.message} onChange={handleChange} ></textarea>
                         {modal ? <DoneModal /> : null}
