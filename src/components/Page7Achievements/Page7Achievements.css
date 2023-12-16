@@ -107,11 +107,11 @@
 
 .page7__vertical__line {
     position: absolute;
-    left: 50vw;
-    top: 465px;
+    height: 74em;
+    top: 37em;
+    left: 49.3vw;
     transform: rotate(0deg);
     width: 1px;
-    height: 78rem;
     background: var(--sun, #FFE49A);
     -webkit-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -189,9 +189,80 @@
     display: none;
 }
 
+@media screen and (max-width: 2600px) {
+    .page7__vertical__line {
+        height: 73em;
+        top: 37em;
+        left: 49.3vw;
+    }
+}
+
+@media screen and (max-width: 2400px) {
+    .page7__vertical__line {
+        height: 73em;
+        top: 37em;
+        left: 49.3vw;
+    }
+}
+
+@media screen and (max-width: 2300px) {
+    .page7__vertical__line {
+        height: 74em;
+        top: 36em;
+    }
+}
+
+@media screen and (max-width: 2100px) {
+    .page7__vertical__line {
+        height: 73em;
+        top: 34em;
+        left: 49.5vw;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .page7__vertical__line {
+        height: 74em;
+        top: 33em;
+        left: 49.6vw;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .page7__vertical__line {
+        height: 76em;
+        top: 31em;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .page7__vertical__line {
+        height: 77em;
+        top: 31em;
+        left: 49.8vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .page7__vertical__line {
+        height: 77em;
+        top: 31em;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .page7__vertical__line {
+        height: 77em;
+        top: 29em;
+        left: 50vw;
+    }
+}
+
 @media screen and (max-width: 1415px) {
     .page7__vertical__line {
-        height: 82rem;
+        height: 79em;
+        top: 29em;
+        left: 50.2vw;
     }
 }
 
@@ -203,6 +274,7 @@
     .page7__vertical__line {
         top: 450px;
         height: 79rem;
+        left: 50vw;
     }
 
     .page7__disk__2020 {
@@ -215,6 +287,13 @@
         height: 82rem;
     }
 }
+
+@media screen and (max-width: 1290px) {
+    .page7__disk__2022 {
+        top: 18.5em;
+    }
+}
+
 
 @media screen and (max-width: 1100px) {
     .page7__li__textright {
@@ -377,7 +456,7 @@
         position: absolute;
         display: flex;
         margin-left: -16px;
-        top: 17.9em;
+        top: 18.5em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -815,7 +894,7 @@
     }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 635px) {
 
     .page7__disk__2019 {
         top: 55.7em;
