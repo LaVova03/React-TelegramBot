@@ -1,9 +1,9 @@
 .page6__main__wrap {
     position: relative;
     background: #111010;
-    height: 1060px;
+    height: 888px;
     padding-top: 100px;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 .page6__card {
@@ -11,16 +11,17 @@
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    height: 109.5vh;
+    height: 886px;
     flex-shrink: 0;
     border: 1px solid #e7c9a3;
     margin: 0 auto;
+    top: 97px;
 }
 
 .page6__card__photo {
     width: 794px;
     position: relative;
-    top: 0;
+    top: -174px;
     left: -70px;
     background-image: url(../../assets/page6/548A1680-2-transformed\ 1.png);
     background-size: 706px 1057px;
@@ -36,7 +37,7 @@
     left: 0;
     color: var(--white, #fff);
     font-family: Poiret One;
-    font-size: 4.8vw;
+    font-size: 72px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -50,7 +51,7 @@
     left: 0;
     color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
-    font-size: 1.6vw;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
@@ -70,7 +71,7 @@
 .page6__span {
     color: var(--sun_gold, #ffd89d);
     font-family: Montserrat;
-    font-size: 1.6vw;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
@@ -84,7 +85,7 @@
     left: 30px;
     color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
-    font-size: 1.6vw;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
@@ -109,15 +110,107 @@
     display: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1377px) {
     .page6__main__wrap {
-        height: 118vw;
+        position: relative;
+        background: #111010;
+        height: 900px;
+        padding-top: 100px;
+        margin-top: -2px;
+    }
+
+    .page6__card {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 898px;
+        flex-shrink: 0;
+        border: 1px solid #e7c9a3;
+        margin: 0 auto;
+        top: 97px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .page6__card__photo {
+        width: 794px;
+        position: relative;
+        top: -160px;
+    }
+}
+
+@media screen and (max-width: 1324px) {
+    .page6__main__wrap {
+        position: relative;
+        background: #111010;
+        height: 1000px;
+        padding-top: 100px;
+        margin-top: -2px;
+    }
+
+    .page6__card {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 998px;
+        flex-shrink: 0;
+        border: 1px solid #e7c9a3;
+        margin: 0 auto;
+        top: 97px;
+    }
+
+    .page6__card__photo {
+        width: 794px;
+        position: relative;
+        top: -60px;
+    }
+}
+
+@media screen and (max-width: 1296px) {
+    .page6__main__wrap {
+        position: relative;
+        background: #111010;
+        height: 1100px;
+        padding-top: 100px;
+        margin-top: -2px;
+    }
+
+    .page6__card {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 1098px;
+        flex-shrink: 0;
+        border: 1px solid #e7c9a3;
+        margin: 0 auto;
+        top: 97px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .page6__card__photo {
+        width: 794px;
+        position: relative;
+        top: 41px;
+    }
+}
+
+@media screen and (max-width: 1238px) {
+    .page6__main__wrap {
+        height: 907px;
     }
 
     .page6__wrap__card {
         position: absolute;
         left: 20px;
-        top: 240px;
+        top: 19px;
     }
 
     .page6__fuckup {
@@ -125,7 +218,16 @@
     }
 
     .page6__text__ul li {
-        width: 80vw;
+        width: 77vw;
+    }
+    .page6__card__photo {
+        width: 794px;
+        position: relative;
+        top: -152px;
+    }
+
+    .page6__card {
+        height: 906px;
     }
 }
 
