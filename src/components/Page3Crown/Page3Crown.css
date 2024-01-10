@@ -1,16 +1,17 @@
 .page3__photo__wrap {
     display: flex;
-    background-image: url(../../assets/page3/crown.png);
+    background-image: url(../../assets/page3/crown.jpg);
     justify-content: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
     align-items: center;
     margin-top: -1px;
 }
 
 .page3__text {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     width: 100%;
     text-align: center;
     font-family: Liana;
@@ -25,10 +26,10 @@
     text-align: center;
     display: flex;
     align-items: center;
-    width: 90%;
-    height: 560px;
+    width: 92%;
+    height: 81%;
     flex-shrink: 0;
-    border: 0.26px solid #E7C9A3;
+    border: 0.26px solid #e7c9a3;
 }
 
 .shrift__point {
@@ -41,8 +42,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1270px){
-
+@media screen and (max-width: 1270px) {
 }
 
 @media screen and (max-width: 767px) {
@@ -67,14 +67,15 @@
 
     .page3__text {
         display: flex;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         justify-content: center;
         font-family: Liana;
         font-size: 16.667px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        align-items: center;        text-align: center;
+        align-items: center;
+        text-align: center;
         font-family: Liana;
         font-size: 16.667px;
         font-style: normal;
@@ -88,7 +89,7 @@
         width: 90%;
         height: 138.021px;
         flex-shrink: 0;
-        border: 0.26px solid #E7C9A3;
+        border: 0.26px solid #e7c9a3;
     }
 
     .page4__br__adapt {

@@ -1,5 +1,5 @@
 import './Page9Fond.css';
-import Photo from '../../assets/page9/natali.png';
+import Photo from '../../assets/page9/548A1622 (1) 1.png';
 import React, { useState, useEffect } from 'react';
 import SetTelegram from '../SetTelegram/SetTelegram';
 import DoneModal from './../DoneModal/DoneModal';
@@ -132,7 +132,7 @@ const Page9Fond = () => {
 
     const scrollToOffers = () => {
         window.scrollTo({
-            top: 4050,
+            top: 4220,
             behavior: 'smooth'
         });
     };
@@ -155,7 +155,7 @@ const Page9Fond = () => {
                         ФОНД<br />ДЛЯ СТАРТАПІВ
                         <ul className='page9__card__ul'>
                             <li className='page9__card__li'><span className='page9__card__span'>10%</span> від доходу буде направлено на <br className='page9__br__adapt' /><span className='page9__card__span'>запуск нових стартапів.</span></li>
-                            <li className='page9__card__li'>При накопиченні «в гаманці» суми від <span className='page9__span__yellow'><br className='page9__br__adapt' />100тис грн. </span><br className='page9__br' />ми будемо оголошувати конкурс для бажаючих<br className='page9__br' />отримати таку інвестицію.</li>
+                            <li className='page9__card__li'>При накопиченні «в гаманці» суми від <span className='page9__span__yellow'><br className='page9__br__adapt' />100 тис грн </span><br className='page9__br' />ми будемо оголошувати конкурс для бажаючих<br className='page9__br' />отримати таку інвестицію.</li>
                             <li className='page9__card__li'>Правила конкурсу будуть надруковані відразу перед<br className='page9__br' />запуском першого етапу.</li>
                         </ul>
                     </div>
@@ -168,7 +168,7 @@ const Page9Fond = () => {
                         Коли,<br />як не зараз?
                     </div>
                     <div className='page9__text__form'>
-                        Залишити заявку з Вашим описом<br className='page9__br' />питань, щоб наш консультант<br className='page9__br' />зв’язався з Вами
+                        Залишити заявку з Вашим описом питань, щоб наш менеджер зв’язався з Вами
                     </div>
                 </div>
                 <div className='page9__form'>
@@ -236,7 +236,7 @@ const Page9Fond = () => {
                             value={data.email}
                             onChange={handleChange}
                         />
-                        <textarea className='page9__textarea' maxLength="400" cols="30" rows="10" placeholder=' Повідомлення' name='message' value={data.message} onChange={handleChange} ></textarea>
+                        <textarea className='page9__textarea' maxLength="400" cols="30" rows="10" placeholder=' повідомлення' name='message' value={data.message} onChange={handleChange} ></textarea>
                         {modal ? <DoneModal /> : null}
                         <button type='submit' className='page9__form__button'>Консультація</button>
                     </form>

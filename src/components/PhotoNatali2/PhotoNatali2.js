@@ -27,7 +27,7 @@ const PhotoNatali2 = () => {
         },
         {
             id: 6,
-            text: 'Немає нічного неможливого.\nПросто на щось потрібно більше часу',
+            text: 'Немає нічого неможливого.\nПросто на щось потрібно більше часу',
         },
         {
             id: 7,
@@ -92,7 +92,7 @@ const PhotoNatali2 = () => {
                         </ul>
                     </li>
                     <li id='page2__expereanse'>
-                        Майже 15 років досвіду в<br className='page2__br__adapt' />сфері маркетингу та бізнесу.<br />
+                        Майже 15 років досвіду в <br className='page2__br__adapt' />сфері маркетингу та бізнесу.<br />
                         І це чудесна гра.<br />
                         Якщо чогось дійсно хочу - йду до кінця.
                     </li>
@@ -108,14 +108,16 @@ const PhotoNatali2 = () => {
                             </li>
                             <li>
                                 <div className='page2__experience__old'>14</div>
-                                проектів
+                                проєктів
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div className='page2__background__adapt'></div>
-            <div className='page2__principles'>МОЇ  ПРИНЦИПИ</div>
+            <div className='page2__principles'>
+                <div>МОЇ  ПРИНЦИПИ</div>
+            </div>
             <div className='page2__principles__grid'>
                 {principles.map(el => {
                     return (

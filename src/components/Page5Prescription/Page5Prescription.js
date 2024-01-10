@@ -13,13 +13,13 @@ const Page5Prescription = () => {
                 <div className="page5__head__text">
                     <div className="page5__head__flex">
                         <div className="page5__text__white">
-                            Ознайомча консультація до 1 год –
+                            Ознайомча консультація до 1 години –
                         </div>
                         <div className="page5__text__yellow">
                             &nbsp;безкоштовно.
                         </div>
                     </div>
-                    <div className="page5__text__bottom">Подальші консультації, при заключенні контракту<br className='page5__br__adapt'/>не рахуються по окремій вартості.</div>
+                    <div className="page5__text__bottom">Подальші консультації, при заключенні контракту<br className='page5__br__adapt' /> не рахуються по окремій вартості.</div>
                 </div>
             </div>
         </div>

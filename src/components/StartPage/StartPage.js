@@ -1,7 +1,6 @@
 import './StartPage.css';
 import React, { useState } from 'react';
-import Natali from '../../assets/page1/adapt/Natali.png';
-import Natali1 from '../../assets/page1/adapt/Natali1.png';
+import Natali from '../../assets/page1/foto_Natali_1.png';
 import { isMobile } from 'react-device-detect';
 
 const StartPage = () => {
@@ -18,7 +17,7 @@ const StartPage = () => {
     };
 
     const scrollToOffers = () => {
-        const scrollHeight = isMobile ? 2220 : 4000;
+        const scrollHeight = isMobile ? 2220 : 4170;
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -27,7 +26,7 @@ const StartPage = () => {
     };
 
     const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5380 : 10700;
+        const scrollHeight = isMobile ? 5380 : 11050;
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -57,13 +56,12 @@ const StartPage = () => {
             <div className='start__page__head'>
                 <ul className='start-ul-head'>
                     <li className='logo-img'>
-                        <div className='text-logo'>NATALI AKTIBAEVA</div>
                     </li>
                     <li>
                         <ul className='start-head-center'>
                             <li className='head-center-li'><button className='start-head-link' onClick={scrollToAboutMe} >Про мене</button></li>
                             <li className='head-center-li'><button className='start-head-link' onClick={scrollToOffers}>Пропозиції</button></li>
-                            <li className='head-center-li'><button className='start-head-link' onClick={scrollToFeedback}>Звортній зв`язок</button></li>
+                            <li className='head-center-li'><button className='start-head-link' onClick={scrollToFeedback}>Зворотній зв`язок</button></li>
                         </ul>
                     </li>
                     <li className='start-head-right'>
@@ -95,7 +93,7 @@ const StartPage = () => {
                 </div>
                 <div className='start-body-right'>
                     <img className='natali-logo' src={Natali} alt="logo" />
-                    <img className='natali-logo__adapt' src={Natali1} alt="logo" />
+                    <img className='natali-logo__adapt' src={Natali} alt="logo" />
                 </div>
             </div>
         </div >

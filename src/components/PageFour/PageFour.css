@@ -1,12 +1,12 @@
 .page4__main__wrap {
     background: #111010;
-    height: 93em;
+    height: 97em;
     padding: 8.5em 5.18em 0;
 }
 
 .page4__head__services {
     width: 490px;
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Poiret One;
     font-size: 69px;
     font-style: normal;
@@ -29,6 +29,8 @@
 }
 
 .page4__grid__line {
+    position: relative;
+    top: 5px;
     width: 87vw;
     height: 1px;
     background: #565656;
@@ -36,19 +38,19 @@
 
 .page4__services__grid li:nth-of-type(2n) {
     width: 37vw;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 125.2%;
+    line-height: 135%;
     margin-top: 40px;
-    margin-bottom: 59px;
+    margin-bottom: 80px;
     text-align: left;
     margin-left: 100px;
 }
 
-.page4__services__grid li:nth-of-type(2n+1) {
+.page4__services__grid li:nth-of-type(2n + 1) {
     width: 490px;
     margin-right: 100px;
 }
@@ -61,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #312F2F;
+    color: #312f2f;
     font-family: Montserrat Bold;
     font-size: 220px;
     font-style: normal;
@@ -72,14 +74,14 @@
 
 .page4__grid__div2 {
     position: absolute;
-    color: var(--lite-gold, #D2B281);
-    font-family: Montserrat;
+    color: var(--lite-gold, #d2b281);
+    font-family: Montserrat Medium;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
     text-transform: uppercase;
-    margin-left: 214px;
+    margin-left: 216px;
     margin-top: 44px;
 }
 
@@ -94,7 +96,7 @@
         margin-left: 0;
     }
 
-    .page4__services__grid li:nth-of-type(2n+1) {
+    .page4__services__grid li:nth-of-type(2n + 1) {
         margin-right: 80px;
     }
 
@@ -104,8 +106,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-
-    .page4__services__grid li:nth-of-type(2n+1) {
+    .page4__services__grid li:nth-of-type(2n + 1) {
         margin-right: 30px;
     }
 
@@ -122,7 +123,7 @@
         margin-top: 165px;
     }
 
-    .page4__services__grid li:nth-of-type(2n+1) {
+    .page4__services__grid li:nth-of-type(2n + 1) {
         width: 40vw;
     }
 
@@ -167,7 +168,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
     .page4__main__wrap {
         background: #111010;
         width: 100vw;
@@ -183,7 +183,7 @@
 
     .page4__head__services {
         width: 215px;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         font-family: Poiret One;
         font-size: 28px;
         font-style: normal;
@@ -203,7 +203,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--grey, #312F2F);
+        color: var(--grey, #312f2f);
         font-family: Montserrat;
         font-size: 57.292px;
         font-style: normal;
@@ -220,7 +220,7 @@
         width: 77%;
         height: 27px;
         position: absolute;
-        color: var(--lite-gold, #D2B281);
+        color: var(--lite-gold, #d2b281);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -242,7 +242,7 @@
     .page4__services__grid li:nth-of-type(2n) {
         display: flex;
         width: 95%;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -267,5 +267,11 @@
 @media screen and (max-width: 500px) {
     .page4__main__wrap {
         height: 910px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .page4__main__wrap {
+        height: 1000px;
     }
 }

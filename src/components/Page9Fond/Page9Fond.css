@@ -1,6 +1,6 @@
 .page9__wrap {
     position: relative;
-    background-image: url(../../assets/page9/monochrome.png);
+    background-image: url(../../assets/page9/board-game.png);
     height: auto;
     flex-shrink: 0;
     justify-content: center;
@@ -16,7 +16,7 @@
     width: 90%;
     height: 750px;
     flex-shrink: 0;
-    border: 1px solid #E7C9A3;
+    border: 1px solid #e7c9a3;
 }
 
 .page9__card__head {
@@ -38,7 +38,7 @@
 
 .page9__card__photo {
     position: absolute;
-    right: -75px;
+    right: -90px;
     top: -112px;
     width: 772px;
     height: 862px;
@@ -46,7 +46,7 @@
 
 .page9__card__ul {
     width: 84vw;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -64,16 +64,16 @@
 }
 
 .page9__card__span {
-    color: var(--sun, #FFE49A);
+    color: var(--sun_gold, #ffd89d);
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
 }
 
 .page9__head__form {
-    color: var(--lite-gold, #D2B281);
+    color: var(--lite-gold, #d2b281);
     font-family: Poiret One;
     font-size: 72px;
     font-style: normal;
@@ -86,15 +86,15 @@
 }
 
 .page9__text__form {
-    color: var(--lite-grey, #C5C4C4);
-    font-family: Montserrat;
+    color: var(--lite-grey, #c5c4c4);
+    font-family: Montserrat Medium;
     font-size: 1.8vw;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
     margin-left: 0;
     margin-top: 60px;
-    width: 496px;
+    width: 34vw;
     text-align: left;
 }
 
@@ -110,7 +110,7 @@
     justify-content: center;
     color: white;
     margin-top: 640px;
-    width: 750px;
+    width: 50%;
 }
 
 .page9__form__button {
@@ -122,12 +122,12 @@
     align-items: center;
     gap: 0.6em;
     flex-shrink: 0;
-    background: var(--sun_gold, #FFD89D);
+    background: var(--sun_gold, #ffd89d);
     border: 0;
-    color: #312F2F;
-    box-shadow: 0px 4px 30px 0px #FFE49A;
+    color: #312f2f;
+    box-shadow: 0px 4px 30px 0px #ffe49a;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat Medium;
     font-size: 1.75em;
     font-style: normal;
     font-weight: 500;
@@ -138,17 +138,15 @@
 
 .page9__form__button:hover {
     display: flex;
-    width: 319px;
-    height: 89px;
     padding: 14px 64px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-    background: var(--gold, #EDBD51);
+    background: var(--gold, #edbd51);
     border: 0;
-    color: var(--white, #FFF);
-    box-shadow: 0px 4px 30px 0px #FFE49A;
+    color: var(--white, #fff);
+    box-shadow: 0px 4px 30px 0px #ffe49a;
     text-align: center;
     font-family: Montserrat;
     font-size: 28px;
@@ -160,16 +158,15 @@
 }
 
 .page9__form__button:active {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     text-align: center;
     font-family: Montserrat;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    background: var(--lite-gold, #D2B281);
-    box-shadow: 0px 4px 30px 0px #FFE49A;
-
+    background: var(--lite-gold, #d2b281);
+    box-shadow: 0px 4px 30px 0px #ffe49a;
 }
 
 .page9__form__flex {
@@ -179,7 +176,7 @@
 }
 
 .page9__lable {
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     text-align: center;
     font-family: Montserrat;
     font-size: 16px;
@@ -189,79 +186,105 @@
 }
 
 .page9__input1 {
-    font-size: 18px;
+    color: var(--grey, #312f2f);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     width: 20.5vw;
     height: 52px;
     flex-shrink: 0;
     margin-right: 1vw;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
-    text-align: center;
 }
 
 .page9__input1__red {
-    font-size: 18px;
+    font-size: 16px;
     width: 20vw;
     height: 52px;
     flex-shrink: 0;
     margin-right: 24px;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
     border: 2px solid red;
     text-align: center;
 }
 
 .page9__input2 {
-    font-size: 18px;
+    color: var(--grey, #312F2F);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     width: 27vw;
     height: 52px;
     flex-shrink: 0;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
-    text-align: center;
 }
 
 .page9__input2__red {
-    font-size: 18px;
+    font-size: 16px;
     width: 27vw;
     height: 52px;
     flex-shrink: 0;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
     border: 2px solid red;
     text-align: center;
 }
 
 .page9__input3 {
-    font-size: 18px;
+    color: var(--grey, #312F2F);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     width: 49vw;
     height: 52px;
     flex-shrink: 0;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
-    text-align: center;
 }
 
 .page9__input3__red {
+    font-size: 16px;
     width: 49vw;
-    font-size: 18px;
     height: 52px;
     flex-shrink: 0;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
     border: 2px solid red;
     text-align: center;
 }
 
 .page9__textarea {
-    font-size: 18px;
-    width: 49vw;
-    height: 134px;
+    width: 48vw;
+    height: 124px;
     flex-shrink: 0;
-    background: var(--lite-grey, #C5C4C4);
+    background: var(--lite-grey, #c5c4c4);
     margin-bottom: 63px;
     text-align: left;
-    padding-top: 10px;
+    padding: 10px;
+    color: var(--grey, #312f2f);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page9__textarea::placeholder {
+    text-align: center;
+    padding-left: 0;
 }
 
 .page9__form__card {
@@ -282,7 +305,7 @@
     border: 0;
     background: none;
     cursor: pointer;
-    background-image: url('../../assets/page9/fb.svg');
+    background-image: url("../../assets/page9/fb.svg");
 }
 
 .page9__btn__social1:hover {
@@ -302,7 +325,7 @@
     border: 0;
     background: none;
     cursor: pointer;
-    background-image: url('../../assets/page9/inst.svg');
+    background-image: url("../../assets/page9/inst.svg");
 }
 
 .page9__btn__social2:hover {
@@ -317,7 +340,7 @@
     height: auto;
     display: flex;
     justify-content: space-between;
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
@@ -348,16 +371,16 @@
     background-color: #000;
     border: 0;
     cursor: pointer;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-size: 16px;
 }
 
 .page9__final__button:hover {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
 }
 
 .page9__final__button:active {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-weight: 600;
 }
 
@@ -373,7 +396,7 @@
     display: none;
 }
 
-@media screen and (max-width:1326px) {
+@media screen and (max-width: 1326px) {
     .page9__form {
         margin-right: 50px;
     }
@@ -383,7 +406,7 @@
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     .page9__form__flex {
         display: block;
         width: max-content;
@@ -429,8 +452,7 @@
     }
 }
 
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .page9__wrap {
         position: relative;
         background-image: url(../../assets/page9/adapt/fon.png);
@@ -457,7 +479,7 @@
         width: 84vw;
         height: 150px;
         flex-shrink: 0;
-        border: 1px solid #E7C9A3;
+        border: 1px solid #e7c9a3;
         padding: 24px 0 19px 28px;
         top: 85px;
     }
@@ -472,7 +494,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         font-family: Poiret One;
         font-size: 28px;
         font-style: normal;
@@ -497,7 +519,7 @@
 
     .page9__card__ul {
         width: 191.146px;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -506,7 +528,7 @@
     }
 
     .page9__card__span {
-        color: var(--sun, #FFE49A);
+        color: var(--sun_gold, #ffd89d);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -552,7 +574,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--lite-gold, #D2B281);
+        color: var(--lite-gold, #d2b281);
         font-family: Poiret One;
         font-size: 28px;
         font-style: normal;
@@ -571,7 +593,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -597,7 +619,7 @@
         height: 40px;
         flex-shrink: 0;
         border-radius: 1.042px;
-        background: #F1F0F0;
+        background: #f1f0f0;
         margin-bottom: 35px;
         font-size: 12px;
         margin: 0 auto 35px;
@@ -610,7 +632,7 @@
         height: 40px;
         flex-shrink: 0;
         border-radius: 1.042px;
-        background: #F1F0F0;
+        background: #f1f0f0;
         margin-bottom: 35px;
         font-size: 12px;
         margin: 0 auto 35px;
@@ -624,7 +646,7 @@
         height: 40px;
         flex-shrink: 0;
         border-radius: 1.042px;
-        background: #F1F0F0;
+        background: #f1f0f0;
         margin-bottom: 35px;
         font-size: 12px;
         margin: 0 auto 35px;
@@ -662,7 +684,7 @@
         height: 89px;
         flex-shrink: 0;
         border-radius: 1.042px;
-        background: #F1F0F0;
+        background: #f1f0f0;
         margin-bottom: 36px;
         margin: 0 auto;
         font-size: 12px;
@@ -682,11 +704,11 @@
         flex-shrink: 0;
         flex-wrap: wrap;
         border-radius: 4px;
-        background: var(--sun_gold, #FFD89D);
-        box-shadow: 0px 4px 30px 0px #FFE49A;
-        color: #312F2F;
+        background: var(--sun_gold, #ffd89d);
+        box-shadow: 0px 4px 30px 0px #ffe49a;
+        color: #312f2f;
         text-align: center;
-        font-family: Montserrat;
+        font-family: Montserrat Medium;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -707,11 +729,11 @@
         flex-shrink: 0;
         flex-wrap: wrap;
         border-radius: 4px;
-        background: var(--sun_gold, #FFD89D);
-        box-shadow: 0px 4px 30px 0px #FFE49A;
-        color: #312F2F;
+        background: var(--sun_gold, #ffd89d);
+        box-shadow: 0px 4px 30px 0px #ffe49a;
+        color: #312f2f;
         text-align: center;
-        font-family: Montserrat;
+        font-family: Montserrat Medium;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -721,15 +743,15 @@
     }
 
     .page9__form__button:active {
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         text-align: center;
-        font-family: Montserrat;
+        font-family: Montserrat Medium  ;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        background: var(--sun_gold, #FFD89D);
-        box-shadow: 0px 4px 30px 0px #FFE49A;
+        background: var(--sun_gold, #ffd89d);
+        box-shadow: 0px 4px 30px 0px #ffe49a;
     }
 
     .page9__final__div {
@@ -737,7 +759,7 @@
         width: 100vw;
         height: auto;
         justify-content: space-between;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         font-family: Montserrat;
         font-size: 12px;
         font-style: normal;
@@ -774,7 +796,7 @@
     }
 
     .page9__span__yellow {
-        color: var(--lite-gold, #D2B281);
+        color: var(--lite-gold, #d2b281);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -783,25 +805,25 @@
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width: 430px) {
     .page9__final__div {
         height: auto;
     }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width: 414px) {
     .page9__final__div {
         height: auto;
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
     .page9__final__div {
         height: auto;
     }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
     .page9__final__div {
         height: auto;
     }

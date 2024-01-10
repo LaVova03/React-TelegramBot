@@ -1,6 +1,6 @@
 .page7__main__wrap {
     position: relative;
-    background-image: url(../../assets/page7/modern.png);
+    background-image: url(../../assets/page7/white_building.png);
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
 }
 
 .page7__head {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Poiret One;
     font-size: 3.5vw;
     font-style: normal;
@@ -22,7 +22,7 @@
 }
 
 .page7__head__span {
-    color: var(--sun, #FFE49A);
+    color: var(--sun_gold, #ffd89d);
     font-family: Poiret One;
     font-size: 3.5vw;
     font-style: normal;
@@ -37,13 +37,13 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     padding: 0;
-    margin-top: 125px;
+    margin-top: 150px;
     height: 1327px;
     margin-bottom: 0;
 }
 
 .page7__li__year {
-    color: var(--sun, #FFE49A);
+    color: var(--sun_gold, #ffd89d);
     font-family: Liana;
     font-size: 48px;
     font-style: normal;
@@ -55,8 +55,8 @@
 .page7__li__text {
     width: 43vw;
     text-align: left;
-    color: var(--lite-grey, #C5C4C4);
-    font-family: Montserrat;
+    color: var(--lite-grey, #c5c4c4);
+    font-family: Montserrat Medium;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -67,8 +67,8 @@
 .page7__li__textright {
     width: 43vw;
     text-align: left;
-    color: var(--lite-grey, #C5C4C4);
-    font-family: Montserrat;
+    color: var(--lite-grey, #c5c4c4);
+    font-family: Montserrat Medium;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -90,7 +90,7 @@
 
 .page7__text__ul,
 .page7__li__year {
-    margin-bottom: 150px;
+    margin-bottom: 160px;
     padding: 0;
 }
 
@@ -112,7 +112,7 @@
     left: 49.3vw;
     transform: rotate(0deg);
     width: 1px;
-    background: var(--sun, #FFE49A);
+    background: var(--sun_gold, #ffd89d);
     -webkit-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -125,7 +125,7 @@
     margin-left: 0;
     position: relative;
     top: -79px;
-    width: 47.9vw;
+    width: 47.71vw;
     text-align: right;
 }
 
@@ -135,22 +135,21 @@
     text-align: left;
     margin-left: -93px;
     position: relative;
-    top: -97px;
+    top: -103px;
 }
 
 .page7__disk__2020 {
     white-space: nowrap;
     position: relative;
-    top: -83px;
+    top: -90px;
     margin: 0 auto;
     text-align: right;
-    width: 47.9vw;
-
+    width: 47.6vw;
 }
 
 .page7__disk__2019 {
     white-space: nowrap;
-    margin-left: -1.9em;
+    margin-left: -1.97em;
     position: relative;
     top: -174px;
     text-align: left;
@@ -164,7 +163,7 @@
 }
 
 #page7__li6 {
-    margin-top: 14px;
+    margin-top: 22px;
 }
 
 #page7__li7 {
@@ -212,7 +211,7 @@
     }
 }
 
-@media screen and (max-width: 2100px) {
+@media screen and (max-width: 2200px) {
     .page7__vertical__line {
         height: 73em;
         top: 34em;
@@ -222,7 +221,7 @@
 
 @media screen and (max-width: 2000px) {
     .page7__vertical__line {
-        height: 74em;
+        height: 73em;
         top: 33em;
         left: 49.6vw;
     }
@@ -230,7 +229,7 @@
 
 @media screen and (max-width: 1800px) {
     .page7__vertical__line {
-        height: 76em;
+        height: 77em;
         top: 31em;
     }
 }
@@ -245,14 +244,33 @@
 
 @media screen and (max-width: 1600px) {
     .page7__vertical__line {
-        height: 77em;
-        top: 31em;
+        height: 80em;
+        top: 32em;
+    }
+    .page7__img__disk {
+        margin: 0 auto;
+        width: 87px;
+        height: 19.799px;
+        flex-shrink: 0;
+    }
+
+    .page7__disk__2020,
+    .page7__disk__2023 {
+        width: 47.5vw;
+    }
+
+    .page7__disk__2022 {
+        margin-left: -87px;
+    }
+
+    .page7__disk__2019 {
+        margin-left: -1.8em;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .page7__vertical__line {
-        height: 77em;
+        height: 79em;
         top: 29em;
         left: 50vw;
     }
@@ -289,24 +307,6 @@
 }
 
 @media screen and (max-width: 1290px) {
-    .page7__disk__2022 {
-        top: 18.5em;
-    }
-}
-
-
-@media screen and (max-width: 1100px) {
-    .page7__li__textright {
-        width: 39vw;
-    }
-
-    .page7__li__text {
-        width: 39vw;
-    }
-}
-
-@media screen and (max-width: 1290px) {
-
     .page7__text__ul,
     .page7__li__year {
         margin-bottom: 150px;
@@ -329,7 +329,7 @@
         width: 100vw;
         height: 740px;
         flex-shrink: 0;
-        padding-top: 55px;
+        padding-top: 150px;
         padding-left: 0;
         padding-right: 0;
         margin-top: -1px;
@@ -344,7 +344,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         font-family: Poiret One;
         font-size: 16px;
         font-style: normal;
@@ -354,7 +354,7 @@
     }
 
     .page7__head__span {
-        color: var(--sun_gold, #FFD89D);
+        color: var(--sun_gold, #ffd89d);
         font-family: Poiret One;
         font-size: 16px;
         font-style: normal;
@@ -376,7 +376,7 @@
 
     .page7__head__span {
         display: contents;
-        color: var(--sun_gold, #FFD89D);
+        color: var(--sun_gold, #ffd89d);
         font-family: Poiret One;
         font-size: 16px;
         font-style: normal;
@@ -390,14 +390,13 @@
         top: 128px;
         transform: rotate(0deg);
         width: 0.26px;
-        height: 36.5em;
-        background: var(--sun, #FFE49A);
+        height: 38.5em;
+        background: var(--sun_gold, #ffd89d);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
     }
-
 
     .page7__li__text {
         margin-top: -8px;
@@ -407,7 +406,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 12px;
         font-style: normal;
@@ -423,7 +422,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 12px;
         font-style: normal;
@@ -442,7 +441,7 @@
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: #ffd89d;
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -463,7 +462,7 @@
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -484,7 +483,7 @@
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -505,7 +504,7 @@
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -569,7 +568,6 @@
         width: 65vw;
     }
 
-
     #page7__li3 ul li:nth-of-type(3) {
         margin-top: -10px;
         width: 65vw;
@@ -611,7 +609,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -625,7 +623,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -639,7 +637,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -653,7 +651,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -667,7 +665,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -681,7 +679,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -695,7 +693,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -709,7 +707,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -723,7 +721,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -737,7 +735,7 @@
         position: relative;
         left: -13px;
         top: 0.8em;
-        background-color: #C5C4C4;
+        background-color: #c5c4c4;
         border-radius: 100px;
         width: 4px;
         -webkit-border-radius: 100px;
@@ -774,6 +772,16 @@
     }
 }
 
+@media screen and (max-width: 1100px) {
+    .page7__li__textright {
+        width: 39vw;
+    }
+
+    .page7__li__text {
+        width: 39vw;
+    }
+}
+
 @media screen and (max-width: 765px) {
     .page7__ul__grid {
         display: block;
@@ -800,7 +808,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         font-family: Poiret One;
         font-size: 16px;
         font-style: normal;
@@ -820,7 +828,7 @@
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -834,14 +842,14 @@
         position: absolute;
         display: flex;
         margin-left: -16px;
-        top: 30.6em;
+        top: 33.3em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -855,14 +863,14 @@
         position: absolute;
         display: flex;
         margin-left: -16px;
-        top: 43.6em;
+        top: 46.5em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -876,14 +884,14 @@
         position: absolute;
         display: flex;
         margin-left: -13px;
-        top: 56.3em;
+        top: 58.5em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffd89d);
         font-family: Liana;
         font-size: 12.5px;
         font-style: normal;
@@ -894,51 +902,52 @@
     }
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 685px) {
+    .page7__disk__2022 {
+        top: 32.8em;
+    }
+}
 
-    .page7__disk__2019 {
-        top: 55.7em;
+@media screen and (max-width: 635px) {
+    .page7__vertical__line {
+        height: 38.3em;
     }
 
-    .page7__vertical__line {
-        height: 35.7em;
+    .page7__disk__2019 {
+        top: 58.5em;
     }
 }
 
 @media screen and (max-width: 548px) {
-    .page7__vertical__line {
-        height: 36em;
-    }
-
-    .page7__disk__2019 {
-        top: 55.8em;
-    }
-
-    .page7__disk__2020 {
-        top: 43.6em;
-    }
-
     .page7__disk__2022 {
-        top: 30em;
+        top: 32.7em;
     }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 444px) {
     .page7__disk__2022 {
-        top: 29.3em;
+        top: 32.1em;
     }
 }
 
-@media screen and (max-width: 330px) {
-    .page7__disk__2022 {
-        top: 28.7em;
+@media screen and (max-width: 362px) {
+    .page7__vertical__line {
+        height: 37.9em;
     }
 
     .page7__disk__2019 {
-        top: 55.2em;
+        top: 58em;
     }
+}
 
-    .page7__vertical__line {
-        height: 35.5em;
+@media screen and (max-width: 349px) {
+    .page7__disk__2022 {
+        top: 31.5em;
+    }
+}
+
+@media screen and (max-width: 329px) {
+    .page7__disk__2022 {
+        top: 31em;
     }
 }

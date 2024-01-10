@@ -29,14 +29,15 @@ const Page7Achievements = () => {
                             Надання послуг консультування бізнесів</li><br /><br /><br />
                         <li className='page7__li__textright'>
                             <img className='page7__img__disc3' src={Disc} alt="logo" />
-                            Ведення ділових переговорів на англійській мові. <br className='page7__br__adapt' />Це особисте, але внесу в професійні. <br className='page7__br__adapt' />Бо такого рівня досягла за останній рік</li>
+                            Ведення ділових переговорів на англійській мові. <br className='page7__br__adapt' />Це особисте, але внесу в професійні. <br />Бо такого рівня досягла за останній рік</li>
+                        <br /><br />
                     </ul>
                 </li>
                 <li id='page7__li3' className='page7__ul__adapt'>
                     <ul className='page7__li__ul'>
                         <li className='page7__li__text'>
                             <img className='page7__img__disc4' src={Disc} alt="logo" />
-                            Вивчення абсолютно нової сфери для себе за півроку: отримала керування рестораном як шеф-повар (абсолютно не моя тема, але що не зробиш для результату)</li><br /><br /><br />
+                            Вивчення абсолютно нової сфери для себе за півроку: отримала керування рестораном як<br /> шеф-повар (абсолютно не моя тема, але що не зробиш для результату)</li><br /><br /><br />
                         <li className='page7__li__text'>
                             <img className='page7__img__disc5' src={Disc} alt="logo" />
                             Онлайн-запуск перевезень по Україні<br />(тимчасовий проект)</li><br /><br /><br />
@@ -65,12 +66,12 @@ const Page7Achievements = () => {
                             Відкриття свого магазину взуття.<br />Відпрацювала та налагодила усі процеси самостійно</li><br /><br /><br />
                         <li className='page7__li__textright'>
                             <img className='page7__img__disc8' src={Disc} alt="logo" />
-                            Запуск кавового бренду з парнером.<br />Цей бренд чекає рестарт, бо він вийшов дійсно класним. <br className='page7__br__adapt' />Скоріше за все рестарт буде лише в Європі. (причина в факап №1)</li>
+                            Запуск кавового бренду з парнером.<br />Цей бренд чекає рестарт, бо він вийшов дійсно класним. <br className='page7__br__adapt' />Скоріше за все рестарт буде лише в Європі (причина в факап №1)</li>
                     </ul>
                 </li>
                 <li id='page7__li6' className='page7__li__text'>
                     <img className='page7__img__disc9' src={Disc} alt="logo" />
-                    Підписання контракту на поставку на 1 млн грн за 1 смс в Фейбуці</li>
+                    Підписання контракту на поставку на<br /> 1 млн грн за 1 смс в Facebook</li>
                 <li id='page7__li7' className='page7__li__year'>
                     <div className='page7__disk__2019'>
                         <label className='page7__lable__year2'>2019</label>

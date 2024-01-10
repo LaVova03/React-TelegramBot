@@ -1,14 +1,17 @@
 .page2__natali__wrap {
     position: relative;
-    background-image: url(../../assets/page2/chess_2.png);
+    background-image: url(../../assets/page2/Foto_fon_chess_2_3.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     height: 142em;
     padding: 1.25em 0 0 0;
+    margin-top: -2px;
 }
 
 .page2__photo__natali {
-    background-image: url(../../assets/page2/Natali_2.png);
+    background-image: url(../../assets/page2/Foto_Natali_2.png);
+    background-size: 549px 866px;
+    background-position: center;
     width: 34.31em;
     height: 866px;
     flex-shrink: 0;
@@ -20,14 +23,16 @@
 
 .page2__float__photo {
     position: absolute;
-    width: 49%;
+    width: max-content;
     color: white;
-    margin: -365px 0px 0 45vw;
+    margin: -365px 0px 0 42vw;
     z-index: 3;
 }
 
 .page2__experience__flex {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     height: 87px;
     flex-direction: row;
     text-align: center;
@@ -38,8 +43,8 @@
     padding: 0;
 }
 
-.page2__profile__head li:nth-of-type(2n+1) {
-    color: var(--white, #FFF);
+.page2__profile__head li:nth-of-type(2n + 1) {
+    color: var(--white, #fff);
     font-family: Liana;
     font-size: 64px;
     font-style: normal;
@@ -50,13 +55,13 @@
 
 .page2__card__border {
     position: relative;
-    top: 273px;
+    top: 260px;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
     height: 691px;
     flex-shrink: 0;
-    border: 1px solid #E7C9A3;
+    border: 1px solid #e7c9a3;
 }
 
 .page2__profile__head {
@@ -65,29 +70,30 @@
 }
 
 .page2__profile__head li:nth-of-type(2n) {
-    color: var(--sun, #FFE49A);
+    color: var(--sun, #ffe49a);
     font-family: Liana;
-    font-size: 52px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: 65px;
 }
 
 #page2__expereanse {
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
+    white-space: nowrap;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 125.2%;
+    line-height: 160%;
     text-align: left;
-    margin: 80px 0 80px 0;
+    margin: 68px 0 68px 0;
 }
 
 .page2__experience__old {
-    color: var(--lite-gold, #D2B281);
+    color: var(--lite-gold, #d2b281);
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat Medium;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -95,8 +101,8 @@
 }
 
 .page2__experience__flex li {
-    color: var(--lite-grey, #C5C4C4);
-    font-family: Montserrat;
+    color: var(--lite-grey, #c5c4c4);
+    font-family: Montserrat Medium;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -109,9 +115,15 @@
 }
 
 .page2__principles {
+    justify-content: right;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     position: relative;
-    width: 45vw;
-    color: var(--lite-gold, #D2B281);
+    color: var(--lite-gold, #d2b281);
     font-family: Poiret One;
     font-size: 72px;
     font-style: normal;
@@ -122,7 +134,7 @@
     text-align: right;
     margin-left: 0;
     margin-bottom: 104px;
-    left: 2vw;
+    left: 0;
 }
 
 .page2__principles__grid {
@@ -135,7 +147,7 @@
     text-align: left;
 }
 
-.page2__principles__grid ul:nth-of-type(2n+1) {
+.page2__principles__grid ul:nth-of-type(2n + 1) {
     display: flex;
     justify-content: right;
     margin-right: 150px;
@@ -152,7 +164,7 @@
 
 .page2__grid__li {
     width: 475px;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -187,14 +199,14 @@
     display: none;
 }
 
-
-
 @media screen and (max-width: 1300px) {
     .page2__principles {
-        left: 7vw;
+        display: block;
+        text-align: left;
+        margin-left: 45px;
     }
 
-    .page2__principles__grid ul:nth-of-type(2n+1) {
+    .page2__principles__grid ul:nth-of-type(2n + 1) {
         display: flex;
         position: relative;
         justify-content: left;
@@ -221,12 +233,6 @@
         margin-top: -1em;
     }
 
-    .page2__principles {
-        display: flex;
-        white-space: nowrap;
-        margin-left: 2vw;
-    }
-
     .page2__principles__grid {
         display: block;
     }
@@ -236,13 +242,8 @@
     }
 
     .page2__natali__wrap {
-        height: 153em;
-    }
-}
-
-@media screen and (max-width: 2000px) {
-    .page2__principles {
-        left: 2vw;
+        height: 154em;
+        background-size: auto;
     }
 }
 
@@ -252,13 +253,13 @@
         width: 100%;
     }
 
-    .page2__profile__head li:nth-of-type(2n+1) {
-        color: var(--white, #FFF);
+    .page2__profile__head li:nth-of-type(2n + 1) {
+        color: var(--white, #fff);
         font-family: Liana;
         font-size: 64px;
         font-style: normal;
         font-weight: 400;
-        line-height: 65px;
+        line-height: 26.323px;
         width: 100%;
     }
 
@@ -284,7 +285,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
     .page2__div__map:nth-of-type(2n) {
         margin-bottom: 18px;
     }
@@ -292,9 +292,9 @@
     .page2__natali__wrap {
         background-image: none;
         position: relative;
-        height: 1245px;
+        height: 214vh;
         padding: 1.25em 0 0 0;
-        width: max-content;
+        width: 100%;
     }
 
     .page2__profile__wrap {
@@ -326,7 +326,8 @@
         height: 360px;
         margin-bottom: 0;
         flex-shrink: 0;
-        background-image: url(../../assets/page2/adapt/natali.png);
+        background-image: url(../../assets/page2/Foto_Natali_2.png);
+        background-size: contain;
         float: right;
         top: -104px;
         left: 0;
@@ -341,11 +342,18 @@
         height: 370px;
         width: 100px;
         z-index: 2;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, -1.5) -10%, rgba(1, 1, 1, 1) 55%, rgba(0, 0, 0, -0.5) 100%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, -1.5) -10%,
+            rgba(1, 1, 1, 1) 55%,
+            rgba(0, 0, 0, -0.5) 100%,
+            rgba(0, 0, 0, 0) 100%
+        );
     }
 
     .page2__profile__head {
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         text-align: center;
         font-family: Liana;
         font-size: 18px;
@@ -355,7 +363,7 @@
     }
 
     .page2__profile__head li:nth-of-type(2n) {
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffe49a);
         font-family: Liana;
         font-size: 25px;
         font-style: normal;
@@ -363,8 +371,8 @@
         line-height: 26.323px;
     }
 
-    .page2__profile__head li:nth-of-type(2n+1) {
-        color: var(--white, #FFF);
+    .page2__profile__head li:nth-of-type(2n + 1) {
+        color: var(--white, #fff);
         text-align: center;
         font-family: Liana;
         font-size: 25px;
@@ -381,7 +389,7 @@
     }
 
     #page2__expereanse {
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         text-align: center;
         font-family: Montserrat;
         font-size: 15px;
@@ -389,7 +397,7 @@
         font-weight: 400;
         line-height: 125.2%;
         text-align: center;
-        margin: 19px 0 28px 0;
+        margin: 24px 0 28px 0;
     }
 
     .page2__br__adapt {
@@ -406,17 +414,19 @@
     }
 
     .page2__experience__old {
-        color: var(--lite-gold, #D2B281);
+        color: var(--lite-gold, #d2b281);
         text-align: center;
-        font-family: Montserrat;
+        font-family: Montserrat Medium;
         font-size: 33.936px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        height: max-content;
+        height: 37px;
     }
 
     .page2__experience__flex li {
-        color: #F1F0F0;
+        color: #f1f0f0;
         font-family: Montserrat;
         font-size: 12.726px;
         font-style: normal;
@@ -432,7 +442,7 @@
         width: 89%;
         height: 497px;
         flex-shrink: 0;
-        border: 0.26px solid #E7C9A3;
+        border: 0.26px solid #e7c9a3;
         position: relative;
         left: 5vw;
         top: 15px;
@@ -449,7 +459,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--lite-gold, #D2B281);
+        color: var(--lite-gold, #d2b281);
         font-family: Poiret One;
         font-size: 28px;
         font-style: normal;
@@ -467,7 +477,7 @@
         float: none;
         top: -745px;
         width: 90%;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -482,7 +492,7 @@
         margin-right: 2px;
     }
 
-    .page2__principles__adapt ul:nth-of-type(2n+1) {
+    .page2__principles__adapt ul:nth-of-type(2n + 1) {
         margin: 0 50px 0 0;
         padding: 0;
     }
@@ -513,7 +523,7 @@
         display: block;
         width: 100vw;
         height: 795px;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 22.66%, #000 100%, rgba(0, 0, 0, 0.00) 100%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 22.66%, #000 100%, rgba(0, 0, 0, 0) 100%);
     }
 
     .page2__grid__li div:nth-of-type(1) {
@@ -546,3 +556,16 @@
         margin: 0px 0 0 20px;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .page2__natali__wrap {
+        height: 235vh;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .page2__natali__wrap {
+        height: 255vh;
+    }
+}
+

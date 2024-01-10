@@ -9,9 +9,10 @@ body {
 }
 
 .start__page__wrap {
-    background-image: url(../../assets/page1/chess.png);
+    background-image: url(../../assets/page1/foto_chess_1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 56.8em;
     padding: 1.25em 1.25em 0 1.25em;
 }
@@ -20,6 +21,7 @@ body {
     justify-content: space-between;
     margin: 0;
     display: flex;
+    padding-right: 40px;
 }
 
 li {
@@ -28,7 +30,7 @@ li {
 
 .logo-img {
     position: relative;
-    background-image: url(../../assets/page1/logo.png);
+    background-image: url(../../assets/page1/main-logo.svg);
     width: 7.875em;
     height: 4.889em;
     flex-shrink: 0;
@@ -40,9 +42,9 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--white, #FFF);
-    background: rgba(30, 30, 30, 0.80);
-    width: 15em;
+    color: var(--white, #fff);
+    background: rgba(30, 30, 30, 0.8);
+    width: max-content;
     height: 2.5em;
     flex-shrink: 0;
     text-align: center;
@@ -65,7 +67,7 @@ li {
     justify-content: center;
     margin: 1.25em 1.1em;
     border: 0;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -76,7 +78,7 @@ li {
 }
 
 .start-head-link:hover {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -85,14 +87,13 @@ li {
 }
 
 .start-head-link:active {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
-
 
 .start-link-profile1,
 .start-link-profile2 {
@@ -158,7 +159,7 @@ li {
 }
 
 #body-first-li {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Poiret One;
     font-size: 118px;
     font-style: normal;
@@ -179,17 +180,22 @@ li {
 }
 
 #body-second-li {
-    color: var(--sun, #FFE49A);
-    font-family: 'Liana', sans-serif;
+    position: relative;
+    top: -20px;
+    color: var(--sun, #ffe49a);
+    font-family: "Liana", sans-serif;
     font-size: 3.5em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+    text-align: right;
 }
 
 #body-third-li {
-    color: var(--lite-grey, #C5C4C4);
+    position: relative;
+    top: -20px;
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 1.5em;
     font-style: normal;
@@ -208,12 +214,12 @@ li {
     align-items: center;
     gap: 0.6em;
     flex-shrink: 0;
-    background: var(--sun_gold, #FFD89D);
+    background: var(--sun_gold, #ffd89d);
     border: 0;
-    color: #312F2F;
-    box-shadow: 0px 4px 30px 0px #FFE49A;
+    color: #312f2f;
+    box-shadow: 0px 4px 30px 0px #ffe49a;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Montserrat Medium;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -223,7 +229,7 @@ li {
 }
 
 .start__body__button:hover {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     text-align: center;
     font-family: Montserrat;
     font-size: 28px;
@@ -236,34 +242,34 @@ li {
     padding: 14px 64px;
     gap: 10px;
     flex-shrink: 0;
-    background: var(--gold, #EDBD51);
+    background: var(--gold, #edbd51);
 }
 
 .start__body__button:active {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     text-align: center;
     font-family: Montserrat;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    background: var(--lite-gold, #D2B281);
-    box-shadow: 0px 4px 30px 0px #FFE49A;
-
+    background: var(--lite-gold, #d2b281);
+    box-shadow: 0px 4px 30px 0px #ffe49a;
 }
 
 .start-body-right {
     position: relative;
-    width: 47em;
+    width: max-content;
+    left: 50vw;
 }
 
 .shrift__є {
     transform: rotate(0deg);
     display: inline-block;
     position: relative;
-    font-family: 'Poiret One';
+    font-family: "Liana";
     font-style: italic;
-    font-size: 35px;
+    font-size: 31px;
     top: 3px;
     left: -5px;
 }
@@ -308,14 +314,13 @@ li {
         font-size: 18px;
     }
 
-    .start__body__button{
+    .start__body__button {
         margin-left: 0;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 767px) {
-
     .start__page__wrap {
         background-image: url(../../assets/page1/adapt/chess.png);
         background-repeat: no-repeat;
@@ -326,13 +331,22 @@ li {
         width: 100vw;
     }
 
+    .logo-img {
+        position: relative;
+        background-image: url(../../assets/page1/main-logo.svg);
+        width: 95px;
+        height: 55px;
+        flex-shrink: 0;
+        background-size: cover;
+    }
+
     .shrift__є {
         transform: rotate(0);
         display: inline-block;
         position: relative;
         top: 1px;
         left: -3px;
-        font-size: 14px;
+        font-size: 13px;
         -webkit-transform: rotate(0);
         -moz-transform: rotate(0);
         -ms-transform: rotate(0);
@@ -376,19 +390,19 @@ li {
 
     #body-first-li {
         margin-top: 130px;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         width: max-content;
         font-family: Poiret One;
         font-size: 48px;
         font-style: normal;
         font-weight: 400;
-        line-height: 40px;
+        line-height: 45px;
         text-transform: uppercase;
         margin-left: 0;
     }
 
     #body-second-li {
-        color: var(--sun, #FFE49A);
+        color: var(--sun, #ffe49a);
         width: 218px;
         font-family: Liana;
         font-size: 24px;
@@ -397,7 +411,8 @@ li {
         line-height: normal;
         text-transform: lowercase;
         white-space: nowrap;
-        margin-left: 50px;
+        margin-left: 96px;
+        top: -7px;
     }
 
     #body-third-li {
@@ -407,7 +422,7 @@ li {
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: #DBD9D9;
+        color: #dbd9d9;
         text-align: left;
         font-family: Montserrat;
         font-size: 16px;
@@ -429,11 +444,12 @@ li {
         gap: 10px;
         flex-shrink: 0;
         flex-wrap: wrap;
-        background: var(--sun_gold, #FFD89D);
+        background: var(--sun_gold, #ffd89d);
         border: 0;
-        color: var(--grey, #312F2F);
+        border-radius: 4px;
+        color: var(--grey, #312f2f);
         text-align: center;
-        font-family: Montserrat;
+        font-family: Montserrat Medium;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -441,6 +457,10 @@ li {
         cursor: pointer;
         margin-left: 0;
         margin: 0 auto;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
     }
 
     .start__body__button:hover {
@@ -454,9 +474,9 @@ li {
         gap: 10px;
         flex-shrink: 0;
         flex-wrap: wrap;
-        background: var(--sun_gold, #FFD89D);
+        background: var(--sun_gold, #ffd89d);
         border: 0;
-        color: var(--grey, #312F2F);
+        color: var(--grey, #312f2f);
         text-align: center;
         font-family: Montserrat;
         font-size: 16px;
@@ -468,15 +488,15 @@ li {
     }
 
     .start__body__button:active {
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         text-align: center;
         font-family: Montserrat;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        background: var(--sun_gold, #FFD89D);
-        box-shadow: 0px 4px 30px 0px #FFE49A;
+        background: var(--sun_gold, #ffd89d);
+        box-shadow: 0px 4px 30px 0px #ffe49a;
         margin: 0 auto;
     }
 
@@ -485,8 +505,8 @@ li {
         z-index: 102;
         position: absolute;
         width: -webkit-fill-available;
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
         text-align: center;
         height: min-content;
     }
@@ -497,7 +517,6 @@ li {
         top: -170px;
         left: 0px;
         height: 450px;
-        /* overflow: hidden; */
     }
 
     .start__page__body {
@@ -509,12 +528,12 @@ li {
 
     .start__body_background {
         z-index: 101;
-        top: 400px;
+        top: 269px;
         position: absolute;
         display: block;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 25.94%, #000 100%, rgba(0, 0, 0, 0.00) 100%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 43.94%, #000 100%, rgba(0, 0, 0, 0) 100%);
         width: 100vw;
-        height: 420px;
+        height: 550px;
     }
 
     .start-head-right {
@@ -557,7 +576,7 @@ li {
     .start__burger__text {
         background: none;
         border: 0;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 24px;
         font-style: normal;
@@ -598,10 +617,8 @@ li {
         display: block;
         position: relative;
         top: -2em;
-        width: max-content;
-        height: 130vw;
         flex-shrink: 0;
-        right: -1px;
-        width: 100vw;
+        right: 50px;
+        width: 125vw;
     }
 }

@@ -1,38 +1,42 @@
 .page6__main__wrap {
     position: relative;
     background: #111010;
-    height: 905px;
+    height: 1060px;
     padding-top: 100px;
     margin-top: -1px;
 }
 
 .page6__card {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     width: 90%;
-    height: 902px;
+    height: 109.5vh;
     flex-shrink: 0;
-    border: 1px solid #E7C9A3;
+    border: 1px solid #e7c9a3;
     margin: 0 auto;
 }
 
 .page6__card__photo {
     width: 794px;
     position: relative;
-    top: -155px;
+    top: 0;
     left: -70px;
-    background-image: url(../../assets/page6/natali.png);
+    background-image: url(../../assets/page6/548A1680-2-transformed\ 1.png);
+    background-size: 706px 1057px;
+    background-repeat: no-repeat;
     height: 1057px;
     flex-shrink: 0;
     float: left;
 }
 
 .page6__head {
-    width: 1246px;
+    width: 116%;
     position: relative;
     left: 0;
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
     font-family: Poiret One;
-    font-size: 50px;
+    font-size: 4.8vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -44,9 +48,9 @@
 .page6__fuckup {
     position: relative;
     left: 0;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
@@ -60,13 +64,13 @@
 .page6__wrap__card {
     position: relative;
     left: -220px;
-    top: 40px;
+    top: 0;
 }
 
 .page6__span {
-    color: var(--sun, #FFE49A);
+    color: var(--sun_gold, #ffd89d);
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
@@ -75,15 +79,16 @@
 
 .page6__text__ul {
     text-align: left;
-    width: 95vw;
+    width: 96vw;
     position: relative;
     left: 30px;
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 1.6vw;
     font-style: normal;
     font-weight: 500;
     line-height: 125.2%;
+    padding-bottom: 20px;
 }
 
 .page6__text__ul li {
@@ -92,7 +97,7 @@
 }
 
 .page6__text__li {
-    color: var(--lite-grey, #C5C4C4);
+    color: var(--lite-grey, #c5c4c4);
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -104,7 +109,10 @@
     display: none;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1050px) {
+    .page6__main__wrap {
+        height: 118vw;
+    }
 
     .page6__wrap__card {
         position: absolute;
@@ -136,13 +144,14 @@
         width: 90%;
         height: 234.896px;
         flex-shrink: 0;
-        border: 1px solid #E7C9A3;
+        border: 1px solid #e7c9a3;
         margin: 0 auto;
     }
 
     .page6__card__photo {
         position: absolute;
         background-image: url(../../assets/page6/adapt//natali.png);
+        background-size: contain;
         width: 206.771px;
         height: 275.26px;
         flex-shrink: 0;
@@ -154,7 +163,7 @@
         width: 50vw;
         position: relative;
         left: 130px;
-        color: var(--white, #FFF);
+        color: var(--white, #fff);
         font-family: Poiret One;
         font-size: 5vw;
         font-style: normal;
@@ -168,7 +177,7 @@
     .page6__fuckup {
         position: relative;
         left: 130px;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 3vw;
         font-style: normal;
@@ -182,7 +191,7 @@
     }
 
     .page6__span {
-        color: var(--sun_gold, #FFD89D);
+        color: var(--sun_gold, #ffd89d);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -192,7 +201,7 @@
 
     .page6__text__li {
         width: 335px;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -207,7 +216,7 @@
 
     .page6__text__ul {
         width: 80vw;
-        color: var(--lite-grey, #C5C4C4);
+        color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
