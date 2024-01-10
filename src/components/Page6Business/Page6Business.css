@@ -247,7 +247,8 @@
         height: 234.896px;
         flex-shrink: 0;
         border: 1px solid #e7c9a3;
-        margin: 0 auto;
+        margin: 0;
+        top: 0;
     }
 
     .page6__card__photo {
