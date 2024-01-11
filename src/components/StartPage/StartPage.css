@@ -294,7 +294,7 @@ li {
         flex-shrink: 0;
         position: absolute;
         left: 50%;
-        top: -212px;
+        top: -204px;
         right: 0;
         transform: translateX(-50%);
     }
