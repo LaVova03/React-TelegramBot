@@ -150,7 +150,7 @@
 
 .page7__disk__2019 {
     white-space: nowrap;
-    margin-left: -1.97em;
+    margin-left: -1.9em;
     position: relative;
     top: -174px;
     text-align: left;
@@ -189,57 +189,57 @@
     display: none;
 }
 
-@media screen and (max-width: 2600px) {
+@media screen and (max-width: 3000px) {
     .page7__vertical__line {
-        height: 73em;
-        top: 37em;
-        left: 49.3vw;
+        height: 78.5em;
+        top: 38.5em;
+        left: 49vw;
     }
 }
 
 @media screen and (max-width: 2400px) {
     .page7__vertical__line {
-        height: 73em;
         top: 37em;
-        left: 49.3vw;
     }
 }
 
 @media screen and (max-width: 2300px) {
     .page7__vertical__line {
-        height: 74em;
-        top: 36em;
+        height: 79.5em;
+        top: 36.5em;
+        left: 49.1vw;
     }
 }
 
 @media screen and (max-width: 2200px) {
     .page7__vertical__line {
-        height: 73em;
-        top: 34em;
-        left: 49.5vw;
+        top: 35.8em;
+        left: 49.2vw;
+        height: 79em;
     }
 }
 
 @media screen and (max-width: 2000px) {
     .page7__vertical__line {
-        height: 73em;
-        top: 33em;
-        left: 49.6vw;
+        top: 34em;
+        left: 49.4vw;
+        height: 79em;
     }
 }
 
 @media screen and (max-width: 1800px) {
     .page7__vertical__line {
-        height: 77em;
-        top: 31em;
+        height: 79.8em;
+        top: 33em;
+        left: 49.5vw;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .page7__vertical__line {
-        height: 77em;
-        top: 31em;
-        left: 49.8vw;
+        height: 80.5em;
+        top: 32em;
+        left: 49.7vw;
     }
 }
 
@@ -247,6 +247,7 @@
     .page7__vertical__line {
         height: 80em;
         top: 32em;
+        left: 49.8vw;
     }
     .page7__img__disk {
         margin: 0 auto;
@@ -269,31 +270,31 @@
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1507px) {
     .page7__vertical__line {
-        height: 79em;
-        top: 29em;
-        left: 50vw;
+        height: 82.5em;
+        top: 31em;
+        left: 49.9vw;
     }
 }
 
 @media screen and (max-width: 1415px) {
     .page7__vertical__line {
-        height: 79em;
-        top: 29em;
-        left: 50.2vw;
+        height: 83em;
+        top: 30em;
+        left: 50.1vw;
     }
 }
 
-@media screen and (max-width: 1326px) {
+@media screen and (max-width: 1321px) {
     .page7__disk__2023 {
         width: 47.6vw;
     }
 
     .page7__vertical__line {
-        top: 450px;
-        height: 79rem;
-        left: 50vw;
+        top: 30em;
+        height: 86em;
+        left: 50.2vw;
     }
 
     .page7__disk__2020 {
@@ -303,7 +304,9 @@
 
 @media screen and (max-width: 1302px) {
     .page7__vertical__line {
-        height: 82rem;
+        top: 30em;
+        height: 86em;
+        left: 50.3vw;
     }
 }
 
