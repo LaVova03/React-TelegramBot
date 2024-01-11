@@ -172,7 +172,7 @@
 
 @media screen and (max-width: 835px) {
     .page4__main__wrap {
-        height: 162em;
+        height: 165em;
     }
 }
 
@@ -189,7 +189,7 @@
         width: 100vw;
         height: 790px;
         padding: 62px 0 0 0px;
-        margin-top: -1px;
+        margin-top: -2px;
     }
 
     .page4__services__grid:nth-child(2) {

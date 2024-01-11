@@ -307,7 +307,7 @@
     .page2__natali__wrap {
         background-image: none;
         position: relative;
-        height: 230vh;
+        height: 135vh;
         padding: 1.25em 0 0 0;
         width: 100%;
     }
@@ -534,7 +534,7 @@
         position: relative;
         margin-top: -245px;
         position: relative;
-        top: 26px;
+        top: 45px;
         z-index: 0;
         display: block;
         width: 100vw;
@@ -575,40 +575,40 @@
 
 @media screen and (max-width: 475px) {
     .page2__natali__wrap {
-        height: 245vh;
+        height: 140vh;
     }
 }
 
 @media screen and (max-width: 430px) {
     .page2__natali__wrap {
-        height: 240vh;
+        height: 130vh;
     }
 }
 
 @media screen and (max-width: 412px) {
     .page2__natali__wrap {
-        height: 245vh;
+        height: 135vh;
     }
 }
 
 @media screen and (max-width: 400px) {
     .page2__natali__wrap {
-        height: 250vh;
+        height: 148vh;
     }
 }
 
 @media screen and (max-width: 375px) {
     .page2__natali__wrap {
-        height: 250vh;
+        height: 188vh;
     }
 }
 
 @media screen and (max-width: 360px) {
     .page2__background__adapt {
-        margin-top: -292px;
+        margin-top: -270px;
     }
 
     .page2__natali__wrap {
-        height: 253vh;
+        height: 170vh;
     }
 }
