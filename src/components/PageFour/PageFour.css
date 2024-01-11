@@ -169,6 +169,7 @@
 
 @media screen and (max-width: 767px) {
     .page4__main__wrap {
+        position: relative;
         background: #111010;
         width: 100vw;
         height: 790px;

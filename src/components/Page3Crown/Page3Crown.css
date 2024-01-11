@@ -51,6 +51,7 @@
         margin-top: 0;
         display: flex;
         background-image: url(../../assets/page3/adapt/chessman.png);
+        background-position: bottom;
         justify-content: center;
         background-repeat: no-repeat;
         width: 100vw;

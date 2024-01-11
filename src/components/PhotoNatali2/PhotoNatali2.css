@@ -264,11 +264,12 @@
     }
 
     .page2__float__photo {
-        position: absolute;
-        width: 74%;
-        color: white;
-        margin: -365px 0px 0 20vw;
-        z-index: 3;
+        width: 75%;
+        margin: -365px 0px 0 10vw;
+    }
+
+    #page2__expereanse {
+        white-space: normal;
     }
 
     .page2__experience__flex li:nth-of-type(2) {
@@ -292,7 +293,7 @@
     .page2__natali__wrap {
         background-image: none;
         position: relative;
-        height: 214vh;
+        height: 135vh;
         padding: 1.25em 0 0 0;
         width: 100%;
     }
@@ -451,7 +452,7 @@
 
     .page2__principles {
         position: relative;
-        top: -735px;
+        top: -745px;
         left: 1vw;
         display: flex;
         width: 260.156px;
@@ -517,13 +518,14 @@
 
     .page2__background__adapt {
         position: relative;
-        margin-top: -222px;
+        margin-top: -245px;
         position: relative;
-        top: -25px;
+        top: 45px;
+        z-index: 0;
         display: block;
         width: 100vw;
-        height: 795px;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 22.66%, #000 100%, rgba(0, 0, 0, 0) 100%);
+        height: 864px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 19%, #000 22.66%, #000 100%, rgba(0, 0, 0, 0) 100%);
     }
 
     .page2__grid__li div:nth-of-type(1) {
@@ -559,13 +561,40 @@
 
 @media screen and (max-width: 475px) {
     .page2__natali__wrap {
-        height: 235vh;
+        height: 140vh;
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
     .page2__natali__wrap {
-        height: 255vh;
+        height: 130vh;
     }
 }
 
+@media screen and (max-width: 412px) {
+    .page2__natali__wrap {
+        height: 135vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page2__natali__wrap {
+        height: 148vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page2__natali__wrap {
+        height: 188vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .page2__background__adapt {
+        margin-top: -270px;
+    }
+
+    .page2__natali__wrap {
+        height: 170vh;
+    }
+}
