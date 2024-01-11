@@ -788,6 +788,22 @@
     .page7__disk__2020 {
         top: 31.7em;
     }
+
+    .page7__disk__2023 {
+        top: -29px;
+    }
+    .page7__vertical__line {
+        top: 132px;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .page7__disk__2023 {
+        top: -36px;
+    }
+    .page7__vertical__line {
+        top: 126px;
+    }
 }
 
 @media screen and (max-width: 880px) {
