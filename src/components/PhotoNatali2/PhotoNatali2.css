@@ -2,7 +2,7 @@
     position: relative;
     background-image: url(../../assets/page2/Foto_fon_chess_2_3.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     height: 142em;
     padding: 1.25em 0 0 0;
     margin-top: -2px;
@@ -205,6 +205,13 @@
         text-align: left;
         margin-left: 45px;
     }
+    .page2__float__photo {
+        width: 50%;
+    }
+
+    #page2__expereanse {
+        white-space: normal;
+    }
 
     .page2__principles__grid ul:nth-of-type(2n + 1) {
         display: flex;
@@ -226,6 +233,9 @@
     .page2__grid__li {
         width: 80vw;
     }
+    #page2__expereanse {
+        margin: 40px 0;
+    }
 }
 
 @media screen and (max-width: 1298px) {
@@ -243,14 +253,26 @@
 
     .page2__natali__wrap {
         height: 154em;
-        background-size: auto;
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1128px) {
     .page2__profile__wrap {
         position: relative;
         width: 100%;
+        margin-top: 1em;
+    }
+
+    #page2__expereanse {
+        color: var(--lite-grey, #c5c4c4);
+        font-family: Montserrat;
+        white-space: normal;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        text-align: left;
+        margin: 68px 0 68px 0;
     }
 
     .page2__profile__head li:nth-of-type(2n + 1) {
@@ -268,16 +290,8 @@
         margin: -365px 0px 0 10vw;
     }
 
-    #page2__expereanse {
-        white-space: normal;
-    }
-
     .page2__experience__flex li:nth-of-type(2) {
         margin: 0px 7vw;
-    }
-
-    .page2__profile__wrap {
-        margin-top: -1em;
     }
 
     .page2__photo__natali {
