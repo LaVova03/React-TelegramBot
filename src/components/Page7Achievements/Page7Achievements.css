@@ -394,7 +394,7 @@
         top: 128px;
         transform: rotate(0deg);
         width: 0.26px;
-        height: 38.5em;
+        height: 35.8em;
         background: var(--sun_gold, #ffd89d);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -501,7 +501,7 @@
         position: absolute;
         display: flex;
         margin-left: -13px;
-        top: 43.8em;
+        top: 43.2em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -563,7 +563,7 @@
     }
 
     #page7__li3 ul li:nth-of-type(1) {
-        margin-top: -65px;
+        margin-top: -100px;
         width: 65vw;
     }
 
@@ -784,6 +784,22 @@
     .page7__li__text {
         width: 39vw;
     }
+
+    .page7__disk__2020 {
+        top: 31.7em;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .page7__disk__2022 {
+        top: 18em;
+    }
+}
+
+@media screen and (max-width: 856px) {
+    .page7__disk__2020 {
+        top: 31.2em;
+    }
 }
 
 @media screen and (max-width: 765px) {
@@ -799,8 +815,18 @@
         margin-left: 20px;
     }
 
+    .page7__li__textright {
+        width: 70vw;
+    }
+
+    .page7__main__wrap {
+        padding-top: 56px;
+    }
+
     .page7__vertical__line {
         left: 78px;
+        top: 137px;
+        height: 35.5em;
     }
 
     .page7__head {
@@ -825,7 +851,7 @@
         position: absolute;
         display: flex;
         margin-left: -15px;
-        top: 121px;
+        top: 128px;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -846,7 +872,7 @@
         position: absolute;
         display: flex;
         margin-left: -16px;
-        top: 33.3em;
+        top: 30.7em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -867,7 +893,7 @@
         position: absolute;
         display: flex;
         margin-left: -16px;
-        top: 46.5em;
+        top: 44.4em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -888,7 +914,7 @@
         position: absolute;
         display: flex;
         margin-left: -13px;
-        top: 58.5em;
+        top: 55.8em;
         display: flex;
         width: 39.583px;
         height: 17.566px;
@@ -908,39 +934,93 @@
 
 @media screen and (max-width: 685px) {
     .page7__disk__2022 {
-        top: 32.8em;
-    }
-}
-
-@media screen and (max-width: 635px) {
-    .page7__vertical__line {
-        height: 38.3em;
-    }
-
-    .page7__disk__2019 {
-        top: 58.5em;
+        top: 30.1em;
     }
 }
 
 @media screen and (max-width: 548px) {
     .page7__disk__2022 {
-        top: 32.7em;
+        top: 30em;
+    }
+}
+
+@media screen and (max-width: 529px) {
+    .page7__vertical__line {
+        top: 130px;
+        height: 36.1em;
+    }
+    .page7__disk__2023 {
+        top: 122px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .page7__disk__2023 {
+        top: 9.7em;
+    }
+    .page7__vertical__line {
+        top: 130px;
+        height: 36.1em;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .page7__disk__2020 {
+        top: 43.8em;
     }
 }
 
 @media screen and (max-width: 444px) {
     .page7__disk__2022 {
-        top: 32.1em;
+        top: 29.5em;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .page7__li__textright {
+        width: 70vw;
+    }
+    .page7__vertical__line {
+        top: 129px;
+        height: 36em;
+    }
+    .page7__disk__2023 {
+        top: 9.7em;
     }
 }
 
 @media screen and (max-width: 362px) {
     .page7__vertical__line {
-        height: 37.9em;
+        height: 35.6em;
     }
 
     .page7__disk__2019 {
-        top: 58em;
+        top: 55.2em;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    #page7__li__adapt li:nth-of-type(4) {
+        margin-top: 20px;
+    }
+
+    #page7__li3 ul li:nth-of-type(1) {
+        margin-top: -80px;
+    }
+
+    .page7__disk__2022 {
+        top: 31.8em;
+    }
+
+    .page7__disk__2020 {
+        top: 42.7em;
+    }
+    .page7__disk__2019 {
+        top: 57.6em;
+    }
+
+    .page7__vertical__line {
+        height: 37.6em;
     }
 }
 
@@ -948,10 +1028,14 @@
     .page7__disk__2022 {
         top: 31.5em;
     }
+
+    .page7__disk__2022 {
+        top: 31.2em;
+    }
 }
 
 @media screen and (max-width: 329px) {
     .page7__disk__2022 {
-        top: 31em;
+        top: 30.6em;
     }
 }
