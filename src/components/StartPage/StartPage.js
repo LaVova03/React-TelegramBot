@@ -17,7 +17,7 @@ const StartPage = () => {
     };
 
     const scrollToOffers = () => {
-        const scrollHeight = isMobile ? 2220 : 4170;
+        const scrollHeight = isMobile ? 2220 : 3900;
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'

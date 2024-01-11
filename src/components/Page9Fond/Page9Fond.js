@@ -132,7 +132,7 @@ const Page9Fond = () => {
 
     const scrollToOffers = () => {
         window.scrollTo({
-            top: 4220,
+            top: 3900,
             behavior: 'smooth'
         });
     };
