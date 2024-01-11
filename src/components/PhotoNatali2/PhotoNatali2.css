@@ -534,7 +534,7 @@
         position: relative;
         margin-top: -245px;
         position: relative;
-        top: 45px;
+        top: 26px;
         z-index: 0;
         display: block;
         width: 100vw;
@@ -609,6 +609,6 @@
     }
 
     .page2__natali__wrap {
-        height: 250vh;
+        height: 253vh;
     }
 }
