@@ -126,7 +126,7 @@
         width: 90%;
         height: 943px;
         flex-shrink: 0;
-        border: 1px solid #e7c9a3;
+        border: 0.26px solid #e7c9a3;
         margin: 0 auto;
         top: 97px;
         -webkit-transform: translateX(-50%);
@@ -253,7 +253,7 @@
 
     .page6__card__photo {
         position: absolute;
-        background-image: url(../../assets/page6/adapt//natali.png);
+        background-image: url(../../assets/page6/548A1680-2-transformed\ 1.png);
         background-size: contain;
         width: 206.771px;
         height: 275.26px;
@@ -268,7 +268,7 @@
         left: 130px;
         color: var(--white, #fff);
         font-family: Poiret One;
-        font-size: 5vw;
+        font-size: 6vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

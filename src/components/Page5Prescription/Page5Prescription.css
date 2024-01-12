@@ -27,11 +27,11 @@
 }
 
 .page5__text__white {
-    color: var(--white, #FFF);
+    color: var(--white, #fff);
 }
 
 .page5__text__yellow {
-    color: var(--sun, #FFE49A);
+    color: var(--sun, #ffe49a);
     font-family: Poiret One;
     font-size: 3vw;
     font-style: normal;
@@ -40,7 +40,7 @@
 }
 
 .page5__text__bottom {
-    color: var(--white, #DEDBDB);
+    color: var(--white, #dedbdb);
     font-family: Montserrat;
     font-size: 1.6vw;
     font-style: normal;
@@ -59,7 +59,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
     .page5__lines__main {
         display: none;
     }
@@ -83,16 +82,16 @@
         height: 32vw;
         padding-top: 0;
         margin-top: -1px;
-
     }
 
     .page5__head__text {
         position: relative;
-        width: 82vw;
+        width: 100vw;
         top: 4vw;
-        left: 0vw;
-        margin: -19vw 29px;
-        color: var(--white, #FFF);
+        transform: translateX(-50%);
+        left: 50%;
+        margin: -19vw 0;
+        color: var(--white, #fff);
         text-align: center;
         font-family: Poiret One;
         font-size: 14px;
@@ -102,7 +101,7 @@
     }
 
     .page5__text__yellow {
-        color: var(--sun_gold, #FFD89D);
+        color: var(--sun_gold, #ffd89d);
         font-family: Poiret One;
         font-size: 14px;
         font-style: normal;
@@ -111,7 +110,7 @@
     }
 
     .page5__text__bottom {
-        color: var(--white, #DEDBDB);
+        color: var(--white, #dedbdb);
         font-family: Poiret One;
         font-size: 8.333px;
         font-style: normal;
@@ -121,5 +120,15 @@
 
     .page5__br__adapt {
         display: block;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .page5__head__flex {
+        display: block;
+    }
+
+    .page5__head__text {
+        top: 1vw;
     }
 }

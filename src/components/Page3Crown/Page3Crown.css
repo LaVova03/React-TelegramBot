@@ -50,7 +50,7 @@
         position: relative;
         margin-top: 0;
         display: flex;
-        background-image: url(../../assets/page3/adapt/chessman.png);
+        background-image: url(../../assets/page3/crown.jpg);
         background-position: bottom;
         justify-content: center;
         background-repeat: no-repeat;
@@ -67,18 +67,17 @@
     }
 
     .page3__text {
-        display: flex;
+        display: block;
         color: var(--white, #fff);
         justify-content: center;
         font-family: Liana;
-        font-size: 16.667px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         align-items: center;
         text-align: center;
         font-family: Liana;
-        font-size: 16.667px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
