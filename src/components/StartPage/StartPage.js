@@ -2,13 +2,17 @@ import './StartPage.css';
 import React, { useState } from 'react';
 import Natali from '../../assets/page1/foto_Natali_1.png';
 import { isMobile } from 'react-device-detect';
+import { useMediaQuery } from 'react-responsive';
+
 
 const StartPage = () => {
 
     const [menu, showMenu] = useState(false);
 
+    const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
+
     const scrollToAboutMe = () => {
-        const scrollHeight = isMobile ? 800 : 1150;
+        const scrollHeight = isMobile ? 800 : (isTablet ? 1200 : 1150);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -17,7 +21,7 @@ const StartPage = () => {
     };
 
     const scrollToOffers = () => {
-        const scrollHeight = isMobile ? 2220 : 3900;
+        const scrollHeight = isMobile ? 2220 : (isTablet ? 4600 : 3900);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -26,7 +30,7 @@ const StartPage = () => {
     };
 
     const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5380 : 11050;
+        const scrollHeight = isMobile ? 5380 : (isTablet ? 11150 : 11050);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'

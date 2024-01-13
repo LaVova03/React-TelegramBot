@@ -3,6 +3,7 @@ import Photo from '../../assets/page9/548A1622 (1) 1.png';
 import React, { useState, useEffect } from 'react';
 import SetTelegram from '../SetTelegram/SetTelegram';
 import DoneModal from './../DoneModal/DoneModal';
+import { useMediaQuery } from 'react-responsive';
 
 const Page9Fond = () => {
 
@@ -28,6 +29,8 @@ const Page9Fond = () => {
             }, 5000)
         }
     }, [modal])
+
+    const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
 
     const handleChange = (e) => {
 
@@ -124,15 +127,17 @@ const Page9Fond = () => {
     }
 
     const scrollToAboutMe = () => {
+        const scrollHeight = isTablet ? 1200 : 1150;
         window.scrollTo({
-            top: 1150,
+            top: scrollHeight,
             behavior: 'smooth'
         });
     };
 
     const scrollToOffers = () => {
+        const scrollHeight = isTablet ? 4600 : 3900;
         window.scrollTo({
-            top: 3900,
+            top: scrollHeight,
             behavior: 'smooth'
         });
     };

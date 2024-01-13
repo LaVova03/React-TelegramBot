@@ -301,6 +301,7 @@ li {
 
     .start__page__head ul {
         padding-right: 0;
+        align-items: center;
     }
 
     .start-body-left {
@@ -322,6 +323,14 @@ li {
     }
 
     .start-head-link {
+        font-size: 18px;
+    }
+
+    .start-head-link:hover {
+        font-size: 18px;
+    }
+
+    .start-head-link:active {
         font-size: 18px;
     }
 
