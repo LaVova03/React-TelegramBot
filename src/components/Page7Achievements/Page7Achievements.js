@@ -36,7 +36,7 @@ const Page7Achievements = () => {
                             Ведення ділових переговорів на англійській мові. <br className='page7__br__adapt' />Це особисте, але внесу в професійні. <br />Бо такого рівня досягла за останній рік</li>
                     </ul>
                 </li>
-                <br /><br className='page7__br' />
+                <br className='page7__br__adapt'/>
                 <li id='page7__li3' className='page7__ul__adapt'>
                     <ul className='page7__li__ul'>
                         <li className='page7__li__text'>

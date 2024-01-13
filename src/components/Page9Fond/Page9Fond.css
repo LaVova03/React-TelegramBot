@@ -479,7 +479,7 @@
         width: 84vw;
         height: 150px;
         flex-shrink: 0;
-        border: 1px solid #e7c9a3;
+        border: 0.26px solid #e7c9a3;
         padding: 24px 0 19px 28px;
         top: 85px;
     }
@@ -528,7 +528,7 @@
     }
 
     .page9__card__span {
-        color: var(--sun_gold, #ffd89d);
+        color: var(--lite-grey, #FFE49A);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;

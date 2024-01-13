@@ -155,8 +155,8 @@ const Page9Fond = () => {
                         ФОНД<br />ДЛЯ СТАРТАПІВ
                         <ul className='page9__card__ul'>
                             <li className='page9__card__li'><span className='page9__card__span'>10%</span> від доходу буде направлено на <br className='page9__br__adapt' /><span className='page9__card__span'>запуск нових стартапів.</span></li>
-                            <li className='page9__card__li'>При накопиченні «в гаманці» суми від <span className='page9__span__yellow'><br className='page9__br__adapt' />100 тис грн </span><br className='page9__br' />ми будемо оголошувати конкурс для бажаючих<br className='page9__br' />отримати таку інвестицію.</li>
-                            <li className='page9__card__li'>Правила конкурсу будуть надруковані відразу перед<br className='page9__br' />запуском першого етапу.</li>
+                            <li className='page9__card__li'>При накопиченні «в гаманці» суми від <span className='page9__span__yellow'><br className='page9__br__adapt' />100 тис грн </span><br className='page9__br' />ми будемо оголошувати конкурс для бажаючих <br className='page9__br' />отримати таку інвестицію.</li>
+                            <li className='page9__card__li'>Правила конкурсу будуть надруковані відразу перед <br className='page9__br' />запуском першого етапу.</li>
                         </ul>
                     </div>
                     <img className='page9__card__photo' src={Photo} alt="logo" />

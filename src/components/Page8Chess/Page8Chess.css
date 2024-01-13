@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 767px) {
     .page8__main__wrap {
-        background-image: url(../../assets/page8/adapt/gold.png);
+        background-image: url(../../assets/page8/metaphor.png);
         background-position: center;
         width: 100vw;
         height: 128.052px;
@@ -123,7 +123,7 @@
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
-        color: var(--sun_gold, #ffd89d);
+        color: var(--lite-grey, #FFE49A);
         text-align: center;
         font-family: Poiret One;
         font-size: 12px;
@@ -139,7 +139,7 @@
         width: 156.619px;
         height: 94.584px;
         flex-shrink: 0;
-        border: 1px solid #fff;
+        border: 0.26px solid #fff;
     }
 
     .page8__card__bottom {
