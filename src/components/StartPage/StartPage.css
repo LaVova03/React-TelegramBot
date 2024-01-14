@@ -299,6 +299,17 @@ li {
         z-index: 0;
     }
 
+    #span2__page1 {
+        display: inline-block;
+        position: relative;
+        font-family: auto;
+        font-style: oblique;
+        font-size: 14px;
+        font-weight: 600;
+        top: 0px;
+        left: -19px;
+    }
+
     .natali-logo {
         width: 776px;
         height: 844px;
@@ -372,6 +383,17 @@ li {
         top: 0px;
         left: 0px;
         width: 9px;
+    }
+
+    #span2__page1 {
+        display: inline-block;
+        position: relative;
+        font-family: auto;
+        font-style: oblique;
+        font-size: 8px;
+        font-weight: 600;
+        top: 1px;
+        left: -9px;
     }
 
     .logo-img {

@@ -1,7 +1,6 @@
 import './StartPage.css';
 import React, { useState } from 'react';
 import Natali from '../../assets/page1/foto_Natali_1.png';
-import { isMobile } from 'react-device-detect';
 import { useMediaQuery } from 'react-responsive';
 
 
@@ -10,6 +9,7 @@ const StartPage = () => {
     const [menu, showMenu] = useState(false);
 
     const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
+    const isMobile = window.innerWidth <= 767;
 
     const scrollToAboutMe = () => {
         const scrollHeight = isMobile ? 800 : (isTablet ? 1200 : 1150);
@@ -84,7 +84,7 @@ const StartPage = () => {
             <div className='start__page__body'>
                 <ul className='start-body-left'>
                     <li id='body-first-li'>Наталя<br />Актибаєва</li>
-                    <li id='body-second-li'>креативний пiдпри<span className='shrift__c'>с<span className='shrift__є'>~</span></span>мець</li>
+                    <li id='body-second-li'>креативний пiдпри<span className='shrift__c'>с<span className='shrift__є' id='span2__page1'>~</span></span>мець</li>
                     <li id='body-third-li'>Вмію робити з ідеї працюючий бізнес</li>
                     <button className='start__body__button' onClick={scrollToFeedback}>Консультація</button>
                 </ul>
