@@ -87,7 +87,7 @@ const PhotoNatali2 = () => {
                     <li>
                         <ul className='page2__profile__head'>
                             <li>Привiт, мене звуть</li>
-                            <li>Наталя Актиба<span className='shrift__c__page2'>с<span className='shrift__є__page2'>~</span></span>ва,</li>
+                            <li>Наталя Актиба<span className='shrift__c__page2'>с<span className='shrift__є__page2' id='span__page2'>~</span></span>ва,</li>
                             <li>я креативний пiдпри<span className='shrift__c__page2'>с<span className='shrift__є__page2'>~</span></span>мець</li>
                         </ul>
                     </li>

@@ -51,6 +51,8 @@
     font-weight: 400;
     line-height: 65px;
     width: 97%;
+    white-space: nowrap;
+    height: max-content;
 }
 
 .page2__card__border {
@@ -76,7 +78,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 65px;
-    height: 24px;
+    white-space: nowrap;
+    height: max-content;
+    line-height: normal;
 }
 
 #page2__expereanse {
@@ -193,6 +197,23 @@
     margin: 0px;
 }
 
+.shrift__є__page2 {
+    position: absolute;
+    font-size: 24px;
+    left: -3px;
+    top: 34px;
+    font-weight: 600;
+}
+
+#span__page2 {
+    top: 46px;
+}
+
+.shrift__c__page2 {
+    position: relative;
+    width: 10px;
+}
+
 .page2__principles__adapt,
 .page2__background__adapt,
 .page2__br__adapt,
@@ -255,6 +276,50 @@
     .page2__natali__wrap {
         height: 2440px;
     }
+
+    .page2__profile__wrap {
+        margin-top: -1em;
+    }
+
+    .page2__principles__grid {
+        display: block;
+    }
+
+    .page2__principles__grid ul {
+        margin-bottom: 0;
+    }
+
+    .page2__natali__wrap {
+        height: 2440px;
+    }
+
+    .page2__profile__head li:nth-of-type(2n) {
+        white-space: nowrap;
+        height: max-content;
+        line-height: normal;
+    }
+
+    .page2__profile__head li:nth-of-type(2n + 1) {
+        white-space: nowrap;
+        height: max-content;
+    }
+
+    .shrift__є__page2 {
+        position: absolute;
+        font-size: 24px;
+        left: -3px;
+        top: 34px;
+        font-weight: 600;
+    }
+
+    #span__page2 {
+        top: 46px;
+    }
+
+    .shrift__c__page2 {
+        position: relative;
+        width: 10px;
+    }
 }
 
 @media screen and (max-width: 1128px) {
@@ -284,6 +349,8 @@
         font-weight: 400;
         line-height: 26.323px;
         width: 100%;
+        white-space: nowrap;
+        height: max-content;
     }
 
     .page2__float__photo {
@@ -297,6 +364,10 @@
 
     .page2__photo__natali {
         width: 50vw;
+    }
+
+    .shrift__є__page2 {
+        top: 53px;
     }
 }
 
@@ -323,6 +394,10 @@
         height: 111px;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #span__page2 {
+        top: 0;
     }
 
     .page2__main_adapt {
@@ -394,17 +469,19 @@
         position: relative;
         transform: translateY(1%);
         left: -9px;
+        top: 0;
         font-size: 7px;
         font-weight: 600;
     }
 
-    .shrift__c__page2{
+    .shrift__c__page2 {
         position: relative;
         left: 1.5px;
         font-size: 23px;
     }
 
     .page2__profile__head li:nth-of-type(2n + 1) {
+        position: relative;
         color: var(--white, #fff);
         text-align: center;
         font-family: Liana;
@@ -412,8 +489,9 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26.323px;
-        width: 333px;
         margin: 0 auto;
+        white-space: nowrap;
+        height: max-content;
     }
 
     .page2__float__photo {
