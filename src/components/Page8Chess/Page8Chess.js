@@ -12,7 +12,7 @@ const Page8Chess = () => {
                     Бiзнес – це гра,<br />в яку потрiбно грати завжди<br />ризикуючи<br />та з вiрою в перемогу
                 </div>
                 <div className='page8__card__bottom'>
-                    Наталя Актиба<span className='shrift__c' id='span__c__page8'>с<span className='shrift__є' id='span2__є__page8'>-</span></span>ва
+                    Наталя Актиба<span className='shrift__c' id='span__c__page8'>э</span>ва
                 </div>
             </div>
         </div>
