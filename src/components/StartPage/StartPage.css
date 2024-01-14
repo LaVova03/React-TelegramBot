@@ -388,8 +388,9 @@ li {
         display: inline-block;
         position: relative;
         top: 0px;
-        left: -8px;
+        left: -9px;
         font-size: 6px;
+        font-weight: 600;
     }
 
     .start__page__head ul {
