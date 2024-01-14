@@ -378,12 +378,28 @@
     }
 
     .page2__profile__head li:nth-of-type(2n) {
+        position: relative;
         color: var(--sun, #ffe49a);
         font-family: Liana;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;
         line-height: 26.323px;
+    }
+
+    .shrift__є__page2 {
+        transform: rotate(0);
+        display: inline-block;
+        position: relative;
+        top: 0.4px;
+        left: -9px;
+        font-size: 7px;
+    }
+
+    .shrift__c__page2{
+        position: relative;
+        left: 1.5px;
+        font-size: 23px;
     }
 
     .page2__profile__head li:nth-of-type(2n + 1) {
