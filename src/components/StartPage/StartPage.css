@@ -355,7 +355,7 @@ li {
     .start__page__wrap {
         background-image: url(../../assets/page1/adapt/chess.png);
         background-repeat: no-repeat;
-        height: 747px;
+        height: max-content;
         flex-shrink: 0;
         text-align: center;
         padding: 0;
@@ -459,7 +459,7 @@ li {
     #body-third-li {
         display: flex;
         width: max-content;
-        height: 80.6px;
+        height: 95px;
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
@@ -471,11 +471,13 @@ li {
         font-weight: 400;
         line-height: 125.2%;
         margin-left: 0;
-        margin: 0 0 10px 0;
+        margin: 10px 0;
     }
 
     .start__body__button {
         display: flex;
+        position: relative;
+        top: -20px;
         width: 246px;
         height: 69px;
         padding: 14px 64px;
