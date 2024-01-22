@@ -91,7 +91,17 @@
     margin: 0 auto;
 }
 
-.page4__br__adapt{
+.page4__span__desk {
+    position: relative;
+    top: 12px;
+}
+
+.page4__span2__desk {
+    position: relative;
+    top: 24px;
+}
+
+.page4__br__adapt {
     display: none;
 }
 
@@ -196,7 +206,7 @@
         margin-top: -2px;
     }
 
-    .page4__br__adapt{
+    .page4__br__adapt {
         display: block;
     }
 
@@ -288,6 +298,8 @@
         background: #565656;
     }
 
+    .page4__span2__desk,
+    .page4__span__desk,
     .page4__br {
         display: none;
     }

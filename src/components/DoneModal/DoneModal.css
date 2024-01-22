@@ -8,12 +8,10 @@
     height: 90px;
     border-radius: 4px;
     max-width: none;
-    text-shadow: 1px 1px 1px white;
-    color: red;
+    color: #edbd51;
     align-items: center;
     justify-content: center;
     border: 0;
-    box-shadow: white;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;

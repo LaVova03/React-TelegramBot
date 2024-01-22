@@ -83,7 +83,7 @@ const StartPage = () => {
             </div>
             <div className='start__page__body'>
                 <ul className='start-body-left'>
-                    <li id='body-first-li'>Наталя<br />Актибаєва</li>
+                    <li id='body-first-li'>Наталія<br />Актибаєва</li>
                     <li id='body-second-li'>креативний пiдпри<span className='shrift__c'>с<span className='shrift__є' id='span2__page1'>~</span></span>мець</li>
                     <li id='body-third-li'>Вмію робити з ідеї працюючий бізнес</li>
                     <button className='start__body__button' onClick={scrollToFeedback}>Консультація</button>

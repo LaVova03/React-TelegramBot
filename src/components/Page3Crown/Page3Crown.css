@@ -1,6 +1,6 @@
 .page3__photo__wrap {
     display: flex;
-    background-image: url(../../assets/page3/crown.jpg);
+    background-image: url(../../assets/page3/chessman.png);
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,8 +26,8 @@
     text-align: center;
     display: flex;
     align-items: center;
-    width: 92%;
-    height: 85%;
+    width: 90%;
+    height: 78%;
     flex-shrink: 0;
     border: 0.26px solid #e7c9a3;
 }

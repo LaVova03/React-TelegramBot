@@ -1,11 +1,11 @@
 .page8__main__wrap {
     background-image: url(../../assets/page8/metaphor.png);
-    height: 31em;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
     margin-top: -1px;
+    height: 36vw;
 }
 
 .page8__card {
@@ -52,7 +52,7 @@
     position: relative;
     right: 10px;
     bottom: 10px;
-    width: 100%;
+    width: 98%;
     color: var(--lite-grey, #c5c4c4);
     font-family: Liana;
     font-size: 36px;

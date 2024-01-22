@@ -259,7 +259,7 @@ const Page9Fond = () => {
                     </ul>
                 </div>
                 <div id='page9__final__center'>
-                    © 2023 Aktybaeva
+                    © 2024 Aktybaieva
                 </div>
                 <div className='page9__wrap__btn'>
                     <button className='page9__btn__social1' onClick={setFaceBook}>
@@ -268,7 +268,7 @@ const Page9Fond = () => {
                     </button>
                 </div>
                 <div id='page9__center__adapt'>
-                    © 2023 Aktybaeva
+                    © 2024 Aktybaieva
                 </div>
             </div>
         </div>
