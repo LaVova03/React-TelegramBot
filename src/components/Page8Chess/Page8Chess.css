@@ -112,12 +112,24 @@
     }
 }
 
+@media screen and (max-width: 1100px) {
+    .page8__main__wrap {
+        height: 45vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .page8__main__wrap {
+        height: 50vw;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .page8__main__wrap {
         background-image: url(../../assets/page8/metaphor.png);
         background-position: center;
         width: 100vw;
-        height: 128.052px;
+        height: 36vw;
         flex-shrink: 0;
         margin: -1px 0 0 0;
         padding: 17px 0 0px 0;
