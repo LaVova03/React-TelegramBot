@@ -98,7 +98,7 @@
 .page2__experience__old {
     color: var(--lite-gold, #d2b281);
     text-align: center;
-    font-family: Montserrat Medium;
+    font-family: Montserrat;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -461,6 +461,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 26.323px;
+        height: 25px;
     }
 
     .shrift__є__page2 {
@@ -491,7 +492,6 @@
         line-height: 26.323px;
         margin: 0 auto;
         white-space: nowrap;
-        height: max-content;
     }
 
     .page2__float__photo {
@@ -527,7 +527,7 @@
     .page2__experience__old {
         color: var(--lite-gold, #d2b281);
         text-align: center;
-        font-family: Montserrat Medium;
+        font-family: Montserrat Bold;
         font-size: 33.936px;
         font-style: normal;
         font-weight: 700;
@@ -538,7 +538,7 @@
 
     .page2__experience__flex li {
         color: #f1f0f0;
-        font-family: Montserrat;
+        font-family: Montserrat Medium;
         font-size: 12.726px;
         font-style: normal;
         font-weight: 500;
@@ -551,12 +551,12 @@
 
     .page2__border__adapt {
         width: 89%;
-        height: 497px;
+        height: 492px;
         flex-shrink: 0;
         border: 0.26px solid #e7c9a3;
         position: relative;
         left: 5vw;
-        top: 15px;
+        top: 20px;
         z-index: 999;
     }
 
@@ -669,15 +669,21 @@
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 620px) {
     .page2__natali__wrap {
         height: 1200px;
     }
 }
 
+@media screen and (max-width: 475px) {
+    .page2__natali__wrap {
+        height: 1250px;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .page2__natali__wrap {
-        height: 1200px;
+        height: 1270px;
     }
 }
 
@@ -689,7 +695,7 @@
 
 @media screen and (max-width: 400px) {
     .page2__natali__wrap {
-        height: 1270px;
+        height: 1300px;
     }
 }
 
@@ -705,7 +711,7 @@
     }
 
     .page2__natali__wrap {
-        height: 1250px;
+        height: 1280px;
     }
 }
 

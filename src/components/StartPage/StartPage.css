@@ -400,9 +400,9 @@ li {
 
     .logo-img {
         position: relative;
-        background-image: url(../../assets/page1/main-logo.svg);
-        width: 95px;
-        height: 55px;
+        background-image: url(../../assets/page1/logo1.svg);
+        background-position: center;
+        width: 125px;
         flex-shrink: 0;
         background-size: cover;
     }
@@ -421,7 +421,7 @@ li {
         display: inline-flex;
         align-items: center;
         padding: 0;
-        margin: 20px;
+        margin: 20px 10px;
     }
 
     .start__page__head {
@@ -606,7 +606,7 @@ li {
         display: block;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 43.94%, #000 100%, rgba(0, 0, 0, 0) 100%);
         width: 100vw;
-        height: 550px;
+        height: 572px;
     }
 
     .start-head-right {

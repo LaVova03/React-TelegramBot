@@ -50,7 +50,7 @@
         position: relative;
         margin-top: 0;
         display: flex;
-        background-image: url(../../assets/page3/crown.jpg);
+        background-image: url(../../assets/page3/chessman.png);
         background-position: bottom;
         justify-content: center;
         background-repeat: no-repeat;
@@ -87,7 +87,7 @@
         position: absolute;
         display: flex;
         width: 90%;
-        height: 140px;
+        height: 136px;
         flex-shrink: 0;
         border: 0.26px solid #e7c9a3;
     }
