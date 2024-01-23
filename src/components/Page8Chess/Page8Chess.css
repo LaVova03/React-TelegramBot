@@ -81,24 +81,8 @@
     font-size: 36px;
     left: -3px;
     top: 11px;
+    height: 54px;
     transform: rotate(180deg);
-}
-
-#span2__є__page8 {
-    font-size: 10px;
-    top: 0px;
-    left: -12px;
-}
-
-#span2__c__page8 {
-    display: inline-block;
-    position: absolute;
-    font-family: auto;
-    font-style: oblique;
-    font-size: 13px;
-    font-weight: 600;
-    top: 5px;
-    left: -1px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -197,32 +181,15 @@
     }
 
     #span__c__page8 {
-        display: block;
+        position: relative;
+        display: flex;
+        align-items: start;
         font-size: 13px;
         width: 4px;
+        height: 121%;
         left: -1px;
         top: 0;
-        height: 18px;
         transform: rotate(180deg);
-        vertical-align: bottom;
-}
-
-    #span2__є__page8 {
-        position: absolute;
-        top: 2.5px;
-        font-size: 4px;
-        left: 0px;
-    }
-
-    #span2__c__page8 {
-        display: inline-block;
-        position: absolute;
-        font-family: auto;
-        font-style: oblique;
-        font-size: 13px;
-        font-weight: 600;
-        top: 5px;
-        left: -1px;
     }
 
     .page8__img {
