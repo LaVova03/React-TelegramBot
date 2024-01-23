@@ -188,9 +188,13 @@
         width: 4px;
         height: 121%;
         left: -1px;
-        top: 0;
-        transform: rotate(180deg);
-    }
+        top: 50%;
+        transform: rotate(180deg) translateY(8px);
+        -webkit-transform: rotate(180deg) translateY(8px);
+        -moz-transform: rotate(180deg) translateY(8px);
+        -ms-transform: rotate(180deg) translateY(8px);
+        -o-transform: rotate(180deg) translateY(8px);
+}
 
     .page8__img {
         position: absolute;
