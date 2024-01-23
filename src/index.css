@@ -28,3 +28,8 @@
     font-family: 'Montserrat SemiBold';
     src: local('Montserrat SemiBold'), url(./fonts/Montserrat/Montserrat-SemiBold.ttf) format(opentype);
 }
+
+@font-face {
+    font-family: 'Miamanueva';
+    src: local('Miamanueva'), url(./fonts/Miamanueva/miamanueva.ttf) format(opentype);
+}

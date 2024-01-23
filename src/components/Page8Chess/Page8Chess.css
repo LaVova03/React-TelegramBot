@@ -79,10 +79,6 @@
 
 #span__c__page8 {
     font-size: 36px;
-    left: -3px;
-    top: 11px;
-    height: 54px;
-    transform: rotate(180deg);
 }
 
 @media screen and (max-width: 1200px) {
@@ -181,19 +177,19 @@
     }
 
     #span__c__page8 {
+        font-family: "Miamanueva";
         position: relative;
         display: flex;
-        font-size: 13px;
+        align-items: end;
+        font-size: 7px;
         width: 4px;
-        height: 121%;
+        height: 15.7px;
         left: -1px;
-        top: 50%;
-        transform: rotate(180deg) translateY(8px);
-        -webkit-transform: rotate(180deg) translateY(8px);
-        -moz-transform: rotate(180deg) translateY(8px);
-        -ms-transform: rotate(180deg) translateY(8px);
-        -o-transform: rotate(180deg) translateY(8px);
-}
+    }
+
+    .span__inside{
+        height: 4px;
+    }
 
     .page8__img {
         position: absolute;
