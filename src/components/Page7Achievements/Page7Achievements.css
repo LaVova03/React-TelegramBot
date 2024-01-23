@@ -718,37 +718,37 @@
 
 @media screen and (max-width: 747px) {
     .page7__vertical__line {
-        height: 497px;
+        height: 496px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .page7__vertical__line {
-        height: 510px;
+        height: 511px;
     }
 }
 
 @media screen and (max-width: 584px) {
     .page7__vertical__line {
-        height: 525px;
+        height: 526px;
     }
 }
 
 @media screen and (max-width: 571px) {
     .page7__vertical__line {
-        height: 543px;
+        height: 541px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .page7__vertical__line {
-        height: 555px;
+        height: 556px;
     }
 }
 
 @media screen and (max-width: 529px) {
     .page7__vertical__line {
-        height: 570px;
+        height: 571px;
     }
 
     .page7__main__wrap {
@@ -758,7 +758,7 @@
 
 @media screen and (max-width: 482px) {
     .page7__vertical__line {
-        height: 585px;
+        height: 586px;
     }
 
     .page7__main__wrap {
@@ -768,7 +768,7 @@
 
 @media screen and (max-width: 477px) {
     .page7__vertical__line {
-        height: 600px;
+        height: 601px;
     }
 }
 
@@ -780,19 +780,19 @@
 
 @media screen and (max-width: 426px) {
     .page7__vertical__line {
-        height: 630px;
+        height: 631px;
     }
 }
 
 @media screen and (max-width: 394px) {
     .page7__vertical__line {
-        height: 660px;
+        height: 661px;
     }
 }
 
 @media screen and (max-width: 377px) {
     .page7__vertical__line {
-        height: 675px;
+        height: 676px;
     }
 }
 
@@ -804,8 +804,7 @@
 
 @media screen and (max-width: 355px) {
     .page7__vertical__line {
-        height: 746px;
-        left: 78.3px;
+        height: 748px;
     }
 }
 
