@@ -705,7 +705,7 @@
         width: 65vw;
     }
 
-    .page7__span__year{
+    .page7__span__year {
         height: 22px;
     }
 }
@@ -804,7 +804,7 @@
 
 @media screen and (max-width: 355px) {
     .page7__vertical__line {
-        height: 750px;
+        height: 748px;
     }
 }
 
@@ -832,7 +832,19 @@
 
 @media screen and (max-width: 294px) {
     .page7__vertical__line {
-        height: 820px;
+        height: 838px;
+    }
+}
+
+@media screen and (max-width: 288px) {
+    .page7__vertical__line {
+        height: 852px;
+    }
+}
+
+@media screen and (max-width: 273px) {
+    .page7__vertical__line {
+        height: 868px;
     }
 }
 
