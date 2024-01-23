@@ -804,7 +804,8 @@
 
 @media screen and (max-width: 355px) {
     .page7__vertical__line {
-        height: 748px;
+        height: 746px;
+        left: 78.3px;
     }
 }
 
@@ -831,6 +832,12 @@
 }
 
 @media screen and (max-width: 294px) {
+    .page7__vertical__line {
+        height: 823px;
+    }
+}
+
+@media screen and (max-width: 292px) {
     .page7__vertical__line {
         height: 838px;
     }
