@@ -126,7 +126,7 @@
         width: 90%;
         height: 943px;
         flex-shrink: 0;
-        border: 0.26px solid #e7c9a3;
+        border: 1px solid #e7c9a3;
         margin: 0 auto;
         top: 97px;
         -webkit-transform: translateX(-50%);
@@ -246,7 +246,7 @@
         width: 90%;
         height: 234.896px;
         flex-shrink: 0;
-        border: 1px solid #e7c9a3;
+        border: 0.26px solid #e7c9a3;
         margin: 0;
         top: 0;
     }
@@ -282,7 +282,7 @@
         left: 130px;
         color: var(--lite-grey, #c5c4c4);
         font-family: Montserrat;
-        font-size: 3vw;
+        font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: 125.2%;

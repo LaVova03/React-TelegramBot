@@ -6,7 +6,7 @@ const Page7Achievements = () => {
     return (
         <div className='page7__main__wrap'>
             <div className='page7__head'>
-                Що я вважаю своїми основними<br className='page7__br' /> <span className='page7__head__span'>професійними досягненнями</span> за<br className='page7__br' />останні пару років:
+                Що я вважаю своїми основними<br className='page7__br' /> <span className='page7__head__span'>професійними досягненнями</span> за <br className='page7__br' />останні пару років:
             </div>
             <div className='page7__vertical__line'></div>
             <ul className='page7__ul__grid'>
@@ -20,7 +20,7 @@ const Page7Achievements = () => {
                     <ul className='page7__text__ul' id='page7__li__adapt'>
                         <li className='page7__li__textright'>
                             <div className='page7__disk__2023adapt'>
-                                2023
+                                <span className='page7__span__year'>2023</span>
                                 <img className='page7__img__disk' src={Ellipse} alt="logo" />
                             </div>
                             <img className='page7__img__disc' src={Disc} alt="logo" />
@@ -36,12 +36,12 @@ const Page7Achievements = () => {
                             Ведення ділових переговорів на англійській мові. <br className='page7__br__adapt' />Це особисте, але внесу в професійні. <br />Бо такого рівня досягла за останній рік</li>
                     </ul>
                 </li>
-                <br className='page7__br__adapt'/>
+                <br className='page7__br__adapt' />
                 <li id='page7__li3' className='page7__ul__adapt'>
                     <ul className='page7__li__ul'>
                         <li className='page7__li__text'>
                             <div className='page7__disk__2022adapt'>
-                                2022
+                                <span className='page7__span__year'>2022</span>
                                 <img className='page7__img__disk' src={Ellipse} alt="logo" />
                             </div>
                             <img className='page7__img__disc4' src={Disc} alt="logo" />
@@ -71,7 +71,7 @@ const Page7Achievements = () => {
                     <ul className='page7__text__ul'>
                         <li id='page7__li5__adapt' className='page7__li__textright'>
                             <div className='page7__disk__2020adapt'>
-                                2020
+                                <span className='page7__span__year'>2020</span>
                                 <img className='page7__img__disk' src={Ellipse} alt="logo" />
                             </div>
                             <img className='page7__img__disc7' src={Disc} alt="logo" />
@@ -83,7 +83,7 @@ const Page7Achievements = () => {
                 </li><br className='page7__br__adapt' /><br className='page7__br__adapt' />
                 <li id='page7__li6' className='page7__li__text'>
                     <div className='page7__disk__2019adapt'>
-                        2019
+                        <span className='page7__span__year'>2019</span>
                         <img className='page7__img__disk' src={Ellipse} alt="logo" />
                     </div>
                     <img className='page7__img__disc9' src={Disc} alt="logo" />

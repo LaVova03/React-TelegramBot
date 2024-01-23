@@ -704,6 +704,10 @@
         margin-top: 8px;
         width: 65vw;
     }
+
+    .page7__span__year{
+        height: 22px;
+    }
 }
 
 @media screen and (max-width: 833px) {
