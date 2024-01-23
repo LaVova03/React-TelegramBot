@@ -197,10 +197,12 @@
     }
 
     #span__c__page8 {
+        display: contents;
         font-size: 13px;
         width: 4px;
         left: -1px;
-        top: 3px;
+        top: 0;
+        height: 15px;
         transform: rotate(180deg);
     }
 
