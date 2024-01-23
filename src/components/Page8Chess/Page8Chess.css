@@ -197,14 +197,15 @@
     }
 
     #span__c__page8 {
-        display: contents;
+        display: block;
         font-size: 13px;
         width: 4px;
         left: -1px;
         top: 0;
-        height: 15px;
+        height: 18px;
         transform: rotate(180deg);
-    }
+        vertical-align: bottom;
+}
 
     #span2__є__page8 {
         position: absolute;
