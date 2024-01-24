@@ -12,7 +12,7 @@ const StartPage = () => {
     const isMobile = window.innerWidth <= 767;
 
     const scrollToAboutMe = () => {
-        const scrollHeight = isMobile ? 800 : (isTablet ? 1200 : 1150);
+        const scrollHeight = isMobile ? 850 : (isTablet ? 1200 : 1150);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -21,7 +21,7 @@ const StartPage = () => {
     };
 
     const scrollToOffers = () => {
-        const scrollHeight = isMobile ? 2220 : (isTablet ? 4600 : 3900);
+        const scrollHeight = isMobile ? 2270 : (isTablet ? 4800 : 3900);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -30,7 +30,7 @@ const StartPage = () => {
     };
 
     const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5480 : (isTablet ? 11150 : 11050);
+        const scrollHeight = isMobile ? 5610 : (isTablet ? 10800 : 11150);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'

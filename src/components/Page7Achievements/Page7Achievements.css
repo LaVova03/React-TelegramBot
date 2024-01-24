@@ -4,7 +4,7 @@
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110em;
+    height: max-content;
     padding-top: 202px;
     padding-left: 79px;
     padding-right: 79px;
@@ -41,6 +41,7 @@
     margin-top: 150px;
     height: 1327px;
     margin-bottom: 0;
+    padding-bottom: 223px;
 }
 
 .page7__li__year {
@@ -382,7 +383,7 @@
         justify-content: center;
         background-repeat: no-repeat;
         width: 100vw;
-        height: 700px;
+        height: max-content;
         flex-shrink: 0;
         padding-top: 150px;
         padding-left: 0;
@@ -750,19 +751,11 @@
     .page7__vertical__line {
         height: 570px;
     }
-
-    .page7__main__wrap {
-        height: 800px;
-    }
 }
 
 @media screen and (max-width: 482px) {
     .page7__vertical__line {
         height: 585px;
-    }
-
-    .page7__main__wrap {
-        height: 840px;
     }
 }
 
@@ -824,10 +817,6 @@
 @media screen and (max-width: 314px) {
     .page7__vertical__line {
         height: 789px;
-    }
-
-    .page7__main__wrap {
-        height: 1000px;
     }
 }
 
@@ -924,9 +913,10 @@
         margin-top: 93px;
         height: 828px;
         margin-bottom: 0;
-        height: 625px;
+        height: max-content;
         width: max-content;
         margin-left: 20px;
+        margin-bottom: 65px;
     }
 
     .page7__li__textright {
@@ -935,6 +925,7 @@
 
     .page7__main__wrap {
         padding-top: 56px;
+        padding-bottom: 1px;
     }
 
     .page7__head {
@@ -1065,12 +1056,6 @@
     }
 }
 
-@media screen and (max-width: 368px) {
-    .page7__main__wrap {
-        height: 950px;
-    }
-}
-
 @media screen and (max-width: 355px) {
     #page7__li__adapt li:nth-of-type(4) {
         margin-top: 20px;
@@ -1087,3 +1072,12 @@
         width: 55%;
     }
 }
+
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .page7__vertical__line {
+        position: absolute;
+        height: 74em;
+        top: 37em;
+        left: 49.3vw;
+    }
+} */

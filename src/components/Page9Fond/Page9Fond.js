@@ -135,7 +135,7 @@ const Page9Fond = () => {
     };
 
     const scrollToOffers = () => {
-        const scrollHeight = isTablet ? 4600 : 3900;
+        const scrollHeight = isTablet ? 4800 : 3900;
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
