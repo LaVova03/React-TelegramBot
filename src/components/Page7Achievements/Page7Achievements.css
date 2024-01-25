@@ -439,25 +439,25 @@
 
     #page7__adapt__lastul,
     #page7__adapt__lastspan,
-    #page7__adapt__lastli{
+    #page7__adapt__lastli {
         height: 0;
     }
 
-    .page7__adapt__lastlabel{
+    .page7__adapt__lastlabel {
+        position: relative;
+        top: 9px !important;
+    }
+
+    .page7__adapt__lastimg {
         position: relative;
         top: 10px !important;
     }
 
-    .page7__adapt__lastimg{
-        position: relative;
-        top: 11px !important;
-    }
-
-    .page7__adapt__ul{
+    .page7__adapt__ul {
         margin-bottom: 20px;
     }
 
-    .page7__adapt__height{
+    .page7__adapt__height {
         height: 8em;
     }
 
@@ -471,11 +471,13 @@
         padding: 0;
     }
 
-    .page7__adpt__img label{
+    .page7__adpt__img label {
         width: 40px;
+        position: relative;
+        top: -1px;
     }
 
-    .page7__adpt__img img{
+    .page7__adpt__img img {
         position: relative;
         width: 7px;
         margin-left: 12px;
