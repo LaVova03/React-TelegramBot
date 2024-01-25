@@ -166,14 +166,14 @@
         position: absolute;
         display: flex;
         top: 77px;
-        left: 60px;
+        left: 71px;
         width: max-content;
         height: 15px;
         justify-content: center;
         flex-shrink: 0;
         color: var(--lite-grey, #c5c4c4);
-        font-family: Liana;
-        font-size: 11px;
+        font-family: 'Miamanueva';
+        font-size: 8px;
         font-style: normal;
         font-weight: 400;
         line-height: 14.323px;
