@@ -184,10 +184,9 @@
         font-family: "Miamanueva";
         position: relative;
         display: flex;
-        align-items: flex-end;
         font-size: 6px;
         width: 4px;
-        height: 16.5px;
+        height: 100%;
         left: -1px;
     }
 
