@@ -214,7 +214,7 @@
 }
 
 .page9__input2 {
-    color: var(--grey, #312F2F);
+    color: var(--grey, #312f2f);
     text-align: center;
     font-family: Montserrat;
     font-size: 16px;
@@ -240,7 +240,7 @@
 }
 
 .page9__input3 {
-    color: var(--grey, #312F2F);
+    color: var(--grey, #312f2f);
     text-align: center;
     font-family: Montserrat;
     font-size: 16px;
@@ -412,7 +412,7 @@
         width: max-content;
     }
 
-    .page9__card__ul{
+    .page9__card__ul {
         width: 73vw;
     }
 
@@ -445,6 +445,14 @@
     .page9__input2,
     .page9__input1 {
         width: 90vw;
+        margin-right: 0;
+    }
+
+    .page9__input3__red,
+    .page9__input2__red,
+    .page9__input1__red {
+        width: 90vw;
+        margin-right: 0;
     }
 
     .page9__final__div {
@@ -532,7 +540,7 @@
     }
 
     .page9__card__span {
-        color: var(--lite-grey, #FFE49A);
+        color: var(--lite-grey, #ffe49a);
         font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
@@ -749,7 +757,7 @@
     .page9__form__button:active {
         color: var(--white, #fff);
         text-align: center;
-        font-family: Montserrat Medium  ;
+        font-family: Montserrat Medium;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
