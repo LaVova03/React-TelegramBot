@@ -191,8 +191,11 @@
         left: -1px;
     }
 
-    .span__inside{
+    #span__inside {
+        position: absolute;
         height: 4px;
+        transform: translateY(-50%);
+        top: 50%;
     }
 
     .page8__img {
