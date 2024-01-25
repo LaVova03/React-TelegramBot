@@ -491,7 +491,7 @@
         position: relative;
         width: 7px;
         margin-left: 12px;
-        top: 0px;
+        top: -1px;
     }
 
     .page7__li__text {
