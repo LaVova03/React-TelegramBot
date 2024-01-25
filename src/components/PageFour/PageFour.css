@@ -113,11 +113,11 @@
 
 @media screen and (max-width: 1250px) {
     .page4__services__grid li:nth-of-type(2n) {
-        margin-left: 0;
+        margin-left: 5vw;
     }
 
     .page4__services__grid li:nth-of-type(2n + 1) {
-        margin-right: 80px;
+        margin-right: 5vw;
     }
 
     .page4__main__wrap {
@@ -132,8 +132,11 @@
 }
 
 @media screen and (max-width: 1050px) {
+    
     .page4__services__grid li:nth-of-type(2n + 1) {
         margin-right: 30px;
+        margin-left: 30px;
+        width: 40vw;
     }
 
     .page4__main__wrap {
@@ -153,12 +156,8 @@
         margin-top: 165px;
     }
 
-    .page4__services__grid li:nth-of-type(2n + 1) {
-        width: 92%;
-    }
-
     .page4__grid__line {
-        width: 78vw;
+        width: 85vw;
     }
 
     .page4__head__services {
@@ -204,6 +203,12 @@
         height: 805px;
         padding: 62px 0 0 0px;
         margin-top: -2px;
+    }
+
+    .page4__services__grid li:nth-of-type(2n + 1) {
+        margin-right: 30px;
+        margin-left: 0;
+        width: max-content;
     }
 
     .page4__br__adapt {

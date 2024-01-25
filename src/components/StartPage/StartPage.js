@@ -30,7 +30,7 @@ const StartPage = () => {
     };
 
     const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5510 : (isTablet ? 10800 : 11150);
+        const scrollHeight = isMobile ? 5510 : (isTablet ? 10700 : 11150);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'

@@ -412,6 +412,10 @@
         width: max-content;
     }
 
+    .page9__card__ul{
+        width: 73vw;
+    }
+
     .page9__form {
         color: white;
         margin-top: 38px;
