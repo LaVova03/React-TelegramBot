@@ -420,7 +420,7 @@
         display: block;
         position: relative;
         left: 78px;
-        top: 0;
+        top: 24px;
         transform: rotate(0deg);
         width: 0.26px;
         height: max-content;
@@ -429,6 +429,50 @@
         -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
+        color: var(--lite-grey, #c5c4c4);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #page7__adapt__lastul,
+    #page7__adapt__lastspan,
+    #page7__adapt__lastli{
+        height: 0;
+    }
+
+    .page7__adapt__lastlabel{
+        position: relative;
+        top: 10px;
+    }
+
+    .page7__adapt__ul{
+        margin-bottom: 20px;
+    }
+
+    .page7__adapt__height{
+        height: 8em;
+    }
+
+    .page7__vertical__line__adapt ul {
+        position: relative;
+        top: -10px;
+        display: flex;
+        width: 75vw;
+        flex-direction: column;
+        flex-shrink: 0;
+        padding: 0;
+    }
+
+    .page7__adpt__img label{
+        width: 40px;
+    }
+
+    .page7__adpt__img img{
+        width: 7px;
+        margin-left: 12px;
     }
 
     .page7__li__text {
@@ -475,8 +519,11 @@
     }
 
     .page7__main__wrap li {
-        margin-left: 35px;
-        margin-top: 0;
+        margin-left: 30px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        text-align: left;
+        list-style: disc;
     }
 
     .page7__li3 {
@@ -962,6 +1009,25 @@
         display: flex;
         width: 39.583px;
         height: 17.566px;
+        flex-direction: row;
+        justify-content: center;
+        flex-shrink: 0;
+        color: var(--sun, #ffd89d);
+        font-family: Liana;
+        font-size: 12.5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: lowercase;
+        align-items: center;
+    }
+
+    .page7__adpt__img {
+        position: absolute;
+        left: -55px;
+        top: 0;
+        display: flex;
+        width: 59px;
         flex-direction: row;
         justify-content: center;
         flex-shrink: 0;
