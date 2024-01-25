@@ -443,9 +443,19 @@
         height: 0;
     }
 
+    #page7__adapt__lastul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #page7__adapt__lastli {
+        margin-bottom: 0;
+    }
+
     .page7__adapt__lastlabel {
         position: relative;
-        top: 8px !important;
+        top: -3px !important;
+        height: 0;
     }
 
     .page7__adapt__lastimg {
