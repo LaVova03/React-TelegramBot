@@ -454,7 +454,7 @@
 
     .page7__adapt__lastlabel {
         position: relative;
-        top: -2px !important;
+        top: 0px !important;
         height: 0;
     }
 
