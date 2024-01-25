@@ -145,7 +145,7 @@ const Page7Achievements = () => {
                     <li id='page7__adapt__lastli'>
                         <span className='page7__adpt__img' id='page7__adapt__lastspan'>
                             <label className='page7__adapt__lastlabel'>2019</label>
-                            <img className='page7__adapt__lastlabel' src={Ellipse} alt="logo" />
+                            <img className='page7__adapt__lastimg' src={Ellipse} alt="logo" />
                         </span> Підписання контракту на поставку на 1 млн грн за 1 смс в Facebook
                     </li>
                 </ul>

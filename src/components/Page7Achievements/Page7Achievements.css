@@ -445,7 +445,12 @@
 
     .page7__adapt__lastlabel{
         position: relative;
-        top: 10px;
+        top: 10px !important;
+    }
+
+    .page7__adapt__lastimg{
+        position: relative;
+        top: 11px !important;
     }
 
     .page7__adapt__ul{
@@ -471,8 +476,10 @@
     }
 
     .page7__adpt__img img{
+        position: relative;
         width: 7px;
         margin-left: 12px;
+        top: 1px;
     }
 
     .page7__li__text {
