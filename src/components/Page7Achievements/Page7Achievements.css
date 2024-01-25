@@ -197,16 +197,31 @@
 
 @media screen and (max-width: 3000px) {
     .page7__vertical__line {
-        height: 77em;
-        top: 38.5em;
-        left: 49vw;
+        height: 75em;
+        top: 42em;
+        left: 48.8vw;
     }
 }
 
-@media screen and (max-width: 2700px) {
+@media screen and (max-width: 2850px) {
     .page7__vertical__line {
-        height: 76em;
-        top: 39em;
+        height: 75em;
+        top: 41em;
+        left: 48.9vw;
+    }
+}
+
+@media screen and (max-width: 2723px) {
+    .page7__vertical__line {
+        height: 75.5em;
+        top: 40em;
+    }
+}
+
+@media screen and (max-width: 2670px) {
+    .page7__vertical__line {
+        left: 49.1vw;
+        height: 75em;
     }
 }
 
@@ -221,6 +236,7 @@
     .page7__vertical__line {
         top: 37em;
         height: 77em;
+        left: 49.1vw;
     }
 }
 
