@@ -195,6 +195,14 @@
     display: none;
 }
 
+@media screen and (max-width: 3200px) {
+    .page7__vertical__line {
+        height: 75em;
+        top: 42.5em;
+        left: 48.8vw;
+    }
+}
+
 @media screen and (max-width: 3000px) {
     .page7__vertical__line {
         height: 75em;
@@ -220,7 +228,7 @@
 
 @media screen and (max-width: 2670px) {
     .page7__vertical__line {
-        left: 49.1vw;
+        left: 48.9vw;
         height: 75em;
     }
 }
@@ -229,6 +237,7 @@
     .page7__vertical__line {
         top: 38.5em;
         height: 77em;
+        left: 49vw;
     }
 }
 
@@ -380,6 +389,48 @@
 }
 
 @media screen and (max-width: 1290px) {
+    .page7__vertical__line {
+        height: 84em;
+        top: 29em;
+        left: 50.3vw;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .page7__vertical__line {
+        height: 84em;
+        top: 29em;
+        left: 50.4vw;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .page7__vertical__line {
+        height: 86em;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .page7__vertical__line {
+        top: 28em;
+        left: 50.6vw;
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .page7__vertical__line {
+        height: 88em;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    .page7__vertical__line {
+        top: 28em;
+        left: 50.8vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
     .page7__text__ul,
     .page7__li__year {
         margin-bottom: 115px;
