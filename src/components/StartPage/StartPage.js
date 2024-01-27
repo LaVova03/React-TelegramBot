@@ -21,7 +21,7 @@ const StartPage = () => {
     };
 
     const scrollToOffers = () => {
-        const scrollHeight = isMobile ? 2270 : (isTablet ? 4800 : 3900);
+        const scrollHeight = isMobile ? 2270 : (isTablet ? 4630 : 3900);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
@@ -30,7 +30,7 @@ const StartPage = () => {
     };
 
     const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5510 : (isTablet ? 10700 : 11330);
+        const scrollHeight = isMobile ? 5510 : (isTablet ? 10950 : 11330);
         window.scrollTo({
             top: scrollHeight,
             behavior: 'smooth'
