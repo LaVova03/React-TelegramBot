@@ -284,6 +284,15 @@
         position: relative;
         width: 10px;
     }
+
+    #page2__expereanse {
+        white-space: normal;
+    }
+
+    .page2__float__photo {
+        margin: -365px 0 0 40vw;
+        width: 46vw;
+    }
 }
 
 @media screen and (max-width: 1128px) {
