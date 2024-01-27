@@ -118,10 +118,17 @@
 
     .page4__services__grid li:nth-of-type(2n + 1) {
         margin-right: 5vw;
+        width: 40vw;
     }
 
     .page4__main__wrap {
         height: 120em;
+    }
+
+    .page4__grid__div2 {
+        position: absolute;
+        display: flex;
+        width: 12em;
     }
 }
 
@@ -132,7 +139,6 @@
 }
 
 @media screen and (max-width: 1050px) {
-    
     .page4__services__grid li:nth-of-type(2n + 1) {
         margin-right: 30px;
         margin-left: 30px;
