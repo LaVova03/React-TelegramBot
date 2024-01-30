@@ -1,5 +1,5 @@
 import './PhotoNatali2.css';
-import Exellend from '../../assets/page2/exellend1.png';
+import Exellend from '../../assets/page2/exellend.webp';
 import React from 'react';
 
 const PhotoNatali2 = () => {

@@ -1,6 +1,6 @@
 .page2__natali__wrap {
     position: relative;
-    background-image: url(../../assets/page2/Foto_fon_chess_2_4.png);
+    background-image: url(../../assets/page2/Foto_fon_chess_2_3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 142em;
@@ -9,7 +9,7 @@
 }
 
 .page2__photo__natali {
-    background-image: url(../../assets/page2/Foto_Natali_3.png);
+    background-image: url(../../assets/page2/Foto_Natali_2.webp);
     background-size: 549px 866px;
     background-position: center;
     width: 34.31em;
@@ -430,7 +430,7 @@
 
     .page2__main_adapt {
         display: flex;
-        background-image: url(../../assets//page2/adapt/success1.png);
+        background-image: url(../../assets//page2/adapt/success.webp);
         background-repeat: no-repeat;
         width: 100vw;
         background-size: cover;
@@ -445,7 +445,7 @@
         height: 360px;
         margin-bottom: 0;
         flex-shrink: 0;
-        background-image: url(../../assets/page2/Foto_Natali_3.png);
+        background-image: url(../../assets/page2/Foto_Natali_2.webp);
         background-size: contain;
         float: right;
         top: -104px;

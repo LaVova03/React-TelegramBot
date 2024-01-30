@@ -9,7 +9,7 @@ body {
 }
 
 .start__page__wrap {
-    background-image: url(../../assets/page1/foto_chess_2.png);
+    background-image: url(../../assets/page1/foto_chess_1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -364,7 +364,7 @@ li {
 
 @media screen and (max-width: 767px) {
     .start__page__wrap {
-        background-image: url(../../assets/page1/adapt/chess1.png);
+        background-image: url(../../assets/page1/adapt/chess.webp);
         background-repeat: no-repeat;
         height: max-content;
         flex-shrink: 0;
