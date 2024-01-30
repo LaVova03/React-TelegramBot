@@ -1,6 +1,6 @@
 .page9__wrap {
     position: relative;
-    background-image: url(../../assets/page9/board-game.png);
+    background-image: url(../../assets/page9/board-game1.png);
     height: auto;
     flex-shrink: 0;
     justify-content: center;
@@ -325,7 +325,7 @@
     border: 0;
     background: none;
     cursor: pointer;
-    background-image: url("../../assets/page9/inst.svg");
+    background-image: url(../../assets/page9/inst.svg);
 }
 
 .page9__btn__social2:hover {

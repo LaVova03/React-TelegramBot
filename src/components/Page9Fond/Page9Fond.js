@@ -1,5 +1,5 @@
 import './Page9Fond.css';
-import Photo from '../../assets/page9/548A1622 (1) 1.png';
+import Photo from '../../assets/page9/548A1622 (1) 2.png';
 import React, { useState, useEffect } from 'react';
 import SetTelegram from '../SetTelegram/SetTelegram';
 import DoneModal from './../DoneModal/DoneModal';

@@ -1,5 +1,5 @@
 .page8__main__wrap {
-    background-image: url(../../assets/page8/metaphor.png);
+    background-image: url(../../assets/page8/metaphor1.png);
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 767px) {
     .page8__main__wrap {
-        background-image: url(../../assets/page8/metaphor.png);
+        background-image: url(../../assets/page8/metaphor1.png);
         background-position: center;
         width: 100vw;
         height: 36vw;

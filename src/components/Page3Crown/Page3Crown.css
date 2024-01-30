@@ -1,6 +1,6 @@
 .page3__photo__wrap {
     display: flex;
-    background-image: url(../../assets/page3/chessman.png);
+    background-image: url(../../assets/page3/chessman1.png);
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,7 +50,7 @@
         position: relative;
         margin-top: 0;
         display: flex;
-        background-image: url(../../assets/page3/chessman.png);
+        background-image: url(../../assets/page3/chessman1.png);
         background-position: bottom;
         justify-content: center;
         background-repeat: no-repeat;

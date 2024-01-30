@@ -1,6 +1,6 @@
 import './StartPage.css';
 import React, { useState } from 'react';
-import Natali from '../../assets/page1/foto_Natali_1.png';
+import Natali from '../../assets/page1/foto_Natali_2.png';
 import { useMediaQuery } from 'react-responsive';
 
 

@@ -1,6 +1,6 @@
 .page7__main__wrap {
     position: relative;
-    background-image: url(../../assets/page7/white_building.png);
+    background-image: url(../../assets/page7/white_building1.png);
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,8 +34,8 @@
 .page7__ul__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto; /* Устанавливаем auto для одной строки */
-    grid-auto-rows: max-content; /* Используем max-content для автоматической высоты */
+    grid-template-rows: auto;
+    grid-auto-rows: max-content;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     padding: 0;
@@ -52,9 +52,9 @@
     bottom: 0;
     top: 17px;
     left: 50%;
-    width: 1px; /* ширина бордера */
-    background-color: #ffd89d; /* цвет бордера */
-    transform: translateX(-50%); /* смещаем бордер влево на половину его ширины */
+    width: 1px; 
+    background-color: #ffd89d;
+    transform: translateX(-50%);
 }
 
 .page7__li__year {
@@ -554,19 +554,6 @@
         height: 19.799px;
         flex-shrink: 0;
     }
-
-    /* .page7__disk__2020,
-    .page7__disk__2023 {
-        width: 47.5vw;
-    } */
-
-    /* .page7__disk__2022 {
-        margin-left: -87px;
-    } */
-
-    /* .page7__disk__2019 {
-        margin-left: -1.8em;
-    } */
 }
 
 @media screen and (max-width: 1560px) {
@@ -593,9 +580,6 @@
 }
 
 @media screen and (max-width: 1321px) {
-    /* .page7__disk__2023 {
-        width: 47.6vw;
-    } */
 
     .page7__vertical__line {
         top: 30em;
