@@ -24,6 +24,6 @@ const Page5Prescription = () => {
             </div>
         </div>
     )
-}
+};
 
 export default Page5Prescription;
