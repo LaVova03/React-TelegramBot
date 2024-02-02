@@ -6,6 +6,6 @@ const DoneModal = () => {
             Повідомлення відправлено !
         </div>
     )
-}
+};
 
 export default DoneModal;

@@ -8,6 +8,6 @@ const Page3Crown = () => {
             </div>
         </div>
     )
-}
+};
 
 export default Page3Crown;
