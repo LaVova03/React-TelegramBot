@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ff20e49.css",
+    "main.js": "/static/js/main.0a3f1902.js",
+    "static/media/chessman.webp": "/static/media/chessman.3285ef28c73f4c0613c9.webp",
+    "static/media/Foto_fon_chess_2_3.webp": "/static/media/Foto_fon_chess_2_3.e715a534af71e4515f8e.webp",
+    "static/media/548A1680-2-transformed-1.webp": "/static/media/548A1680-2-transformed-1.7dd0cac587160301f109.webp",
+    "static/media/Foto_Natali_2.webp": "/static/media/Foto_Natali_2.35372f8070dc0bbc08ea.webp",
+    "static/media/548A1622 (1) 2.png": "/static/media/548A1622 (1) 2.90d6c4bd7c0787972dbb.png",
+    "static/media/miamanueva.ttf": "/static/media/miamanueva.9837b9f4c96faa8265db.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.0915f0a8c3367a6d05ec.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.2f7a846126c7d5ee9163.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
+    "static/media/vertical.png": "/static/media/vertical.390b472e409655f3508c.png",
+    "static/media/chess.webp": "/static/media/chess.d68d0e1fd5b1ba299420.webp",
+    "static/media/white_building.webp": "/static/media/white_building.154f5839fb124fa5e134.webp",
+    "static/media/foto_chess_1_11zon.webp": "/static/media/foto_chess_1_11zon.ad1006f7e984f1e34750.webp",
+    "static/media/success.webp": "/static/media/success.e5e3aebf8b46202c56a3.webp",
+    "static/media/board-game_11zon.webp": "/static/media/board-game_11zon.52b97a1c09a15544a62e.webp",
+    "static/media/fon.png": "/static/media/fon.e14b53959dcd3604710e.png",
+    "static/media/liana.ttf": "/static/media/liana.58d5741ca5be140fef16.ttf",
+    "static/media/Natali.webp": "/static/media/Natali.1fe1ed483f43845aaf9b.webp",
+    "static/media/metaphor_11zon.webp": "/static/media/metaphor_11zon.bb9f2804bf2d9ebbc591.webp",
+    "static/media/PoiretOne-Regular.ttf": "/static/media/PoiretOne-Regular.9bf109e97f6294c6fe2b.ttf",
+    "static/media/logo1.svg": "/static/media/logo1.031367996538b28d13fb.svg",
+    "static/media/inst.svg": "/static/media/inst.98bd65c7804989d3d2a7.svg",
+    "static/media/instactive.svg": "/static/media/instactive.686885bd76edaa559f1c.svg",
+    "static/media/insthover.svg": "/static/media/insthover.bb316aef1d645f3b5928.svg",
+    "static/media/exellend.webp": "/static/media/exellend.7d0265118ecc587717ec.webp",
+    "static/media/fb.svg": "/static/media/fb.69d43c6760a47a137b83.svg",
+    "static/media/fbactive.svg": "/static/media/fbactive.99bbfb2aaad786fb2fd2.svg",
+    "static/media/fbhover.svg": "/static/media/fbhover.2ce9fdeef637e768c3e9.svg",
+    "index.html": "/index.html",
+    "static/media/Ellipse.svg": "/static/media/Ellipse.b27f3badd15978fbacf26f564c0041b9.svg",
+    "main.9ff20e49.css.map": "/static/css/main.9ff20e49.css.map",
+    "main.0a3f1902.js.map": "/static/js/main.0a3f1902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff20e49.css",
+    "static/js/main.0a3f1902.js"
+  ]
+}
