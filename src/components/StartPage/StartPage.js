@@ -1,41 +1,8 @@
 import './StartPage.css';
-import React, { useState } from 'react';
+import React from 'react';
 import Natali from '../../assets/page1/Natali.webp';
-import { useMediaQuery } from 'react-responsive';
 
-
-const StartPage = () => {
-
-    const [menu, showMenu] = useState(false);
-
-    const isTablet = useMediaQuery({ query: '(max-width: 1200px)' });
-    const isMobile = window.innerWidth <= 767;
-
-    const scrollToAboutMe = () => {
-        const scrollHeight = isMobile ? 850 : (isTablet ? 1200 : 1150);
-        window.scrollTo({
-            top: scrollHeight,
-            behavior: 'smooth'
-        });
-        closeMenu();
-    };
-
-    const scrollToOffers = () => {
-        const scrollHeight = isMobile ? 2270 : (isTablet ? 4630 : 3900);
-        window.scrollTo({
-            top: scrollHeight,
-            behavior: 'smooth'
-        });
-        closeMenu();
-    };
-
-    const scrollToFeedback = () => {
-        const scrollHeight = isMobile ? 5510 : (isTablet ? 10950 : 11330);
-        window.scrollTo({
-            top: scrollHeight,
-            behavior: 'smooth'
-        });
-    };
+const StartPage = ({ scrollToAboutMe, scrollToOffers, scrollToFeedback, setMenu, closeMenu, menu }) => {
 
     const setFaceBook = (event) => {
         event.preventDefault()
@@ -46,14 +13,6 @@ const StartPage = () => {
         event.preventDefault()
         window.location.href = 'https://www.instagram.com/aktybaieva/';
     }
-
-    const setMenu = () => {
-        showMenu(true);
-    };
-
-    const closeMenu = () => {
-        showMenu(false);
-    };
 
     return (
         <div className='start__page__wrap'>

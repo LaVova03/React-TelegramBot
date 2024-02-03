@@ -4,7 +4,7 @@ const PageFour = () => {
 
     return (
         <div className='page4__main__wrap'>
-            <div className="page4__head__services">ПРО ПОСЛУГИ</div>
+            <div className="page4__head__services" id='Offers'>ПРО ПОСЛУГИ</div>
             <ul className='page4__services__grid'>
                 <li>
                     <div className="page4__grid__line"></div>

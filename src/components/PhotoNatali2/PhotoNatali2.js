@@ -76,16 +76,16 @@ const PhotoNatali2 = () => {
     ]
 
     return (
-        <div className='page2__natali__wrap'>
-            <div className='page2__wrap__card'></div>
-            <div className='page2__main_adapt'><div className='page2__border__adapt'></div></div>
+        <div className='page2__natali__wrap' >
+            <div className='page2__wrap__card' ></div>
+            <div className='page2__main_adapt' ><div className='page2__border__adapt' ></div></div>
             <div className='page2__vertical__adapt'></div>
-            <div className='page2__photo__natali'></div>
-            <div className='page2__card__border'></div>
-            <div className='page2__float__photo'>
-                <ul className='page2__profile__wrap'>
+            <div className='page2__photo__natali' id="aboutMe"></div>
+            <div className='page2__card__border' ></div>
+            <div className='page2__float__photo' >
+                <ul className='page2__profile__wrap' >
                     <li>
-                        <ul className='page2__profile__head'>
+                        <ul className='page2__profile__head' >
                             <li>Привiт, мене звати</li>
                             <li>Наталiя Актиба<span className='shrift__c__page2'>с<span className='shrift__є__page2' id='span__page2'>~</span></span>ва,</li>
                             <li>я креативний пiдпри<span className='shrift__c__page2'>с<span className='shrift__є__page2'>~</span></span>мець</li>
